@@ -7,6 +7,10 @@ This repository stores local agent skills and their supporting reference files.
 - `design-guide/`: a skill for routing UI and visual design requests to the most relevant product or brand design references
 - `design-guide/references/`: bundled markdown reference documents used by the skill at runtime
 
+  ```
+  npx skills add blockdancez/skills
+  ```
+
 ## Included Skill
 
 ### `design-guide`
