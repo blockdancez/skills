@@ -1,17 +1,17 @@
 ---
 name: website-ux-seo-analysis
-description: Create a logged-in website user-experience and SEO analysis report. Use when asked to analyze a live website, SaaS product, web app, landing page, competitor site, or AI tool after hands-on browsing, especially when the user requests login-based feature testing, SEO/keyword analysis, competitor comparison, or a Markdown website analysis report saved locally.
+description: Create a logged-in user-experience and SEO analysis report for any website URL supplied by the user. Use when asked to analyze a live website, SaaS product, web app, landing page, competitor site, or AI tool after hands-on browsing, especially when the user requests login-based feature testing, SEO/keyword analysis, competitor comparison, or a Markdown website analysis report saved locally.
 ---
 
 # Website UX SEO Analysis
 
 ## Overview
 
-Produce evidence-based website analysis reports from real browsing, not guesses. Cover the logged-in product experience when required, avoid dangerous/payment actions, verify SEO facts from live pages, and include only keyword metrics with external data sources.
+Produce evidence-based website analysis reports from real browsing, not guesses. The target is always the website URL or domain supplied by the user; do not treat any prior analyzed site as fixed. Cover the logged-in product experience when required, avoid dangerous/payment actions, verify SEO facts from live pages, and include only keyword metrics with external data sources.
 
 ## Workflow
 
-1. Confirm the target URL, required login state, output path/name, and any forbidden actions.
+1. Confirm the target URL supplied in the current user request, required login state, output path/name, and any forbidden actions.
 2. Use the browser requested by the user. Prefer Chrome when the task needs existing cookies, Google login, authenticated sessions, or profile-dependent pages.
 3. Browse like a real user: public pages first, then login, then dashboard/workspace/core flows.
 4. Avoid irreversible or high-risk actions unless explicitly requested:
