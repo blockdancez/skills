@@ -9,6 +9,8 @@ import subprocess
 import xml.etree.ElementTree as ET
 import argparse
 from pathlib import Path
+from urllib.parse import urlparse
+from concurrent.futures import ThreadPoolExecutor
 
 ROOT = Path.cwd()
 
@@ -21,8 +23,8 @@ DEVHUNT_ANON_KEY = (
 )
 
 
-def curl(url: str, *, method: str = "GET", data: dict | None = None, headers: dict | None = None) -> str:
-    command = ["curl", "-L", "--max-time", "30", "-s"]
+def curl(url: str, *, method: str = "GET", data: dict | None = None, headers: dict | None = None, timeout: int = 15) -> str:
+    command = ["curl", "-L", "--max-time", str(timeout), "-s"]
     if method != "GET":
         command.extend(["-X", method])
     for key, value in (headers or {}).items():
@@ -30,7 +32,115 @@ def curl(url: str, *, method: str = "GET", data: dict | None = None, headers: di
     if data is not None:
         command.extend(["--data", json.dumps(data)])
     command.append(url)
-    return subprocess.check_output(command, text=True)
+    return subprocess.check_output(command, text=True, timeout=timeout + 5)
+
+
+def host_of(url: str) -> str:
+    return urlparse(url).netloc.lower().removeprefix("www.")
+
+
+def is_external_source_url(url: str, source_host: str) -> bool:
+    if not url.startswith(("http://", "https://")):
+        return False
+    host = host_of(url)
+    source = source_host.lower().removeprefix("www.")
+    blocked_hosts = {
+        source,
+        "producthunt.com",
+        "google.com",
+        "googletagmanager.com",
+        "facebook.com",
+        "twitter.com",
+        "x.com",
+        "linkedin.com",
+        "instagram.com",
+        "youtube.com",
+        "cdn.sanity.io",
+        "ph-files.imgix.net",
+        "imgix.net",
+        "cloudfront.net",
+        "vercel.app",
+    }
+    blocked_suffixes = (
+        ".css",
+        ".js",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".gif",
+        ".svg",
+        ".webp",
+        ".ico",
+        ".xml",
+        ".webmanifest",
+    )
+    return host not in blocked_hosts and not any(host.endswith("." + blocked) for blocked in blocked_hosts) and not urlparse(url).path.lower().endswith(blocked_suffixes)
+
+
+def first_external_url(urls: list[str], source_host: str) -> str:
+    for url in urls:
+        cleaned = html.unescape(url).strip()
+        if is_external_source_url(cleaned, source_host):
+            return cleaned
+    return ""
+
+
+def extract_json_objects_from_html(document: str) -> list[dict]:
+    objects = []
+    for match in re.finditer(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', document, re.I | re.S):
+        try:
+            data = json.loads(html.unescape(match.group(1)).strip())
+        except Exception:
+            continue
+        if isinstance(data, dict):
+            objects.append(data)
+        elif isinstance(data, list):
+            objects.extend(item for item in data if isinstance(item, dict))
+    return objects
+
+
+def extract_source_url_from_static_detail(detail_url: str, source_host: str) -> str:
+    try:
+        document = curl(detail_url, timeout=10)
+    except Exception:
+        return ""
+    urls = []
+    for item in extract_json_objects_from_html(document):
+        for key in ("sameAs", "url"):
+            value = item.get(key)
+            if isinstance(value, str):
+                urls.append(value)
+            elif isinstance(value, list):
+                urls.extend(entry for entry in value if isinstance(entry, str))
+    preferred_anchor_pattern = re.compile(
+        r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(?:(?!</a>).){0,300}(?:visit|website|launch|open|try|get started|homepage)(?:(?!</a>).){0,300}</a>',
+        re.I | re.S,
+    )
+    urls.extend(match.group(1) for match in preferred_anchor_pattern.finditer(document))
+    urls.extend(re.findall(r'href=["\'](https?://[^"\']+)["\']', document, re.I))
+    return first_external_url(urls, source_host)
+
+
+def product_hunt_source_url(product_url: str, link_url: str = "") -> str:
+    candidates = [product_url]
+    if link_url:
+        candidates.append(link_url)
+    for candidate in candidates:
+        try:
+            markdown = curl(
+                f"https://r.jina.ai/http://r.jina.ai/http://{candidate.removeprefix('https://').removeprefix('http://')}",
+                timeout=35,
+            )
+        except Exception:
+            continue
+        visit_match = re.search(r"\[Visit website\]\((https?://[^)]+)\)", markdown)
+        if visit_match:
+            return html.unescape(visit_match.group(1))
+        urls = re.findall(r"https?://[^\s)\\]\"<>]+", markdown)
+        source_url = first_external_url(urls, "producthunt.com")
+        if source_url:
+            return source_url
+    return product_url
 
 
 def write_json(output_dir: Path, name: str, rows: list[dict[str, str]]) -> None:
@@ -127,7 +237,7 @@ def product_hunt(date_value: dt.date) -> list[dict[str, str]]:
     body = curl("https://www.producthunt.com/feed")
     root = ET.fromstring(body)
     ns = {"atom": "http://www.w3.org/2005/Atom"}
-    rows = []
+    pending_rows = []
     local_date = date_value
     previous_date = date_value - dt.timedelta(days=1)
     for entry in root.findall("atom:entry", ns):
@@ -146,12 +256,35 @@ def product_hunt(date_value: dt.date) -> list[dict[str, str]]:
         ):
             continue
         description = re.sub("<[^>]+>", " ", content).split("Discussion")[0]
-        rows.append(
+        hrefs = re.findall(r'href="([^"]+)"', content)
+        product_url = link.attrib.get("href", "") if link is not None else ""
+        link_url = next((html.unescape(url) for url in hrefs if "/r/p/" in html.unescape(url)), "")
+        pending_rows.append(
             {
                 "title": title,
-                "url": link.attrib.get("href", "") if link is not None else "",
+                "url": product_url,
+                "link_url": link_url,
                 "description": description,
                 "category": "Product Hunt today",
+            }
+        )
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        source_urls = list(
+            executor.map(
+                lambda row: product_hunt_source_url(row["url"], row.get("link_url", "")),
+                pending_rows,
+            )
+        )
+    rows = []
+    for row, source_url in zip(pending_rows, source_urls):
+        if host_of(source_url) == "producthunt.com":
+            source_url = product_hunt_source_url(row["url"], row.get("link_url", ""))
+        rows.append(
+            {
+                "title": row["title"],
+                "url": source_url,
+                "description": row["description"],
+                "category": row["category"],
             }
         )
     return rows
@@ -209,22 +342,39 @@ def page_candidates(page, url: str, href_pattern: str) -> list[dict[str, str]]:
           .map((a) => {
             let node = a;
             let context = a.innerText || '';
+            let contextNode = a;
             for (let i = 0; i < 6 && node.parentElement; i++) {
               node = node.parentElement;
               const text = node.innerText || '';
-              if (text.length > context.length && text.length < 1400) context = text;
+              if (text.length > context.length && text.length < 1400) {
+                context = text;
+                contextNode = node;
+              }
             }
-            return { href: a.href, text: a.innerText || '', context };
+            const sourceHost = location.hostname.replace(/^www\\./, '');
+            const externalUrls = Array.from(contextNode.querySelectorAll('a[href]'))
+              .map((link) => link.href)
+              .filter((href) => {
+                try {
+                  const host = new URL(href).hostname.replace(/^www\\./, '');
+                  return href.startsWith('http') && host !== sourceHost;
+                } catch (_) {
+                  return false;
+                }
+              });
+            return { href: a.href, text: a.innerText || '', context, externalUrls };
           })
         """,
         href_pattern,
     )
 
 
-def parse_contextual(candidates: list[dict[str, str]], site: str, limit: int | None = None) -> list[dict[str, str]]:
+def parse_contextual(candidates: list[dict[str, str]], site: str, source_host: str, limit: int | None = None) -> list[dict[str, str]]:
     rows = []
     for candidate in candidates:
-        href = candidate["href"].split("#")[0]
+        detail_href = candidate["href"].split("#")[0]
+        href = detail_href
+        fallback_source_url = first_external_url(candidate.get("externalUrls") or [], source_host)
         lines = split_lines(candidate.get("context") or candidate.get("text") or "")
         link_lines = split_lines(candidate.get("text") or "")
         if not lines:
@@ -315,10 +465,27 @@ def parse_contextual(candidates: list[dict[str, str]], site: str, limit: int | N
             tags = [line.strip("#•") for line in lines if line.startswith("#") and not re.fullmatch(r"#\d+", line)]
             category = " / ".join(tags[:5]) or "Today"
 
-        rows.append({"title": title, "url": href, "description": description, "category": category})
+        rows.append({"title": title, "url": href, "description": description, "category": category, "_fallback_source_url": fallback_source_url})
         if limit and len(rows) >= limit:
             break
     return rows
+
+
+def extract_source_url_from_detail(page, detail_url: str, source_host: str) -> str:
+    static_url = extract_source_url_from_static_detail(detail_url, source_host)
+    return static_url
+
+
+def resolve_internal_detail_urls(page, rows: list[dict[str, str]], source_host: str, resolve_details: bool = True) -> list[dict[str, str]]:
+    resolved = []
+    for row in rows:
+        item = dict(row)
+        if host_of(item["url"]) == source_host.removeprefix("www."):
+            source_url = extract_source_url_from_detail(page, item["url"], source_host) if resolve_details else ""
+            item["url"] = source_url or item.get("_fallback_source_url") or item["url"]
+        item.pop("_fallback_source_url", None)
+        resolved.append(item)
+    return resolved
 
 
 def betalist(page) -> list[dict[str, str]]:
@@ -413,19 +580,22 @@ def main() -> int:
         write_json(output_dir, "peerlist", peerlist(page, date_value))
 
         site_specs = [
-            ("uneed", "https://uneed.best", "/tool/", "uneed", None),
-            ("microlaunch", "https://microlaunch.net", "/p/", "microlaunch", None),
-            ("fazier", "https://fazier.com", "/launches/", "fazier", 43),
-            ("startupfa.me", "https://startupfa.me", "/s/", "startupfame", None),
-            ("theresanaiforthat", "https://theresanaiforthat.com", "/ai/", "theresanaiforthat", 40),
-            ("futurepedia", "https://www.futurepedia.io", "/tool/", "futurepedia", 20),
-            ("toolify", "https://www.toolify.ai", "/tool/", "toolify", 30),
-            ("aitoolhunt.co", "https://aitoolhunt.co", "/item/", "aitoolhunt", 30),
-            ("topai.tools", "https://topai.tools", "/t/", "topaitools", 40),
+            ("uneed", "https://uneed.best", "/tool/", "uneed", None, False),
+            ("microlaunch", "https://microlaunch.net", "/p/", "microlaunch", None, False),
+            ("fazier", "https://fazier.com", "/launches/", "fazier", 43, False),
+            ("startupfa.me", "https://startupfa.me", "/s/", "startupfame", None, True),
+            ("theresanaiforthat", "https://theresanaiforthat.com", "/ai/", "theresanaiforthat", 40, True),
+            ("futurepedia", "https://www.futurepedia.io", "/tool/", "futurepedia", 20, True),
+            ("toolify", "https://www.toolify.ai", "/tool/", "toolify", 30, True),
+            ("aitoolhunt.co", "https://aitoolhunt.co", "/item/", "aitoolhunt", 30, True),
+            ("topai.tools", "https://topai.tools", "/t/", "topaitools", 40, False),
         ]
-        for filename, url, pattern, site, limit in site_specs:
+        for filename, url, pattern, site, limit, resolve_details in site_specs:
             candidates = page_candidates(page, url, pattern)
-            write_json(output_dir, filename, parse_contextual(candidates, site, limit))
+            source_host = host_of(url)
+            rows = parse_contextual(candidates, site, source_host, limit)
+            rows = resolve_internal_detail_urls(page, rows, source_host, resolve_details)
+            write_json(output_dir, filename, rows)
 
         browser.close()
 

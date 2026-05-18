@@ -27,7 +27,7 @@ Typical use cases:
 
 `collect-product-rankings` gathers current products from sites such as Product Hunt, BetaList, Uneed, DevHunt, Microlaunch, Peerlist Launchpad, Fazier, Startup Fame, Futurepedia, Toolify, AIToolHunt, and TopAI.tools.
 
-It writes one JSON file per source site with this schema:
+It writes one JSON file per source site with this schema, using the product's original website as `url`:
 
 ```json
 { "title": "", "url": "", "description": "", "category": "" }

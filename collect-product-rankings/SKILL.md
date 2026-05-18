@@ -29,6 +29,8 @@ Each file contains a JSON array. Every item must have exactly these fields:
 }
 ```
 
+`url` means the product's original website/source URL, not the ranking site's detail page. For example, use `https://intrip.me/` instead of `https://aitoolhunt.co/item/intripme`, and use `https://anyfrm.com` instead of a Product Hunt product page.
+
 `category` means the collected product/site type, not the source website type and not necessarily the source site's raw tag. Use normalized coarse labels such as:
 
 - `SAAS`
@@ -83,9 +85,11 @@ python3 ~/.codex/skills/collect-product-rankings/scripts/collect_product_ranking
 The script uses:
 
 - Product Hunt Atom feed
+- Product Hunt `Visit website` links via the `r.jina.ai` markdown view when Cloudflare blocks direct product-page scraping
 - DevHunt Supabase RPC
 - Peerlist public JSON response captured during page load
 - Playwright-rendered DOM extraction for the remaining sites
+- Detail-page JSON-LD and `Visit Website` links to replace ranking-site detail URLs with original product URLs
 
 ## Verification
 
@@ -105,7 +109,8 @@ for path in sorted(glob.glob('*.json')):
 PY
 ```
 
-4. Spot-check a few categories to make sure they describe the product/site type, e.g. `TOOL/CMS` for a WordPress publishing tool, `TOOL/DEV` for developer tooling, or `SAAS` for broad SaaS software.
+4. Spot-check URLs to make sure they point to original product websites, not listing pages. Example checks: `AnyFrame` should resolve to `anyfrm.com`; `InTrip.Me` should resolve to `intrip.me`.
+5. Spot-check a few categories to make sure they describe the product/site type, e.g. `TOOL/CMS` for a WordPress publishing tool, `TOOL/DEV` for developer tooling, or `SAAS` for broad SaaS software.
 
 ## Maintenance Notes
 
@@ -114,4 +119,5 @@ These websites change often. If counts drop unexpectedly or descriptions look wr
 - Prefer public feeds/RPC/API responses over HTML scraping.
 - Use Playwright network logs to find JSON endpoints before adding brittle selectors.
 - Keep output schema stable even when a source site changes.
+- Treat listing-site URLs as temporary detail URLs only; replace them with source URLs whenever the detail page exposes an external website link or JSON-LD `sameAs`.
 - Keep source-specific categories out of `category`; normalize to product/site type labels.
