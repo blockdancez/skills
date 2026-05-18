@@ -128,7 +128,7 @@ def product_hunt_source_url(product_url: str, link_url: str = "") -> str:
     for candidate in candidates:
         try:
             markdown = curl(
-                f"https://r.jina.ai/http://r.jina.ai/http://{candidate.removeprefix('https://').removeprefix('http://')}",
+                f"https://r.jina.ai/http://{candidate.removeprefix('https://').removeprefix('http://')}",
                 timeout=35,
             )
         except Exception:
@@ -166,7 +166,7 @@ def write_json(output_dir: Path, name: str, rows: list[dict[str, str]]) -> None:
                 current["title"] = item["title"]
             if len(item["description"]) > len(current["description"]):
                 current["description"] = item["description"]
-            if current["category"] == "TOOL/WEB" and item["category"] != "TOOL/WEB":
+            if current["category"] == "WEB" and item["category"] != "WEB":
                 current["category"] = item["category"]
             continue
         key = (item["title"].lower(), item["url"])
@@ -196,28 +196,25 @@ def classify_site_type(row: dict[str, str]) -> str:
     ).lower()
 
     rules = [
-        ("TOOL/CMS", ["wordpress", "cms", "content management", "blog publisher"]),
-        ("TOOL/API", [" api", "sdk", "graphql", "webhook", "endpoint", "inference", "rpc"]),
-        ("TOOL/DEV", ["developer", "code", "coding", "github", "repository", "ci/cd", "devops", "boilerplate", "terminal", "shadcn", "component", "schema", "database", "debug", "localhost"]),
-        ("TOOL/SEO", ["seo", "rank", "google", "indexed", "keyword", "serp", "llm visibility"]),
-        ("TOOL/MARKETING", ["marketing", "sales", "lead", "campaign", "linkedin", "crm", "outreach", "ads", "advertising"]),
-        ("TOOL/CONTENT", ["content", "writing", "blog", "newsletter", "copy", "caption", "transcript", "document", "pdf", "summarizer"]),
-        ("TOOL/DESIGN", ["design", "image", "video", "photo", "thumbnail", "avatar", "ui", "color", "3d", "slideshow", "animation"]),
-        ("TOOL/FINANCE", ["finance", "financial", "expense", "stock", "trading", "crypto", "payment", "revenue", "subscription", "billing"]),
-        ("TOOL/PRODUCTIVITY", ["productivity", "workflow", "automation", "schedule", "calendar", "task", "note", "workspace", "assistant"]),
-        ("TOOL/SECURITY", ["security", "privacy", "guardrail", "compliance", "identity", "scanner"]),
-        ("TOOL/AI", [" ai", "chatbot", "agent", "llm", "gpt", "claude", "gemini", "prompt", "model"]),
-        ("APP/MOBILE", ["android", "ios", "mobile app", "app store"]),
-        ("PLATFORM/MARKETPLACE", ["marketplace", "directory", "community", "platform", "launchpad"]),
-        ("HARDWARE", ["hardware", "device", "m5stack"]),
-        ("GAME", ["game", "gaming", "bingo"]),
-        ("EDUCATION", ["education", "course", "learning", "study", "interview practice"]),
+        ("CMS", ["wordpress", "cms", "content management", "blog publisher"]),
+        ("API", [" api", "sdk", "graphql", "webhook", "endpoint", "inference", "rpc"]),
+        ("DEV", ["developer", "code", "coding", "github", "repository", "ci/cd", "devops", "boilerplate", "terminal", "shadcn", "component", "schema", "database", "debug", "localhost"]),
+        ("SEO", ["seo", "rank", "google", "indexed", "keyword", "serp", "llm visibility"]),
+        ("MARKETING", ["marketing", "sales", "lead", "campaign", "linkedin", "crm", "outreach", "ads", "advertising"]),
+        ("CONTENT", ["content", "writing", "blog", "newsletter", "copy", "caption", "transcript", "document", "pdf", "summarizer"]),
+        ("DESIGN", ["design", "image", "video", "photo", "thumbnail", "avatar", "ui", "color", "3d", "slideshow", "animation"]),
+        ("TOOL", ["finance", "financial", "expense", "stock", "trading", "crypto", "payment", "revenue", "subscription", "billing"]),
+        ("PRODUCTIVITY", ["productivity", "workflow", "automation", "schedule", "calendar", "task", "note", "workspace", "assistant"]),
+        ("SECURITY", ["security", "privacy", "guardrail", "compliance", "identity", "scanner"]),
+        ("AI", [" ai", "chatbot", "agent", "llm", "gpt", "claude", "gemini", "prompt", "model"]),
+        ("WEB", ["android", "ios", "mobile app", "app store", "hardware", "device", "m5stack", "game", "gaming", "bingo", "education", "course", "learning", "study", "interview practice"]),
         ("SAAS", ["saas", "software", "dashboard", "management", "portal", "platform"]),
+        ("TOOL", ["marketplace", "directory", "community", "launchpad"]),
     ]
     for category, keywords in rules:
         if any(keyword in text for keyword in keywords):
             return category
-    return "TOOL/WEB"
+    return "WEB"
 
 
 def clean_text(value: str) -> str:

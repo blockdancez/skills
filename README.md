@@ -33,7 +33,7 @@ It writes one JSON file per source site with this schema, using the product's or
 { "title": "", "url": "", "description": "", "category": "" }
 ```
 
-The `category` field is a normalized product/site type such as `SAAS`, `TOOL/AI`, `TOOL/CMS`, or `TOOL/DEV`.
+The `category` field is a normalized product/site type such as `SAAS`, `AI`, `CMS`, or `DEV`.
 
 ## Documentation Source
 

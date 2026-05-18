@@ -34,17 +34,18 @@ Each file contains a JSON array. Every item must have exactly these fields:
 `category` means the collected product/site type, not the source website type and not necessarily the source site's raw tag. Use normalized coarse labels such as:
 
 - `SAAS`
-- `TOOL/AI`
-- `TOOL/CMS`
-- `TOOL/DEV`
-- `TOOL/API`
-- `TOOL/SEO`
-- `TOOL/MARKETING`
-- `TOOL/DESIGN`
-- `TOOL/CONTENT`
-- `TOOL/PRODUCTIVITY`
-- `TOOL/SECURITY`
-- `TOOL/WEB`
+- `TOOL`
+- `AI`
+- `CMS`
+- `DEV`
+- `API`
+- `SEO`
+- `MARKETING`
+- `DESIGN`
+- `CONTENT`
+- `PRODUCTIVITY`
+- `SECURITY`
+- `WEB`
 
 ## Supported Sources
 
@@ -110,7 +111,7 @@ PY
 ```
 
 4. Spot-check URLs to make sure they point to original product websites, not listing pages. Example checks: `AnyFrame` should resolve to `anyfrm.com`; `InTrip.Me` should resolve to `intrip.me`.
-5. Spot-check a few categories to make sure they describe the product/site type, e.g. `TOOL/CMS` for a WordPress publishing tool, `TOOL/DEV` for developer tooling, or `SAAS` for broad SaaS software.
+5. Spot-check a few categories to make sure they describe the product/site type, e.g. `CMS` for a WordPress publishing tool, `DEV` for developer tooling, or `SAAS` for broad SaaS software.
 
 ## Maintenance Notes
 
