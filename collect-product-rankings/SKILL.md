@@ -92,7 +92,7 @@ The script uses:
 
 ## Verification
 
-After running the script:
+After running the script, you must inspect all generated data before reporting completion. In particular, verify that every `url` is the product's original website/source URL rather than a ranking-site listing or detail URL. If any item does not meet the output contract, keep processing and correcting the data until all items comply.
 
 1. Confirm `aitoolhunt.co.json` exists.
 2. Validate JSON parsing and exact fields:
@@ -107,8 +107,10 @@ for path in sorted(glob.glob('*.json')):
 PY
 ```
 
-4. Spot-check URLs to make sure they point to original product websites, not listing pages. Example checks: `AnyFrame` should resolve to `anyfrm.com`; `InTrip.Me` should resolve to `intrip.me`.
-5. Spot-check a few categories to make sure they describe the product/site type, e.g. `CMS` for a WordPress publishing tool, `DEV` for developer tooling, or `SAAS` for broad SaaS software.
+3. Check every URL against its source site's host. If a URL still points to the ranking site, open the listing/detail page, follow visit/website/launch links or rendered external anchors, replace it with the original source URL, and rerun validation.
+4. Check every `category` against the normalized labels in this document. If any category is missing, too raw, or outside the allowed labels, normalize it and rerun validation.
+5. Do not stop at spot checks. Continue this validate-and-fix loop until all files parse, all items have exactly the required fields, all categories are normalized, and all resolvable product URLs point to source websites.
+6. Example URL checks: `AnyFrame` should resolve to `anyfrm.com`; `InTrip.Me` should resolve to `intrip.me`.
 
 ## Maintenance Notes
 
