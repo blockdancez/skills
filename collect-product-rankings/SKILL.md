@@ -65,8 +65,6 @@ The bundled script supports:
 - `https://aitoolhunt.co`
 - `https://topai.tools`
 
-Do not include `insanelycooltools.com`; it has no usable current ranking data in this workflow. If the user gives `aitoolhunt.com`, normalize it to `aitoolhunt.co`.
-
 ## Quick Start
 
 Run from the user's target output directory:
@@ -97,8 +95,7 @@ The script uses:
 After running the script:
 
 1. Confirm `aitoolhunt.co.json` exists.
-2. Confirm `aitoolhunt.json` and `insanelycooltools.json` do not exist unless the user explicitly requested legacy files.
-3. Validate JSON parsing and exact fields:
+2. Validate JSON parsing and exact fields:
 
 ```bash
 python3 - <<'PY'
