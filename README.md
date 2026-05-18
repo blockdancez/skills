@@ -6,6 +6,7 @@ This repository stores local agent skills and their supporting reference files.
 
 - `design-guide/`: a skill for routing UI and visual design requests to the most relevant product or brand design references
 - `design-guide/references/`: bundled markdown reference documents used by the skill at runtime
+- `collect-product-rankings/`: a skill for collecting current products from product launch boards and AI/tool directories into per-site JSON files
 
   ```
   npx skills add blockdancez/skills
@@ -21,6 +22,18 @@ Typical use cases:
 - "Make it feel like Figma"
 - "Use an Apple-like landing page style"
 - "Build a polished SaaS dashboard with a Linear-style product feel"
+
+### `collect-product-rankings`
+
+`collect-product-rankings` gathers current products from sites such as Product Hunt, BetaList, Uneed, DevHunt, Microlaunch, Peerlist Launchpad, Fazier, Startup Fame, Futurepedia, Toolify, AIToolHunt, and TopAI.tools.
+
+It writes one JSON file per source site with this schema:
+
+```json
+{ "title": "", "url": "", "description": "", "category": "" }
+```
+
+The `category` field is a normalized product/site type such as `SAAS`, `TOOL/AI`, `TOOL/CMS`, or `TOOL/DEV`.
 
 ## Documentation Source
 
