@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website UX SEO Analysis"
+  short_description: "Login-based UX and SEO report workflow"
+  default_prompt: "Use $website-ux-seo-analysis to perform a logged-in website UX and SEO analysis and save a Markdown report."
