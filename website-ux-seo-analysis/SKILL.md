@@ -112,7 +112,17 @@ Do not overstate certainty. If market-size, revenue, funding, or competitor metr
 
 ## Report Structure
 
-Use the structure the user requested. When unspecified, use:
+Use the structure the user requested. When unspecified, use exactly this top-level structure and do not add other top-level sections:
+
+### Closed Report Schema
+
+When using the default report structure, treat it as a closed schema.
+
+- Do not add extra top-level sections beyond the sections listed in the default structure.
+- Do not add evidence/artifact/screenshot/source-file sections unless the user explicitly asks for them.
+- Evidence files, screenshots, raw HTML, logs, and browser notes may be saved or used internally, but should not appear as additional report sections.
+- If extra material is useful, fold it into the nearest existing section instead of creating a new section.
+- The final Markdown report must end at `## 五、参考来源` unless the user requested a custom structure.
 
 ```markdown
 # {Domain} 网站用户体验与 SEO 分析报告
@@ -156,6 +166,7 @@ Use the structure the user requested. When unspecified, use:
 Before finalizing:
 
 - Verify the report file exists and inspect key sections.
+- Verify the final report follows the requested/default Markdown structure exactly. Do not include unrequested extra top-level sections such as “取证文件”, “附录”, “截图”, “原始证据”, or “补充材料”.
 - Search the report for leaked sensitive data such as email addresses, tokens, cookies, or Bearer strings.
 - Search for unsupported keyword phrases such as “估算”, “model”, “KD估算”, “主要国家流量估算”, or any numeric keyword metric without a source.
 - If a flow was blocked, state exactly what happened and how it affects confidence.
