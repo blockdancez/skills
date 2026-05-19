@@ -1,18 +1,18 @@
 ---
 name: website-ux-seo-analysis
-description: Create a logged-in user-experience and SEO analysis report for any website URL supplied by the user. Use when asked to analyze a live website, SaaS product, web app, landing page, competitor site, or AI tool after hands-on browsing, especially when the user requests login-based feature testing, SEO/keyword analysis, competitor comparison, or a Markdown website analysis report saved locally.
+description: Create a logged-in user-experience, SEO, keyword, competitor, and similar-product feasibility analysis report for any website URL supplied by the user. Use when asked to analyze a live website, SaaS product, web app, landing page, competitor site, or AI tool after hands-on browsing, especially when the user requests Google login testing, payment avoidance, SEO/keyword analysis with sourced metrics, competitor comparison, 10-point feasibility scoring, or a Markdown website analysis report saved locally.
 ---
 
 # Website UX SEO Analysis
 
 ## Overview
 
-Produce evidence-based website analysis reports from real browsing, not guesses. The target is always the website URL or domain supplied by the user; do not treat any prior analyzed site as fixed. Cover the logged-in product experience when required, avoid dangerous/payment actions, verify SEO facts from live pages, and include only keyword metrics with external data sources.
+Produce evidence-based website analysis reports from real browsing, not guesses. The target is always the website URL or domain supplied by the user; do not treat any prior analyzed site as fixed. Cover the logged-in product experience when required, avoid dangerous/payment actions, verify SEO facts from live pages, include only keyword metrics with external data sources, and end with a similar-product feasibility score when requested.
 
 ## Workflow
 
 1. Confirm the target URL supplied in the current user request, required login state, output path/name, and any forbidden actions.
-2. Use the browser requested by the user. Prefer Chrome when the task needs existing cookies, Google login, authenticated sessions, or profile-dependent pages.
+2. Use the browser requested by the user. When the user says Control Chrome with Codex, `@chrome`, Chrome plugin, existing Google account, or authenticated/profile-dependent browsing, use Chrome rather than a generic browser fallback unless Chrome is unavailable.
 3. Browse like a real user: public pages first, then login, then dashboard/workspace/core flows.
 4. Avoid irreversible or high-risk actions unless explicitly requested:
    - Do not purchase, subscribe, upgrade, enter payment details, configure Stripe/checkout, delete projects, publish live content, change domains, invite users, or modify billing.
@@ -61,11 +61,13 @@ Always cite the sources used in the report with links.
 Keyword data must be source-backed.
 
 - Use external keyword tools or APIs for numeric metrics: Google Keyword Planner, Ahrefs, Semrush, DataForSEO, seodata.dev, SearchVolume.io, Keyword Volume Checker, or another named provider.
+- Actively try to obtain the core metrics the user requested: Google/global monthly search volume, major country/market traffic split, keyword difficulty, CPC, and paid competition. Use Google Keyword Planner, Ahrefs, Semrush, DataForSEO, or another named external provider when available.
 - For every numeric keyword metric, record the source and query scope:
   - keyword
   - country/market
   - date checked
   - metric provider
+  - global monthly volume when provided by the external tool
   - monthly volume
   - CPC
   - paid competition or PPC competition
@@ -75,6 +77,38 @@ Keyword data must be source-backed.
 - Do not convert PPC competition into Organic KD. Keep them separate.
 - If only one country is retrieved, report only that country’s numbers and list other countries as unavailable.
 - Strategy labels such as priority, intent, and recommended landing page may be based on judgment, but label them as strategic recommendations rather than external metrics.
+
+## Similar-Product Feasibility Scoring
+
+When the user asks whether building a similar product is worth doing, add a 10-point scoring section.
+
+Score these required dimensions:
+
+- 技术可行性
+- 市场需求
+- 竞争压力
+- 差异化空间
+- MVP 落地难度
+
+Then provide a total score and verdict using the user’s rubric:
+
+- 6 分以下：不值得做
+- 7 分：可尝试
+- 8-9 分：值得做
+- 10 分：非常值得做
+
+Clarify score direction when needed. For `竞争压力` and `MVP 落地难度`, a higher score means higher pressure/difficulty unless the user defines the opposite. The final score should account for these as negative factors rather than simply averaging all rows blindly.
+
+Base the feasibility analysis on:
+
+- observed website/product capabilities
+- discovered user pain points
+- SEO and keyword evidence
+- competitor research
+- implementation complexity
+- differentiation options
+
+Do not overstate certainty. If market-size, revenue, funding, or competitor metrics are cited, attach external sources.
 
 ## Report Structure
 
@@ -105,8 +139,16 @@ Use the structure the user requested. When unspecified, use:
 ### 6. 外链分析
 ### 7. 竞品对比分析
 
-## 三、结论与优先级建议
-## 四、参考来源
+## 三、类似产品可行性评估
+### 技术可行性
+### 市场需求
+### 竞争压力
+### 差异化空间
+### MVP 落地难度
+### 总评
+
+## 四、结论与优先级建议
+## 五、参考来源
 ```
 
 ## Quality Bar
