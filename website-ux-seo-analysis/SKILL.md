@@ -1,6 +1,6 @@
 ---
 name: website-ux-seo-analysis
-description: Create a logged-in user-experience, SEO, keyword, competitor, and similar-product feasibility analysis report for any website URL supplied by the user. Use when asked to analyze a live website, SaaS product, web app, landing page, competitor site, or AI tool after hands-on browsing, especially when the user requests Google login testing, payment avoidance, SEO/keyword analysis with sourced metrics, competitor comparison, 10-point feasibility scoring, or a Markdown website analysis report saved locally.
+description: Use when asked to analyze a live website, SaaS product, web app, landing page, competitor site, or AI tool, especially with logged-in UX, Google/OAuth login, pre-authenticated Chrome sessions, payment avoidance, SEO/keyword research, competitor comparison, feasibility scoring, or a Markdown report saved locally.
 ---
 
 # Website UX SEO Analysis
@@ -12,7 +12,7 @@ Produce evidence-based website analysis reports from real browsing, not guesses.
 ## Workflow
 
 1. Confirm the target URL supplied in the current user request, required login state, output path/name, and any forbidden actions.
-2. Use the browser requested by the user. When the user says Control Chrome with Codex, `@chrome`, Chrome plugin, existing Google account, or authenticated/profile-dependent browsing, use Chrome rather than a generic browser fallback unless Chrome is unavailable.
+2. Use Chrome before any browsing. Follow **Browser Routing Rules** below; Chrome is required for every website visit in this skill, including public/no-login pages.
 3. Browse like a real user: public pages first, then login, then dashboard/workspace/core flows.
 4. Avoid irreversible or high-risk actions unless explicitly requested:
    - Do not purchase, subscribe, upgrade, enter payment details, configure Stripe/checkout, delete projects, publish live content, change domains, invite users, or modify billing.
@@ -20,6 +20,16 @@ Produce evidence-based website analysis reports from real browsing, not guesses.
 5. Capture factual evidence: visible UI text, URLs, page states, error messages, module names, metadata, robots, sitemap, headers, and source links.
 6. Write the report in the user’s requested language and format, usually Markdown.
 7. Save the report to the requested directory. If no filename is specified, use a concise snake_case filename derived from the domain.
+
+## Browser Routing Rules
+
+Always use Chrome for website browsing in this skill. This applies to every target website and every login state, including public landing pages, no-login SEO checks, pricing pages, blogs, dashboards, OAuth flows, and authenticated product testing.
+
+Start in Chrome from the first page load. Do not first collect public UX evidence in the in-app browser and “switch later”; that can miss login buttons, FedCM/One Tap prompts, profile-specific pages, consent states, and logged-in redirects.
+
+Chrome means the Chrome plugin connected to the user's existing Chrome profile. Use the Chrome plugin/browser-client workflow and its claimed/new Chrome tabs. Do not satisfy any website visit for this skill by using Playwright in any form, including standalone Playwright tools, `mcp__playwright__`, `browser_navigate`, a Playwright-launched browser, a new browser context, the in-app browser, or the Chrome plugin's `tab.playwright` API. Use Chrome tab methods and non-Playwright Chrome capabilities such as `goto`, `title`, `url`, `screenshot`, `dom_cua`, `cua`, and `dev.logs` instead.
+
+When Chrome is unavailable or a cross-origin OAuth/FedCM control requires human interaction, state the blocker precisely, keep the Chrome tab as a handoff if useful, and continue with the deepest safe analysis possible. Never inspect cookies, local storage, saved passwords, tokens, or browser profile internals.
 
 ## Login-Based UX Testing
 
@@ -166,6 +176,7 @@ When using the default report structure, treat it as a closed schema.
 Before finalizing:
 
 - Verify the report file exists and inspect key sections.
+- Verify all website visits used the Chrome plugin/browser-client on the user's Chrome profile. Do not use Playwright in any form, including standalone Playwright, `mcp__playwright__`, the in-app browser, or Chrome `tab.playwright`. If Chrome was unavailable/blocked, state that precisely and do not replace Chrome browsing with another browser.
 - Verify the final report follows the requested/default Markdown structure exactly. Do not include unrequested extra top-level sections such as “取证文件”, “附录”, “截图”, “原始证据”, or “补充材料”.
 - Search the report for leaked sensitive data such as email addresses, tokens, cookies, or Bearer strings.
 - Search for unsupported keyword phrases such as “估算”, “model”, “KD估算”, “主要国家流量估算”, or any numeric keyword metric without a source.
