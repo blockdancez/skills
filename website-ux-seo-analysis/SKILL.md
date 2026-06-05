@@ -88,37 +88,115 @@ Keyword data must be source-backed.
 - If only one country is retrieved, report only that country’s numbers and list other countries as unavailable.
 - Strategy labels such as priority, intent, and recommended landing page may be based on judgment, but label them as strategic recommendations rather than external metrics.
 
-## Similar-Product Feasibility Scoring
+## Similar-Product Feasibility Scoring (v2)
 
-When the user asks whether building a similar product is worth doing, add a 10-point scoring section.
+> v2(2026-06-05):为治"评分集中 7 分坍塌"问题(历史数据 72% 都是 exact 7.0),
+> 强制**每个维度由专属角色独立打分**、**每个分数必须列证据 + 扣分项**、
+> 输出结构化 `verdict.json`。**不要再凭感觉给中庸分**。
 
-Score these required dimensions:
+### 角色与维度的强制绑定
 
-- 技术可行性
-- 市场需求
-- 竞争压力
-- 差异化空间
-- MVP 落地难度
+每个维度由一个**专属角色**独立打分,**禁止用同一视角横扫 5 个维度**。每个维度只看对应角色的核心问题:
 
-Then provide a total score and verdict using the user’s rubric:
+| 维度 | 专属角色 | 该角色必须回答的核心问题 |
+|---|---|---|
+| `tech_feasibility`(技术可行性) | 资深 CTO(10 年 SaaS 架构经验) | "我团队 2-5 人 3 月内能复刻这个产品核心吗?第三方 API / 数据集是否现成?" |
+| `market_demand`(市场需求) | 资深 PM(连续做过 5 个 SaaS) | "用户已经在用什么替代?抱怨在哪?愿意付多少钱?6 月内可达 1000 付费用户吗?" |
+| `competition_pressure`(竞争压力) | 投资人(看过 100+ deal) | "巨头(Google/Amazon/OpenAI/Apple)在这赛道吗?现有强玩家收割成本是多少?" |
+| `differentiation`(差异化空间) | UX 设计师(B 端工具方向) | "新进者能在哪些交互 / 体验 / 工作流维度做出真不同?现有产品的差体验机会在哪?" |
+| `mvp_difficulty`(MVP 落地难度) | 失败 SaaS 创业者(挂过 3 个项目) | "类似 idea 历史上谁试过为什么挂?监管 / 数据授权 / 冷启动死结存在吗?" |
 
-- 6 分以下：不值得做
-- 7 分：可尝试
-- 8-9 分：值得做
-- 10 分：非常值得做
+### 评分规则(强制,不可跳过)
 
-Clarify score direction when needed. For `竞争压力` and `MVP 落地难度`, a higher score means higher pressure/difficulty unless the user defines the opposite. The final score should account for these as negative factors rather than simply averaging all rows blindly.
+每个维度的输出**必须**包含三段。**任何一段缺失则该维度判废,verdict.json 会被代码侧拒绝**:
 
-Base the feasibility analysis on:
+1. **`score`(0-10 整数或一位小数)**:该维度的分数。
+2. **`evidence`(≥30 字)**:必须引用 Markdown 报告里**已经出现过的具体事实** — URL、报错信息、数字、模块名、竞品名、截图描述。**禁止**写"经评估觉得不错"这类无源判断。
+3. **`deductions`(≥1 条具体扣分项)**:列出"扣了 (10-score) 分,因为 X"。X 必须是具体的失分原因,不能是"还有改进空间"这类废话。
 
-- observed website/product capabilities
-- discovered user pain points
-- SEO and keyword evidence
-- competitor research
-- implementation complexity
-- differentiation options
+**两条硬约束**:
+- **没扣分项 → 不能给低分**(给 4 分必须列 ≥1 条扣分,给 2 分必须列 ≥2 条扣分,以此类推)
+- **没强证据 → 不能给高分**(给 8+ 分必须有 ≥2 条具体 evidence 引用)
 
-Do not overstate certainty. If market-size, revenue, funding, or competitor metrics are cited, attach external sources.
+两端都堵死,治"safe default 7"。
+
+### 总分 rubric(替换原"7 = 可尝试"安全话术)
+
+把总分锚定到"同类产品中的相对位置",**不要再把 7 当作中庸安全位**:
+
+| 分数 | 含义 |
+|---|---|
+| 0-3 | 同类末 10%,几乎没有可执行价值 |
+| 4-5 | 同类中位偏下,有明显短板 |
+| 6 | **同类中位**(50 百分位),无突出优势也无致命缺陷 |
+| 7 | 同类前 30%(原"可尝试"含义,但锚定到比例) |
+| 8 | 同类前 10% |
+| 9-10 | 同类前 3%,需多维度强证据支撑 |
+
+### 负向维度方向
+
+`competition_pressure` 和 `mvp_difficulty` 是**负向维度**:`score` 越高代表压力 / 难度**越大**。
+- 例如:OpenAI 直接做的赛道 → `competition_pressure.score = 9`(压力极大)
+- 例如:需自训 LLM + 接入 50 家支付商 → `mvp_difficulty.score = 9`(落地极难)
+
+`total_score` 由你(codex)在心智上**反向**这两个维度后再加权计算,**不要**让代码替你算。代码侧只校验你给的 total_score 在 0-10 范围、且与 5 个维度分布大致自洽。
+
+### 必须输出 verdict.json
+
+报告 Markdown 写完后,**必须**在工作目录额外写一个 `verdict.json` 文件(纯 JSON,无 markdown 包裹):
+
+```json
+{
+  "dimensions": {
+    "tech_feasibility": {
+      "score": 0-10,
+      "role": "CTO",
+      "evidence": "≥30 字,引用 markdown 里出现过的事实",
+      "deductions": ["扣了 X 分,因为 Y", "..."]
+    },
+    "market_demand": {
+      "score": 0-10,
+      "role": "PM",
+      "evidence": "...",
+      "deductions": ["..."]
+    },
+    "competition_pressure": {
+      "score": 0-10,
+      "role": "投资人",
+      "evidence": "...",
+      "deductions": ["..."]
+    },
+    "differentiation": {
+      "score": 0-10,
+      "role": "UX 设计师",
+      "evidence": "...",
+      "deductions": ["..."]
+    },
+    "mvp_difficulty": {
+      "score": 0-10,
+      "role": "失败 SaaS 创业者",
+      "evidence": "...",
+      "deductions": ["..."]
+    }
+  },
+  "total_score": 0-10,
+  "verdict_note": "为什么 5 个维度之间的差异化合理(≥40 字解释)"
+}
+```
+
+verdict.json 失败 / 缺失时,代码侧会自动退回 markdown 末尾的"总分:X/10"正则提取(legacy 兼容),所以 Markdown 报告里**仍要**在"### 总评"小节末尾写一行 `总分:X/10`。这是失败兜底用的,**不能省**。
+
+### 评分依据(来源)
+
+基于以下证据做评估:
+- 实际浏览到的网站 / 产品能力
+- 发现的用户痛点(报错、UX 缺陷、缺失功能)
+- SEO 与关键词证据(volume、KD、indexability)
+- 竞品调研(类似产品的市占、定价、用户评价)
+- 实施复杂度(技术栈、第三方依赖)
+- 差异化机会(未被现有产品覆盖的体验维度)
+
+`market_size / revenue / funding / competitor metrics` 等数字必须附外部来源。
 
 ## Report Structure
 
@@ -133,6 +211,7 @@ When using the default report structure, treat it as a closed schema.
 - Evidence files, screenshots, raw HTML, logs, and browser notes may be saved or used internally, but should not appear as additional report sections.
 - If extra material is useful, fold it into the nearest existing section instead of creating a new section.
 - The final Markdown report must end at `## 五、参考来源` unless the user requested a custom structure.
+- **Scoring detail goes to `verdict.json`** in the work directory(必须额外生成,不能只在 markdown 里写)。markdown 的"### 总评"小节仍写一行简短结论 + `总分:X/10`(给 legacy 正则用)。
 
 ```markdown
 # {Domain} 网站用户体验与 SEO 分析报告
@@ -176,9 +255,11 @@ When using the default report structure, treat it as a closed schema.
 Before finalizing:
 
 - Verify the report file exists and inspect key sections.
+- Verify **`verdict.json` is written** to the work directory with all 5 dimensions, each having score + role + evidence + deductions, and a top-level `total_score` + `verdict_note`. **Missing verdict.json triggers a legacy regex fallback that is much less accurate.**
 - Verify all website visits used the Chrome plugin/browser-client on the user's Chrome profile. Do not use Playwright in any form, including standalone Playwright, `mcp__playwright__`, the in-app browser, or Chrome `tab.playwright`. If Chrome was unavailable/blocked, state that precisely and do not replace Chrome browsing with another browser.
 - Verify the final report follows the requested/default Markdown structure exactly. Do not include unrequested extra top-level sections such as “取证文件”, “附录”, “截图”, “原始证据”, or “补充材料”.
 - Search the report for leaked sensitive data such as email addresses, tokens, cookies, or Bearer strings.
 - Search for unsupported keyword phrases such as “估算”, “model”, “KD估算”, “主要国家流量估算”, or any numeric keyword metric without a source.
+- **5 个维度的分数不能全在 6.5-7.5 之间** — 如果出现这种情况,说明你在求稳。重新审视每个维度,从专属角色视角找出真正差异化的扣分点。`verdict_note` 里要说明为什么分布合理。
 - If a flow was blocked, state exactly what happened and how it affects confidence.
 - Do not claim “all functions were fully tested” if payment, deletion, publishing, domain changes, or other unsafe actions were intentionally avoided.
