@@ -7,10 +7,27 @@ This repository stores local agent skills and their supporting reference files.
 - `design-guide/`: a skill for routing UI and visual design requests to the most relevant product or brand design references
 - `design-guide/references/`: bundled markdown reference documents used by the skill at runtime
 - `collect-product-rankings/`: a skill for collecting current products from product launch boards and AI/tool directories into per-site JSON files
+- `google-ads-campaign-operator/`: a skill for Google Ads campaign setup, optimization, CSV report triage, and growth strategy
 
-  ```
-  npx skills add blockdancez/skills
-  ```
+## Installation
+
+Install all skills from this repository into the current project:
+
+```bash
+npx skills add blockdancez/skills
+```
+
+Install only `google-ads-campaign-operator` into the current project:
+
+```bash
+npx skills add blockdancez/skills --skill google-ads-campaign-operator
+```
+
+Install only `google-ads-campaign-operator` globally:
+
+```bash
+npx skills add blockdancez/skills --skill google-ads-campaign-operator -g
+```
 
 ## Included Skill
 
@@ -34,6 +51,10 @@ It writes one JSON file per source site with this schema, using the product's or
 ```
 
 The `category` field is a normalized product/site type such as `SAAS`, `AI`, `CMS`, or `DEV`.
+
+### `google-ads-campaign-operator`
+
+`google-ads-campaign-operator` helps create and optimize Google Ads campaigns with evidence-based operating rules, practical Google Ads UI guidance, paste-ready keywords and ads, conversion checks, UTM setup, CSV report triage, market expansion, and growth experiment planning.
 
 ## Documentation Source
 

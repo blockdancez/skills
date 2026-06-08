@@ -1,0 +1,6 @@
+interface:
+  display_name: "Google Ads Campaign Operator"
+  short_description: "Data-driven Google Ads setup, optimization, and growth strategy"
+  default_prompt: "Use $google-ads-campaign-operator to create, optimize, and strategically grow Google Ads campaigns with real UI field guidance, paste-ready ads/keywords/UTM, conversion checks, CSV reports, analytics, funnel data, market expansion, and experiment planning."
+policy:
+  allow_implicit_invocation: true
