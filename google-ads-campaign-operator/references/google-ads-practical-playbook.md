@@ -2,6 +2,8 @@
 
 This reference stores reusable Google Ads operating knowledge learned from real campaign creation/editing screens and performance reviews. It is product-agnostic. Use product-specific data only as examples, not as universal truth.
 
+For exact current Google Ads screen order, visible field labels, default checkboxes, and first-campaign page flow, read `references/google-ads-ui-field-guide.md` before applying this playbook. This playbook explains the operating logic behind those fields.
+
 ## Evidence Standard
 
 Every recommendation must be tied to one of:

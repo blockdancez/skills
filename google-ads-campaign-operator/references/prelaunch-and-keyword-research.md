@@ -44,6 +44,28 @@ Build keyword ideas from six sources:
 - Alternatives: competitor, platform, manual method, category alternatives.
 - Existing evidence: Google Search Console, site search, ads search terms, support tickets, sales calls, analytics landing pages.
 
+When the user only gives a product name/domain, output keyword **themes to investigate**, not paste-ready keywords. Paste-ready exact/phrase/broad keywords require one of:
+
+- Keyword Planner export or forecast for the target market/language.
+- Existing Google Ads search-term or keyword reports.
+- Google Search Console data.
+- Competitor/category SERP research with the searched market/language stated.
+- User approval that this is only a tiny exploratory seed set.
+
+Use this distinction:
+
+```text
+Hypothesis-only keyword themes to research:
+- Theme: {theme}
+  Why it may fit:
+  Evidence needed:
+
+Not ready to paste as keywords yet:
+- {keyword/theme}: missing Keyword Planner/search-term/competitor evidence
+```
+
+Do not output a keyword block like `[keyword]` or `"keyword"` until the ready gate is satisfied or the user explicitly requests a speculative exploratory set.
+
 Classify every keyword into one of:
 
 - **Core high intent**: directly describes the product's strongest conversion path.
@@ -149,6 +171,17 @@ Turn research into isolated ad groups:
 - Exact match for highest-confidence terms.
 - Phrase match for controlled variations.
 - Broad match only after conversion data, negatives, and tracking are reliable.
+
+Only produce paste-ready campaign architecture after target market/language, conversion goal, budget guardrail, and keyword evidence are known. Before that, produce a proposed research architecture:
+
+```text
+Research cluster:
+Likely intent:
+Landing page requirement:
+Keyword Planner seeds:
+Competitors/categories to inspect:
+Evidence needed before launch:
+```
 
 Initial output format:
 
