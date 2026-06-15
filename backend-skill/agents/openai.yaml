@@ -1,0 +1,4 @@
+interface:
+  display_name: "backend-skill"
+  short_description: "按 GoBackendFram 约定开发、配置和集成 Go 后端"
+  default_prompt: "使用 GoBackendFram skill，按框架约定实现或集成一个后端功能。"
