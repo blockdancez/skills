@@ -1,6 +1,6 @@
 ---
 name: google-ads-campaign-operator
-description: "Use for practical and strategic Google Ads work for any product: workflow diagnosis, first-launch readiness, landing page/material/copy prep, Keyword Planner usage, competitor/category research, Search campaign setup, ad groups, keywords, match types, responsive search ads, URL options/UTM, conversions, bidding, regions/languages, negatives, search-term analysis, daily optimization SOP, market expansion, growth experiments, and reviews from Google Ads CSVs, analytics screenshots, database funnels, or conversion screenshots. Use stored real Google Ads UI knowledge first; ask for screenshots/data only when needed. Never invent recommendations without evidence; separate evidence, inference, and hypotheses."
+description: "Use for practical and strategic Google Ads work for any product: workflow diagnosis, first-launch readiness, landing page/material/copy prep, Keyword Planner usage, competitor/category research, Search campaign setup, ad groups, keywords, match types, responsive search ads, URL options/UTM, conversions, bidding, regions/languages, negatives, search-term analysis, daily optimization SOP, product/landing-page/onboarding/operations feedback loops, market expansion, growth experiments, and reviews from Google Ads CSVs, analytics screenshots, database funnels, or conversion screenshots. Use stored real Google Ads UI knowledge first; ask for screenshots/data only when needed. Never invent recommendations without evidence; separate evidence, inference, and hypotheses."
 ---
 
 # Google Ads Campaign Operator
@@ -11,7 +11,7 @@ Make recommendations from evidence: known Google Ads UI fields, user-provided sc
 
 If a page, metric, or business constraint is already covered by this skill or its references, do not ask the user to provide another screenshot. Ask for screenshots or data only when the current page is unknown, the UI has changed, current performance data is missing, or a required product/business constraint is unknown.
 
-Act like both an operator and a growth strategist. Solve the immediate Google Ads task, then look one level higher: campaign stage, market opportunity, conversion quality, landing-page fit, product promise, experiment design, budget allocation, and the next learning loop. Be proactive, but label bold ideas as hypotheses unless the data proves them.
+Act like both an operator and a growth strategist. Solve the immediate Google Ads task, then look one level higher: campaign stage, market opportunity, conversion quality, landing-page fit, product promise, onboarding friction, operations efficiency, experiment design, budget allocation, and the next learning loop. Daily optimization must not stop at keywords and bids; it should also identify product, landing-page, tracking, content, support, or operations improvements that could raise paid acquisition efficiency and product quality. Be proactive, but label bold ideas as hypotheses unless the data proves them.
 
 ## Intake And Workflow Router
 
@@ -44,7 +44,7 @@ First identify the task type:
 - **Beginner / first launch**: read `references/google-ads-ui-field-guide.md`, Beginner Wizard Mode, Pre-launch Checklist, and Post-launch Review Cadence in `references/google-ads-practical-playbook.md`, plus readiness rules in `references/prelaunch-and-keyword-research.md`; output a complete fill-in-the-screen workflow.
 - **New ad group or ad**: read `references/google-ads-ui-field-guide.md`, then Ad Group Setup, First Responsive Search Ad, and Keyword Selection.
 - **Existing campaign optimization**: run the CSV analysis script first, then read `references/optimization-sop.md`; combine search terms, keywords, conversions, site analytics, and user/order data before making itemized decisions.
-- **Daily optimization SOP**: read `references/optimization-sop.md`; output the current cycle checklist, exact operations, paste-ready negatives/keywords, and what not to change yet.
+- **Daily optimization SOP**: read `references/optimization-sop.md`; output the current cycle checklist, exact operations, paste-ready negatives/keywords, product/landing-page/operations follow-ups, and what not to change yet.
 - **Strategic growth review**: read `references/growth-strategy-playbook.md`; identify campaign stage, bottleneck, next experiments, product/landing-page changes, and budget allocation.
 - **Market/language expansion**: read Region And Language Expansion in `references/google-ads-practical-playbook.md` and Market Expansion in `references/growth-strategy-playbook.md`; split markets by language and proof level.
 - **Google Ads page field troubleshooting**: read `references/google-ads-ui-field-guide.md` first. Ask for a screenshot only if the current page is not covered, appears changed, or contains account-specific warnings that affect the answer.
@@ -67,6 +67,7 @@ For ongoing campaign reviews, always add a strategic read after the operational 
 
 - What stage the campaign is in: discovery, validation, scale, efficiency, expansion, or recovery.
 - What the current bottleneck appears to be: traffic quality, ad relevance, landing-page fit, signup friction, activation, pricing, checkout, market selection, or tracking.
+- What product, landing page, analytics, content, support, or operations changes could improve ad efficiency, user activation, or product quality.
 - What to test next and what evidence would confirm or reject it.
 
 ## Required Coverage For First Campaigns
@@ -133,7 +134,7 @@ Every recommendation must include:
 - For product-name/domain-only launch requests, output "not ready to build yet" when facts are missing, then provide a phased plan and 1-3 blocking questions.
 - For beginner requests, ordered "which section to fill with what" steps, not just final ad copy.
 - For optimization requests, itemized actions by campaign, ad group, keyword, and search term, not only broad strategy.
-- For daily optimization requests, a cycle checklist: 24h/72h/weekly/14-30d, what to change now, what to wait on, and the next review trigger.
+- For daily optimization requests, a cycle checklist: 24h/72h/weekly/14-30d, what to change now, what to wait on, product/operations follow-ups, and the next review trigger.
 - For strategic reviews, include the next 1-3 experiments, each with goal, setup, budget/risk guardrail, expected signal, and stop/scale rule.
 - For long-running products, include what the product or landing page should change if paid search repeatedly exposes the same user intent or friction.
 

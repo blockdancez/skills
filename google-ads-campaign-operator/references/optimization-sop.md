@@ -1,6 +1,6 @@
 # Optimization SOP
 
-Use this reference for running campaigns, daily reviews, search-term cleanup, negative keyword decisions, funnel diagnosis, bidding/budget changes, and weekly/longer strategic optimization.
+Use this reference for running campaigns, daily reviews, search-term cleanup, negative keyword decisions, funnel diagnosis, bidding/budget changes, product/landing-page/operations feedback, and weekly/longer strategic optimization.
 
 ## Review Cadence
 
@@ -15,6 +15,7 @@ Only fix clearly broken or risky items:
 - Conversion actions firing, duplicate counting, primary/secondary/diagnostic classification.
 - Wrong country, language, network, or search partner/display leakage.
 - Search terms with obvious bad intent and meaningful spend.
+- Product/landing issues that are obviously breaking paid traffic: page outage, mobile layout failure, wrong language, slow auth, broken verification, broken upload/deploy flow, checkout failure, or conversion events not firing.
 
 Avoid heavy keyword pruning in the first 24 hours unless intent is plainly wrong.
 
@@ -28,6 +29,7 @@ Make light, evidence-based changes:
 - Split a theme into a new ad group if the query intent is good but ad/landing page mismatch is obvious.
 - Update ad copy only when search terms reveal repeated intent that the current ad underserves.
 - Check CPC spikes and search-term quality before changing bids.
+- Record product, landing-page, or operations hypotheses exposed by search terms and funnel behavior. Fix only obvious breakages; otherwise queue them for weekly review.
 
 ### Weekly
 
@@ -40,6 +42,7 @@ Make stronger decisions:
 - Conversion quality: primary business event versus weak diagnostic event.
 - Budget allocation: winners, weak tests, experiments.
 - Bid strategy fit: sample size, conversion reliability, CPA stability.
+- Product and operations backlog: landing-page clarity, onboarding friction, activation gaps, pricing/upgrade friction, docs/support gaps, localization/device issues, tracking gaps, and manual ops that slow feedback loops.
 
 ### Every 14-30 Days
 
@@ -51,6 +54,7 @@ Review structural changes:
 - SEO/content pages for expensive but informative queries.
 - Product/onboarding/pricing changes exposed by paid traffic.
 - Whether to scale, cap, pause, or redesign experiment cells.
+- Whether paid-search learnings should become product roadmap items, landing-page tests, SEO/content pages, instrumentation work, support macros, or automated reporting.
 
 ## Required Data Merge
 
@@ -84,6 +88,58 @@ Diagnose by symptom:
 - Ads conversions differ greatly from analytics/backend: conversion counting, attribution window, duplicate counting, or event definition issue.
 
 Do not solve funnel problems only by adding negatives.
+
+## Product And Operations Feedback Loop
+
+Every optimization review must include a product/landing/operations read, even when the immediate ad actions are small. Paid search is a fast source of product research: queries, click behavior, registration friction, activation events, support needs, and checkout behavior reveal what the product and operations should improve.
+
+Separate follow-ups from ad operations:
+
+- `Ad operation`: keywords, negatives, ads, bids, budgets, regions, languages, networks.
+- `Landing-page follow-up`: page copy, first-screen promise, proof, pricing/limits, examples, comparison pages, docs links, mobile layout, localization.
+- `Product follow-up`: feature gap, onboarding, upload/deploy flow, activation moment, error handling, free/pro limit, checkout, account creation, import/export workflow.
+- `Tracking follow-up`: conversion definition, duplicate counting, primary/secondary status, event naming, attribution, UTM, backend reconciliation.
+- `Operations follow-up`: reporting cadence, support macros, sales/CRM handling, data dashboard, daily anomaly alerts, experiment log, handoff notes.
+- `Content/SEO follow-up`: expensive but informative queries, repeated how-to intent, docs gaps, comparison/alternative pages, glossary pages.
+
+Map evidence to follow-ups:
+
+- Repeated relevant search terms with no matching landing section -> landing-page copy or dedicated page.
+- Repeated relevant search terms for unsupported workflow/file type/integration -> product roadmap hypothesis.
+- High CTR but high bounce or low page engagement -> ad promise mismatch, page clarity, load speed, or low-intent query.
+- Good landing visits but low CTA/signup intent -> offer clarity, trust proof, pricing/limits, CTA, examples, or localized copy issue.
+- High signup intent but low register success -> auth, verification, form friction, blocked emails, mobile UX, or tracking issue.
+- Good register success but low activation -> onboarding, first action, template/example, import/upload/deploy flow, or empty-state guidance.
+- Good activation but low checkout/upgrade -> pricing, plan limits, upgrade prompt timing, payment methods, or value communication.
+- One country/language clicks but does not activate -> localization, region support, payment/support availability, or wrong location option.
+- Device gap, especially mobile traffic with weak activation -> mobile UX, page speed, file upload constraints, or layout issue.
+- Ads conversions disagree with analytics/backend -> tracking follow-up before budget/bid decisions.
+- Informational queries are relevant but expensive -> content/SEO follow-up instead of continuing to buy all of them.
+
+Prioritize follow-ups:
+
+```text
+Now fix:
+- Only clear breakages or tracking issues that can invalidate spend.
+
+Experiment:
+- Evidence-backed landing/product changes that can be tested with one page, one flow, one event, or one campaign cell.
+
+Backlog:
+- Plausible ideas with weak data, large build cost, or no direct campaign impact yet.
+
+Do not do yet:
+- Large product pivots, pricing changes, or broad roadmap work supported only by a tiny sample.
+```
+
+For each product/operations recommendation, state:
+
+- Evidence: exact search terms, funnel metric, country/device/page/event, or user data.
+- Inference: what the evidence likely means.
+- Action: the smallest product, landing, content, tracking, or ops change.
+- Owner/type: product, growth, engineering, content, support, analytics, or ops.
+- Verification: which metric should move and by when.
+- Risk: what could go wrong or what not to over-interpret.
 
 ## Negative Keyword SOP
 
@@ -207,6 +263,14 @@ Review trigger:
 
 Do not change yet:
 - Item: reason
+
+Product / landing / operations follow-ups:
+Type | Priority | Evidence | Action | Verification | Owner
+
+What this means for product quality or operations efficiency:
+- Insight:
+- Why it matters:
+- Next smallest test:
 ```
 
 For strategic reviews, append experiments from `growth-strategy-playbook.md`.
