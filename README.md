@@ -8,6 +8,7 @@ This repository stores local agent skills and their supporting reference files.
 - `design-guide/references/`: bundled markdown reference documents used by the skill at runtime
 - `collect-product-rankings/`: a skill for collecting current products from product launch boards and AI/tool directories into per-site JSON files
 - `google-ads-campaign-operator/`: a skill for Google Ads campaign setup, optimization, CSV report triage, and growth strategy
+- `glintskill/`: a Codex-focused bundle for project profile capture and automated backlink submission
 
 ## Installation
 
@@ -27,6 +28,22 @@ Install only `google-ads-campaign-operator` globally:
 
 ```bash
 npx skills add blockdancez/skills --skill google-ads-campaign-operator -g
+```
+
+Install the GlintSkill Codex bundle:
+
+```bash
+tmp_dir="$(mktemp -d)" && \
+git clone --depth 1 https://github.com/blockdancez/skills.git "$tmp_dir/skills" && \
+mkdir -p ~/.codex/skills && \
+rm -rf ~/.codex/skills/project-profile-capture \
+  ~/.codex/skills/backlink-publisher \
+  ~/.codex/skills/humanizer && \
+cp -R "$tmp_dir/skills/glintskill/skills/project-profile-capture" \
+  "$tmp_dir/skills/glintskill/skills/backlink-publisher" \
+  "$tmp_dir/skills/glintskill/skills/humanizer" \
+  ~/.codex/skills/ && \
+rm -rf "$tmp_dir"
 ```
 
 ## Included Skill
@@ -55,6 +72,16 @@ The `category` field is a normalized product/site type such as `SAAS`, `AI`, `CM
 ### `google-ads-campaign-operator`
 
 `google-ads-campaign-operator` helps create and optimize Google Ads campaigns with evidence-based operating rules, practical Google Ads UI guidance, paste-ready keywords and ads, conversion checks, UTM setup, CSV report triage, market expansion, and growth experiment planning.
+
+### `glintskill`
+
+`glintskill` is a Codex-focused backlink automation bundle. It includes:
+
+- `project-profile-capture`: captures product profile assets from a project URL.
+- `backlink-publisher`: reads a backlink JSON queue and uses Chrome to submit projects to backlink and directory platforms.
+- `humanizer`: rewrites submission copy so backlink descriptions sound more natural.
+
+Recommended runtime: Codex, because the backlink publishing flow depends on local skills, Chrome operation, and agent-assisted copy generation.
 
 ## Documentation Source
 

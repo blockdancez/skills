@@ -15,13 +15,23 @@
 
 ## 一键安装
 
-直接复制这一条命令运行：
+推荐在 Codex 所在机器上直接从 GitHub 安装：
 
 ```bash
-cd /Users/test/Documents/GlintSkill && mkdir -p ~/.codex/skills && rm -rf ~/.codex/skills/project-profile-capture ~/.codex/skills/backlink-publisher ~/.codex/skills/humanizer && cp -R skills/project-profile-capture skills/backlink-publisher skills/humanizer ~/.codex/skills/
+tmp_dir="$(mktemp -d)" && \
+git clone --depth 1 https://github.com/blockdancez/skills.git "$tmp_dir/skills" && \
+mkdir -p ~/.codex/skills && \
+rm -rf ~/.codex/skills/project-profile-capture \
+  ~/.codex/skills/backlink-publisher \
+  ~/.codex/skills/humanizer && \
+cp -R "$tmp_dir/skills/glintskill/skills/project-profile-capture" \
+  "$tmp_dir/skills/glintskill/skills/backlink-publisher" \
+  "$tmp_dir/skills/glintskill/skills/humanizer" \
+  ~/.codex/skills/ && \
+rm -rf "$tmp_dir"
 ```
 
-安装后，新开一个 Codex 对话，或重启 Codex，让它重新读取 skill。
+安装后，新开一个 Codex 对话，或重启 Codex，让它重新读取 skill。推荐使用 Codex 运行这个外链发布流程，因为 `backlink-publisher` 需要读取本地 skill、操作 Chrome，并在需要时调用 subagent 生成和优化发布文案。
 
 `project-profile-capture` 已经带可执行入口。普通用户直接运行 `bin/project-profile-capture`，不需要写 `python3`，也不需要安装 `requests` 或其他 Python 包。
 
