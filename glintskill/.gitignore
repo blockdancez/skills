@@ -1,0 +1,7 @@
+# Generated project profile folders
+/glypho-ai-svg-generator/
+/publish-html-markdown-online-previewship/
+/videoreplicate-extract-ai-prompts-from-videos/
+
+# Local packaging cache
+skills/project-profile-capture/.build/

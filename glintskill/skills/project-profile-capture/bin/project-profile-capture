@@ -1,0 +1,51 @@
+#!/usr/bin/env sh
+set -eu
+
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+OS_RAW=$(uname -s)
+ARCH_RAW=$(uname -m)
+
+case "$OS_RAW" in
+  Darwin)
+    OS_NAME="Darwin"
+    ;;
+  Linux)
+    OS_NAME="Linux"
+    ;;
+  *)
+    OS_NAME="$OS_RAW"
+    ;;
+esac
+
+case "$ARCH_RAW" in
+  x86_64|amd64|AMD64)
+    ARCH_NAME="x86_64"
+    ;;
+  arm64|aarch64)
+    ARCH_NAME="arm64"
+    ;;
+  *)
+    ARCH_NAME="$ARCH_RAW"
+    ;;
+esac
+
+EXECUTABLE="$SCRIPT_DIR/../dist/project-profile-capture-${OS_NAME}-${ARCH_NAME}"
+PYTHON_SCRIPT="$SCRIPT_DIR/../scripts/capture_project_profile.py"
+
+if [ -x "$EXECUTABLE" ]; then
+  exec "$EXECUTABLE" "$@"
+fi
+
+echo "project-profile-capture executable not found or not executable: $EXECUTABLE" >&2
+echo "Falling back to Python source script." >&2
+
+if command -v python3 >/dev/null 2>&1; then
+  exec python3 "$PYTHON_SCRIPT" "$@"
+fi
+
+if command -v python >/dev/null 2>&1; then
+  exec python "$PYTHON_SCRIPT" "$@"
+fi
+
+echo "Python is not available. Maintainer command: ./skills/project-profile-capture/scripts/build_standalone.sh" >&2
+exit 127

@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目资料抓取"
+  short_description: "根据项目 URL 抓取摘要、Logo、首屏截图和资料"
+  default_prompt: "使用 $project-profile-capture 根据这个项目 URL 生成本地项目资料文件夹。"

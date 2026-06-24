@@ -1,0 +1,4 @@
+interface:
+  display_name: "外链发布器"
+  short_description: "根据外链 JSON 队列自动发布免费项目外链信息"
+  default_prompt: "使用 $backlink-publisher，把我当前项目提交到 JSON 队列里的免费外链平台。"
