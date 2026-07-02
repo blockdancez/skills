@@ -52,6 +52,7 @@ data/backlinks/batches/batch-001.json
 - 如果用户可以在 Chrome 中继续或解锁当前流程，设为 `status: "needs_user"`。
 - 如果当前信息和策略无法完成平台提交，设为 `status: "failed"`。
 - `needs_user` 和 `failed` 都必须写入简短 `error`。
+- 运行中把当前项设为 `needs_user` 或 `failed` 后，立即停止本轮任务；不要继续处理下一个 `pending` 项，除非用户明确要求跳过并继续。
 - 如果之前因为缺少公开联系信息或多 Google 账号选择器被跳过，修正规则后可以重置为 `pending`，并清空 `last_attempt_at`、`result_url` 和 `error`。
 
 ## manifest 规则

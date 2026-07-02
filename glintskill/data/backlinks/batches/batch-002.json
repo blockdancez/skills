@@ -5,51 +5,27 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "aitoolnavigation",
-      "platform_name": "aitoolnavigation",
-      "url": "https://www.aitoolnavigation.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolnavigation.com; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "aitoolnet",
-      "platform_name": "Aitoolnet",
-      "url": "https://www.aitoolnet.com/submit",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolnet.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "aitoolsdirectory",
       "platform_name": "AIToolsDirectory",
       "url": "https://aitoolsdirectory.com/submit-tool",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolsdirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:00:45.475819Z",
+      "result_url": "https://aitoolsdirectory.com/submit-tool",
+      "error": "Form requires original non-AI descriptions and uniqueness answer"
     },
     {
       "id": "aitoolslist-io",
       "platform_name": "aitoolslist.io",
       "url": "https://aitoolslist.io/submit-ai-tool/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolslist.io; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-07-02T04:05:19.842461Z",
+      "result_url": "https://tally.so/r/n9BqRX",
       "error": null
     },
     {
@@ -57,23 +33,23 @@
       "platform_name": "AI Tools Masters",
       "url": "https://aitoolsmasters.com/add-ai-tools/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolsmasters.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:10:24.842457Z",
       "result_url": null,
-      "error": null
+      "error": "Contact form stuck submitting with no success confirmation"
     },
     {
       "id": "item-1jq5l4o",
       "platform_name": "AI Tools Up",
       "url": "https://aitoolsup.com/submit-tool/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolsup.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-07-02T04:12:34.684063Z",
+      "result_url": "https://tally.so/r/nPpyBV",
       "error": null
     },
     {
@@ -81,11 +57,11 @@
       "platform_name": "AITopTools",
       "url": "https://aitoptools.com/login?redirect_to=submit",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aitoptools.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-07-02T04:17:20.098698Z",
+      "result_url": "https://aitoptools.com/listed-now/",
       "error": null
     },
     {
@@ -93,263 +69,227 @@
       "platform_name": "AI Valley",
       "url": "https://aivalley.ai/submit-tool/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aivalley.ai; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:19:33.625248Z",
       "result_url": null,
-      "error": null
+      "error": "Contact form returned send error; try again later"
     },
     {
       "id": "aiwikitools",
       "platform_name": "AIWikiTools",
       "url": "https://aiwikitools.com/submit-a-tool/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=aiwikitools.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:23:07.610493Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "item-yg1arn",
-      "platform_name": "AI Worthy",
-      "url": "https://aiworthy.org/submit-tool/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aiworthy.org; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Embedded Formaloo submission form unreachable: ERR_CONNECTION_CLOSED"
     },
     {
       "id": "item-6b1gyy",
       "platform_name": "A List Directory",
       "url": "http://www.alistdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=alistdirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:26:18.366974Z",
       "result_url": null,
-      "error": null
+      "error": "Site redirects to Account Suspended page"
     },
     {
       "id": "item-1rzg1l8",
       "platform_name": "All Business Directory",
       "url": "https://www.allbusinessdirectory.biz/directory.php?page=submission-guidelines",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=allbusinessdirectory.biz; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "item-1cep4l1",
-      "platform_name": "All Startups",
-      "url": "http://www.allstartups.info/Startups/Submit",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=allstartups.info; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:29:29.437984Z",
+      "result_url": "https://www.allbusinessdirectory.biz/link_submit.php",
+      "error": "Form rejects @qq.com contact email; needs alternate public email"
     },
     {
       "id": "item-1kw20lt",
       "platform_name": "All States USA Directory",
       "url": "https://www.allstatesusadirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=allstatesusadirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:33:15.693796Z",
+      "result_url": "https://www.allstatesusadirectory.com/submit.php",
+      "error": "Form filled but requires CAPTCHA before submission"
     },
     {
       "id": "allthingsai",
       "platform_name": "AllThingsAI",
       "url": "https://allthingsai.com/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=allthingsai.com; needs_discovery",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:34:24.356059Z",
       "result_url": null,
-      "error": null
+      "error": "Site unreachable in Chrome: ERR_CONNECTION_CLOSED / ERR_BLOCKED_BY_CLIENT"
     },
     {
       "id": "alternative-me",
       "platform_name": "Alternative.me",
       "url": "https://alternative.me/how-to/submit-software/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=alternative.me; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:35:11.037652Z",
+      "result_url": "https://alternative.me/how-to/submit-software/",
+      "error": "Submission requires creating or using an Alternative.me account"
     },
     {
       "id": "alternativeto",
       "platform_name": "AlternativeTo",
       "url": "https://alternativeto.net/faq/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=alternativeto.net; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:36:05.568228Z",
+      "result_url": "https://alternativeto.net/faq/#add-a-new-application",
+      "error": "Submission requires AlternativeTo account; new users must wait one week"
     },
     {
       "id": "appliv",
       "platform_name": "Appliv",
       "url": "https://app-liv.jp/contact/review_request/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=app-liv.jp; needs_discovery",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:36:48.189174Z",
       "result_url": null,
-      "error": null
+      "error": "Review request page returns 403 Forbidden"
     },
     {
       "id": "appoid",
       "platform_name": "Appoid",
       "url": "http://appiod.com/submit-app-for-review/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=appiod.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:39:16.079138Z",
+      "result_url": "https://amp2.wufoo.com/forms/zlx1taa0io457d/",
+      "error": "Free review form partially filled but requires app version"
     },
     {
       "id": "item-x9sn0z",
       "platform_name": "App Rater",
       "url": "https://apprater.net/add/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=apprater.net; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:41:03.190547Z",
+      "result_url": "https://apprater.net/add/",
+      "error": "Form filled but requires reCAPTCHA before submission"
     },
     {
       "id": "item-wpijwv",
       "platform_name": "Apps and Websites",
       "url": "https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=appsandwebsites.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "appsthunder",
-      "platform_name": "AppsThunder",
-      "url": "https://appsthunder.com/submit-your-app/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=appsthunder.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:41:58.163158Z",
+      "result_url": "https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html",
+      "error": "Form requires public phone number and company name not provided"
     },
     {
       "id": "appysmarts",
       "platform_name": "Appysmarts",
       "url": "https://www.appysmarts.com/suggest.php",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=appysmarts.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:43:43.860454Z",
       "result_url": null,
-      "error": null
+      "error": "Directory targets kids iOS/Android apps and form requires CAPTCHA; project is not a fit"
     },
     {
       "id": "item-1dup8kh",
       "platform_name": "Australia Web Directory",
       "url": "https://www.australiawebdirectory.net/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=australiawebdirectory.net; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:45:29.337217Z",
+      "result_url": "https://www.australiawebdirectory.net/submit.php",
+      "error": "Free regular link form filled but requires CAPTCHA before submission"
     },
     {
       "id": "betalist",
       "platform_name": "Betalist",
       "url": "https://betalist.com/users/sign_in",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=startup_launch; root_domain=betalist.com; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:46:48.183384Z",
+      "result_url": "https://betalist.com/sign_in",
+      "error": "Submit flow requires BetaList account via X or email login"
     },
     {
       "id": "bigstartups-co",
       "platform_name": "bigstartups.co",
       "url": "https://bigstartups.co/overview/list-product",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=startup_launch; root_domain=bigstartups.co; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:51:42.763206Z",
+      "result_url": "https://bizmenia.com/list",
+      "error": "BizMenia free listing partially filled after Google login; needs legal entity confirmation and asset upload"
     },
     {
       "id": "blogarama",
       "platform_name": "Blogarama",
       "url": "https://www.blogarama.com/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=blogarama.com; needs_discovery",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-07-02T04:53:37.166798Z",
       "result_url": null,
-      "error": null
+      "error": "Blog directory submit flow requires member account and blog listing, not product listing"
     },
     {
       "id": "brandfetch",
       "platform_name": "Brandfetch",
       "url": "https://brandfetch.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=brandfetch.com; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T04:56:53.391458Z",
+      "result_url": "https://brandfetch.com/register",
+      "error": "Brand verification requires a work email from the brand domain"
     },
     {
       "id": "item-1l80dxe",
       "platform_name": "Britain business directory",
       "url": "https://www.britainbusinessdirectory.com/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=britainbusinessdirectory.com; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-07-02T05:00:27.373947Z",
+      "result_url": "https://www.britainbusinessdirectory.com/submit.php",
       "error": null
     },
     {
@@ -357,12 +297,12 @@
       "platform_name": "Broadwise.org",
       "url": "https://broadwise.org/t/how-to-promote-your-startup-on-broadwise-org/125",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=broadwise.org; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "last_attempt_at": "2026-07-02T05:01:19.639018Z",
+      "result_url": "https://broadwise.org/t/how-to-promote-your-startup-on-broadwise-org/125",
+      "error": "Broadwise is currently a read-only static Discourse view with no login or new-topic flow"
     }
   ]
 }

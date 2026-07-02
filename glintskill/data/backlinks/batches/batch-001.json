@@ -5,18 +5,6 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "01webdirectory",
-      "platform_name": "01webdirectory",
-      "url": "https://www.01webdirectory.com/frmPreSubmit.aspx",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=01webdirectory.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T08:35:34Z",
-      "result_url": null,
-      "error": "Relevant Software category requires paid Priority Express submission; no free option."
-    },
-    {
       "id": "10words",
       "platform_name": "10words",
       "url": "https://10words.io/",
@@ -65,18 +53,6 @@
       "error": "Confirmation page requires verification code before final submit."
     },
     {
-      "id": "item-kkwe7j",
-      "platform_name": "ABC Directory",
-      "url": "https://www.abc-directory.com/submiturl",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=abc-directory.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:02:42Z",
-      "result_url": null,
-      "error": "Paid-only listing flow: $49 payment required after Next."
-    },
-    {
       "id": "asr",
       "platform_name": "ASR",
       "url": "https://www.activesearchresults.com/addwebsite.php",
@@ -101,30 +77,6 @@
       "error": "CloudFront 403 blocks access from current country."
     },
     {
-      "id": "affordhunt",
-      "platform_name": "AffordHunt",
-      "url": "https://www.affordhunt.com/onesubmitai",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=affordhunt.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:06:43Z",
-      "result_url": null,
-      "error": "Submit URL is 404 and root domain shows unrelated gambling storefront."
-    },
-    {
-      "id": "item-qaw2m6",
-      "platform_name": "AI Finder",
-      "url": "https://ai-finder.net/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=ai-finder.net; needs_discovery",
-      "last_attempt_at": "2026-07-01T11:07:03Z",
-      "result_url": null,
-      "error": "Domain redirects to HugeDomains parked page with Cloudflare verification."
-    },
-    {
       "id": "ai-hunter-io",
       "platform_name": "AI-Hunter.io",
       "url": "https://ai-hunter.io/submit-ai-tool/",
@@ -135,30 +87,6 @@
       "last_attempt_at": "2026-07-01T11:08:55Z",
       "result_url": null,
       "error": "Free form returned server error: An error occurred while processing the form."
-    },
-    {
-      "id": "item-1ce3py8",
-      "platform_name": "Ai Business Tool",
-      "url": "https://aibusinesstool.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aibusinesstool.com; needs_discovery",
-      "last_attempt_at": "2026-07-01T11:09:46Z",
-      "result_url": null,
-      "error": "Domain expired Hostinger page."
-    },
-    {
-      "id": "aicyclopedia",
-      "platform_name": "AIcyclopedia",
-      "url": "https://www.aicyclopedia.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aicyclopedia.com; needs_discovery",
-      "last_attempt_at": "2026-07-01T11:10:17Z",
-      "result_url": null,
-      "error": "Submit page redirects to unrelated TOKO123 storefront/cart content."
     },
     {
       "id": "item-dh62qd",
@@ -197,18 +125,6 @@
       "error": null
     },
     {
-      "id": "item-1czzkgs",
-      "platform_name": "AI Homes",
-      "url": "https://aihomes.io/submit/submit-tool",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aihomes.io; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:15:07Z",
-      "result_url": null,
-      "error": "Domain redirects to parked for-sale page."
-    },
-    {
       "id": "ailib",
       "platform_name": "AILib",
       "url": "https://ailib.ru/en/add-ai/",
@@ -245,42 +161,6 @@
       "error": "Chrome browser security policy blocked browser use on the redirected submit page."
     },
     {
-      "id": "item-xe3jdy",
-      "platform_name": "AI News Guru",
-      "url": "https://ainews.guru/ai-app-submission/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=ainews.guru; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:20:12Z",
-      "result_url": "https://ainews.guru/ai-app-submission",
-      "error": "Submit URL returns 404 Page Not Found; no submission form available."
-    },
-    {
-      "id": "item-1kfgszo",
-      "platform_name": "Ai pedia Hub",
-      "url": "https://aipediahub.com/submit/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aipediahub.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:20:32Z",
-      "result_url": "https://aipediahub.com/submit/",
-      "error": "Submit URL returns LiteSpeed 404; no submission form available."
-    },
-    {
-      "id": "airegisters",
-      "platform_name": "Airegisters",
-      "url": "https://airegisters.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=airegisters.com; needs_discovery",
-      "last_attempt_at": "2026-07-01T11:21:00Z",
-      "result_url": "https://airegisters.com/",
-      "error": "Domain is a parked/for-sale page; no directory submission available."
-    },
-    {
       "id": "item-1d5tp0m",
       "platform_name": "AI Scout",
       "url": "https://aiscout.net/",
@@ -305,18 +185,6 @@
       "error": "Submission requires login or signup before the form is available."
     },
     {
-      "id": "item-6sfrhj",
-      "platform_name": "AI Tool For Business",
-      "url": "https://aitoolforbusiness.com/submit-ai-tool/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolforbusiness.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:22:23Z",
-      "result_url": "https://ww80.aitoolforbusiness.com/",
-      "error": "Submit URL redirects to parked/placeholder ww80 domain; no submission form available."
-    },
-    {
       "id": "aitoolguru",
       "platform_name": "AIToolGuru",
       "url": "https://aitoolguru.com/",
@@ -327,30 +195,6 @@
       "last_attempt_at": "2026-07-01T11:22:57Z",
       "result_url": "https://aitoolguru.com/login",
       "error": "Submit page redirects to login; account authentication required before submission."
-    },
-    {
-      "id": "aitoolhunt",
-      "platform_name": "aitoolhunt",
-      "url": "https://www.aitoolhunt.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolhunt.com; needs_discovery",
-      "last_attempt_at": "2026-07-01T11:23:31Z",
-      "result_url": "https://aitoolhunt.com/",
-      "error": "Root domain and www both return LiteSpeed 404; no directory submission available."
-    },
-    {
-      "id": "aitoolkit",
-      "platform_name": "AiToolkit",
-      "url": "https://www.aitoolkit.org/submit",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolkit.org; submit_url_extracted",
-      "last_attempt_at": "2026-07-01T11:24:07Z",
-      "result_url": "https://www.atom.com/name/AiToolkit.org",
-      "error": "Domain resolves to Atom premium domain-for-sale page; no directory submission available."
     },
     {
       "id": "aitoolmall",

@@ -55,13 +55,13 @@ python3 skills/backlink-publisher/scripts/validate_backlinks_json.py <queue-json
 6. 每处理一个队列项，先把该项状态设为 `in_progress`。
 7. 所有浏览器操作都使用 `@chrome`。不要改用其他浏览器后端。
 8. 打开平台 URL，寻找 submit、add、list、post、suggest 或类似入口。
-9. 如果平台出现 Google 账号选择器，默认选择第一个可见的个人 Google 账号继续。只有无法判断是否为个人账号、要求额外敏感权限或没有 Google 登录选项时才停止。
+9. 如果平台出现 Google 账号选择器，默认选择第一个可见的个人 Google 账号继续。如果无法判断是否为个人账号、要求额外敏感权限或没有 Google 登录选项，按失败处理规则更新当前队列项，然后停止本轮任务让用户接手。
 10. 如果表单需要生成文案，按 `references/content-subagent-prompt.md` 启动 fresh subagent。
 11. 使用项目资料、公开提交信息、生成文案、项目 URL、logo 和截图填写表单。
 12. 免费 listing 表单的必填字段填完后直接提交。
 13. 页面出现成功状态、成功提示或可用 listing URL 后，把该项标记为 `submitted`，并把 `result_url` 设为 listing URL 或当前页面 URL。
-14. 如果触发停止条件，把该项标记为 `needs_user` 或 `failed`，把原因写入 `error`，并停止本轮任务。
-15. 当前 batch 处理完后，报告本批提交、跳过、失败和需要用户处理的数量；除非用户明确要求继续，不要自动进入下一个 batch。
+14. 如果当前平台无法继续提交，把该项标记为 `needs_user` 或 `failed`，把原因写入 `error`，保留可接手的 Chrome 标签页，然后停止处理后续队列项。
+15. 只有当前 batch 没有触发停止条件且全部处理完后，才报告本批提交、跳过、失败和需要用户处理的数量；除非用户明确要求继续，不要自动进入下一个 batch。
 
 ## 状态更新规则
 
@@ -77,4 +77,6 @@ python3 skills/backlink-publisher/scripts/validate_backlinks_json.py <queue-json
 
 ## 停止规则
 
-如果页面要求 CAPTCHA、付费、浏览器权限、私密个人信息、用户未授权的非 Google 登录，或任何超出免费公开项目 listing 提交范围的动作，立即停止并报告给用户。通过 Google 登录或继续创建免费 listing 账号是允许的，但只能使用第一个可见的个人 Google 账号，且不能授权敏感权限。
+如果页面要求 CAPTCHA、付费、浏览器权限、私密个人信息、用户未授权的非 Google 登录，或任何超出免费公开项目 listing 提交范围的动作，立即停止本轮任务并报告给用户。通过 Google 登录或继续创建免费 listing 账号是允许的，但只能使用第一个可见的个人 Google 账号，且不能授权敏感权限。
+
+停止时必须更新当前队列项：用户可以在 Chrome 中解决或继续流程的，设为 `needs_user`；平台明显不可提交的，设为 `failed`。两种状态都要写入 `last_attempt_at` 和简短 `error`。如果页面可由用户接手，保留当前 Chrome 标签页，不要清理或继续下一个 `pending` 项，直到用户明确要求继续、跳过或已处理。
