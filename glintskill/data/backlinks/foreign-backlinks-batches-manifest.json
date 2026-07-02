@@ -1,0 +1,77 @@
+{
+  "source_file": "/Users/test/Documents/GlintSkill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
+  "batch_size": 30,
+  "total_items": 237,
+  "total_batches": 8,
+  "batches": [
+    {
+      "batch": 1,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-001.json",
+      "item_count": 30,
+      "first_id": "01webdirectory",
+      "last_id": "aitoolmall",
+      "status": "processed"
+    },
+    {
+      "batch": 2,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-002.json",
+      "item_count": 30,
+      "first_id": "aitoolnavigation",
+      "last_id": "broadwise-org",
+      "status": "pending"
+    },
+    {
+      "batch": 3,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-003.json",
+      "item_count": 30,
+      "first_id": "bufferapps",
+      "last_id": "item-120711f",
+      "status": "pending"
+    },
+    {
+      "batch": 4,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-004.json",
+      "item_count": 30,
+      "first_id": "foundr-ai",
+      "last_id": "killerstartups",
+      "status": "pending"
+    },
+    {
+      "batch": 5,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-005.json",
+      "item_count": 30,
+      "first_id": "launched",
+      "last_id": "read-cv",
+      "status": "pending"
+    },
+    {
+      "batch": 6,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-006.json",
+      "item_count": 30,
+      "first_id": "item-6egbmr",
+      "last_id": "item-1nsai32",
+      "status": "pending"
+    },
+    {
+      "batch": 7,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-007.json",
+      "item_count": 30,
+      "first_id": "thetoolbus-ai",
+      "last_id": "webwiki",
+      "status": "pending"
+    },
+    {
+      "batch": 8,
+      "file": "/Users/test/Documents/GlintSkill/data/backlinks/batches/batch-008.json",
+      "item_count": 27,
+      "first_id": "wewaat",
+      "last_id": "dev-pages",
+      "status": "pending"
+    }
+  ],
+  "source_files": [
+    "/Users/test/Documents/GlintSkill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
+    "/Users/test/Documents/GlintSkill/data/backlinks/free-backlinks.json"
+  ],
+  "source_note": "Batches 1-8 include the original foreign backlink candidates plus legacy free-backlinks items appended to batch-008."
+}

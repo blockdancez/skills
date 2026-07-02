@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "default_login_method": "google",
+  "requires_logged_in_chrome": true,
+  "submit_policy": "auto_submit_free_listings",
+  "source_batch": "data/backlinks/batches/batch-001.json",
+  "export_filter": {
+    "status": "submitted"
+  },
+  "exported_at": "2026-07-02T02:50:56Z",
+  "item_count": 3,
+  "project": {
+    "name": "GlyPho",
+    "url": "https://glypho.app",
+    "profile_slug": "glypho-editable-svg-generator-for-product-teams"
+  },
+  "items": [
+    {
+      "id": "asr",
+      "platform_name": "ASR",
+      "url": "https://www.activesearchresults.com/addwebsite.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=needs_review; root_domain=activesearchresults.com; submit_url_extracted",
+      "last_attempt_at": "2026-07-01T11:05:54Z",
+      "result_url": "https://www.activesearchresults.com/urladdedconfirm.php",
+      "error": null
+    },
+    {
+      "id": "aifindy",
+      "platform_name": "AIFINDY",
+      "url": "https://aifindy.com/contacto/publica-tu-ia-en-aifindy",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=aifindy.com; needs_discovery",
+      "last_attempt_at": "2026-07-01T11:14:26Z",
+      "result_url": "https://aifindy.com/contacto/publica-tu-ia-en-aifindy",
+      "error": null
+    },
+    {
+      "id": "ailib",
+      "platform_name": "AILib",
+      "url": "https://ailib.ru/en/add-ai/",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=ailib.ru; submit_url_extracted",
+      "last_attempt_at": "2026-07-01T11:18:07Z",
+      "result_url": "https://ailib.ru/en/add-ai/free/",
+      "error": null
+    }
+  ]
+}

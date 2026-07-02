@@ -1,7 +1,17 @@
 # Generated project profile folders
 /glypho-ai-svg-generator/
+/glypho-editable-svg-generator-for-product-teams/
 /publish-html-markdown-online-previewship/
 /videoreplicate-extract-ai-prompts-from-videos/
+
+# Local submission info
+/public-submission-info.md
+
+# Local generated outputs
+/outputs/
+
+# macOS metadata
+.DS_Store
 
 # Local packaging cache
 skills/project-profile-capture/.build/
