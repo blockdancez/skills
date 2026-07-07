@@ -60,8 +60,9 @@ python3 skills/backlink-publisher/scripts/validate_backlinks_json.py <queue-json
 11. 使用项目资料、公开提交信息、生成文案、项目 URL、logo 和截图填写表单。
 12. 免费 listing 表单的必填字段填完后直接提交。
 13. 页面出现成功状态、成功提示或可用 listing URL 后，把该项标记为 `submitted`，并把 `result_url` 设为 listing URL 或当前页面 URL。
-14. 如果当前平台无法继续提交，把该项标记为 `needs_user` 或 `failed`，把原因写入 `error`，保留可接手的 Chrome 标签页，然后停止处理后续队列项。
-15. 只有当前 batch 没有触发停止条件且全部处理完后，才报告本批提交、跳过、失败和需要用户处理的数量；除非用户明确要求继续，不要自动进入下一个 batch。
+14. 如果当前平台不符合项目要求，例如只收 boilerplate、template、deal、特定集成或其他与当前项目事实不匹配的 listing，把该项标记为 `skipped`，写入 `last_attempt_at` 和简短 `error`，然后继续处理当前 batch 的下一个 `pending` 队列项。
+15. 如果当前平台无法继续提交且需要用户接手或属于真正失败，把该项标记为 `needs_user` 或 `failed`，把原因写入 `error`。只有 `needs_user` 或 `failed` 触发停止；如果页面可由用户接手，保留当前 Chrome 标签页。
+16. 只有当前 batch 没有触发停止条件且全部处理完后，才报告本批提交、跳过、失败和需要用户处理的数量；除非用户明确要求继续，不要自动进入下一个 batch。
 
 ## 状态更新规则
 
@@ -74,9 +75,13 @@ python3 skills/backlink-publisher/scripts/validate_backlinks_json.py <queue-json
 - manifest 只作为批次索引；如果本轮是通过 manifest 选中的 batch，处理结束后同步对应 batch 的 `item_count`、`first_id`、`last_id` 和 `status`。没有 `pending` / `in_progress` 项时，把 manifest 中该 batch 标记为 `processed`；仍有待处理项时保持或设为 `pending`。
 - `last_attempt_at` 使用 ISO 8601 时间戳。
 - 提交成功时保持 `error: null`。
+- 如果平台定位、分类或硬性要求与当前项目事实不匹配，设为 `status: "skipped"`，写入 `last_attempt_at` 和简短 `error`，然后继续当前 batch 的下一个 `pending` 项。
+- 运行中把当前项设为 `skipped` 后，不要停止本轮任务；继续处理当前 batch 的下一个 `pending` 项。
 
 ## 停止规则
 
 如果页面要求 CAPTCHA、付费、浏览器权限、私密个人信息、用户未授权的非 Google 登录，或任何超出免费公开项目 listing 提交范围的动作，立即停止本轮任务并报告给用户。通过 Google 登录或继续创建免费 listing 账号是允许的，但只能使用第一个可见的个人 Google 账号，且不能授权敏感权限。
 
-停止时必须更新当前队列项：用户可以在 Chrome 中解决或继续流程的，设为 `needs_user`；平台明显不可提交的，设为 `failed`。两种状态都要写入 `last_attempt_at` 和简短 `error`。如果页面可由用户接手，保留当前 Chrome 标签页，不要清理或继续下一个 `pending` 项，直到用户明确要求继续、跳过或已处理。
+平台不符合当前项目要求但不需要用户接手时，设为 `skipped`，写入 `last_attempt_at` 和简短 `error`，然后继续当前 batch 的下一个 `pending` 项。
+
+停止时必须更新当前队列项：用户可以在 Chrome 中解决或继续流程的，设为 `needs_user`；平台明显不可提交且不是项目不匹配跳过场景的，设为 `failed`。两种状态都要写入 `last_attempt_at` 和简短 `error`。如果页面可由用户接手，保留当前 Chrome 标签页，不要清理或继续下一个 `pending` 项，直到用户明确要求继续、跳过或已处理。

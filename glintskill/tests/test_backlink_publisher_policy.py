@@ -13,18 +13,19 @@ CONTENT_PROMPT_PATH = (
 
 
 class BacklinkPublisherPolicyTests(unittest.TestCase):
-    def test_failure_policy_records_reason_and_stops_current_batch(self):
+    def test_failure_policy_records_reason_and_continues_on_skipped(self):
         policy = FAILURE_POLICY_PATH.read_text(encoding="utf-8")
         skill = SKILL_PATH.read_text(encoding="utf-8")
         content_prompt = CONTENT_PROMPT_PATH.read_text(encoding="utf-8")
         combined = f"{policy}\n{skill}\n{content_prompt}"
 
         self.assertIn("把 `error` 设置为一句简短原因", policy)
+        self.assertIn("`skipped` 不停止", policy)
+        self.assertIn("继续处理当前 batch 中的下一个 `pending` 队列项", policy)
+        self.assertIn("运行中把当前项设为 `skipped` 后，不要停止本轮任务", skill)
         self.assertIn("停止处理后续队列项", policy)
         self.assertIn("保留当前 Chrome 标签页", policy)
         self.assertIn("停止本轮任务", combined)
-        self.assertNotIn("继续处理当前 batch 中的下一个 `pending` 队列项", combined)
-        self.assertNotIn("然后继续下一个队列项", combined)
 
 
 if __name__ == "__main__":
