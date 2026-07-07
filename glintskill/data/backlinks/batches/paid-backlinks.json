@@ -21,8 +21,8 @@
     ],
     "source_status": "failed"
   },
-  "exported_at": "2026-07-07T09:56:23Z",
-  "item_count": 15,
+  "exported_at": "2026-07-07T10:06:15Z",
+  "item_count": 16,
   "items": [
     {
       "id": "01webdirectory",
@@ -287,6 +287,28 @@
       "paid": true,
       "minimum_price": "$12.95",
       "minimum_price_amount": 12.95,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, 1 year",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "item-xfkd3j",
+      "platform_name": "Canada Web Dir",
+      "url": "https://www.canadawebdir.com/",
+      "free": true,
+      "status": "needs_user",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=canadawebdir.com; needs_discovery",
+      "last_attempt_at": "2026-07-07T10:06:15Z",
+      "result_url": "https://www.canadawebdir.com/submit.php",
+      "error": "Optional featured link costs $7.99 for 1 year; free regular form is filled but CAPTCHA confirmation is still required.",
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$7.99",
+      "minimum_price_amount": 7.99,
       "minimum_price_currency": "USD",
       "price_basis": "featured link, 1 year",
       "free_option_available": true,
