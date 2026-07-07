@@ -5,42 +5,6 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "bufferapps",
-      "platform_name": "BufferApps",
-      "url": "https://bufferapps.com/beta-listing/new",
-      "free": true,
-      "status": "in_progress",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=bufferapps.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-07T09:59:51Z",
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "business-software-com",
-      "platform_name": "business-software.com",
-      "url": "https://www.business-software.com/add-your-product/",
-      "free": true,
-      "status": "needs_user",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=business-software.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:06:51.778133Z",
-      "result_url": "https://www.business-software.com/add-your-product/",
-      "error": "Form partially filled but requires public company name and CAPTCHA code"
-    },
-    {
-      "id": "businessseek-biz",
-      "platform_name": "BusinessSeek.biz",
-      "url": "https://www.businessseek.biz/page.php?page=submission-policy",
-      "free": true,
-      "status": "needs_user",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=businessseek.biz; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:09:36.063324Z",
-      "result_url": "https://www.businessseek.biz/link_submit.php",
-      "error": "Free listing form filled but requires user-created 12-character listing password before submission"
-    },
-    {
       "id": "item-xfkd3j",
       "platform_name": "Canada Web Dir",
       "url": "https://www.canadawebdir.com/",
@@ -48,9 +12,9 @@
       "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=canadawebdir.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T05:12:48.719387Z",
+      "last_attempt_at": "2026-07-07T10:06:15Z",
       "result_url": "https://www.canadawebdir.com/submit.php",
-      "error": "Form filled but requires visual confirmation security code before submission"
+      "error": "Form filled; CAPTCHA confirmation required before agent solve and submit"
     },
     {
       "id": "canadiandirectory-org",

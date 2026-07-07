@@ -1,7 +1,7 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 30,
-  "total_items": 112,
+  "total_items": 109,
   "total_batches": 8,
   "batches": [
     {
@@ -23,8 +23,8 @@
     {
       "batch": 3,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-003.json",
-      "item_count": 13,
-      "first_id": "bufferapps",
+      "item_count": 10,
+      "first_id": "item-xfkd3j",
       "last_id": "item-120711f",
       "status": "pending"
     },
