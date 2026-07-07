@@ -9,12 +9,12 @@
       "platform_name": "BufferApps",
       "url": "https://bufferapps.com/beta-listing/new",
       "free": true,
-      "status": "needs_user",
+      "status": "in_progress",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=bufferapps.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:06:10.207168Z",
-      "result_url": "https://bufferapps.com/beta-listing/new",
-      "error": "Form filled but Next does not advance; page shows sign-in panel and Google sign-in does not open OAuth"
+      "last_attempt_at": "2026-07-07T09:59:51Z",
+      "result_url": null,
+      "error": null
     },
     {
       "id": "business-software-com",
@@ -77,18 +77,6 @@
       "error": "Only visible submission path is mailto; Google sign-up subscribes to newsletter and no listing form is visible"
     },
     {
-      "id": "chatgptdemo-pro",
-      "platform_name": "ChatGPTDemo.pro",
-      "url": "https://chatgptdemo.pro/submit-tool/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=chatgptdemo.pro; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:16:51.552787Z",
-      "result_url": "https://chatgptdemo.pro/submit-tool/",
-      "error": "Submit page could not be opened in Chrome: ERR_CONNECTION_CLOSED"
-    },
-    {
       "id": "cipinet",
       "platform_name": "Cipinet",
       "url": "https://www.cipinet.com/submit.php",
@@ -99,18 +87,6 @@
       "last_attempt_at": "2026-07-02T05:19:01.416569Z",
       "result_url": "https://www.cipinet.com/suggest.php?action=addlink&filled=1",
       "error": "Form filled and submitted but reCAPTCHA rejected with invalid-input-response"
-    },
-    {
-      "id": "item-10lqp4b",
-      "platform_name": "Daily Tech AI",
-      "url": "https://www.dailytech.ai/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=dailytech.ai; needs_discovery",
-      "last_attempt_at": "2026-07-02T05:20:07.935338Z",
-      "result_url": "https://www.dailytech.ai/",
-      "error": "No visible free submission or tool listing form; add button is for social links"
     },
     {
       "id": "dang-ai",
@@ -125,18 +101,6 @@
       "error": "Submit flow requires email magic-link sign-in before pricing/listing management; no free public form is visible"
     },
     {
-      "id": "designrush",
-      "platform_name": "DesignRush",
-      "url": "https://www.designrush.com/submit/agency",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=designrush.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:21:47.961030Z",
-      "result_url": "https://www.designrush.com/submit/agency",
-      "error": "Agency-only submission requires phone and account password; PreviewShip public profile is a product, not an agency"
-    },
-    {
       "id": "item-qiuwql",
       "platform_name": "Dig a Business",
       "url": "https://www.digabusiness.com/",
@@ -149,18 +113,6 @@
       "error": "Form filled but requires manual category selection and visual confirmation security code"
     },
     {
-      "id": "digiprotoolz",
-      "platform_name": "DigiProToolz",
-      "url": "https://digiprotoolz.com/contact-us/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=digiprotoolz.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T05:26:02.664591Z",
-      "result_url": "https://digiprotoolz.com/contact-us/",
-      "error": "Contact page could not be opened in Chrome: ERR_CONNECTION_CLOSED"
-    },
-    {
       "id": "item-11m2awp",
       "platform_name": "Free Directory",
       "url": "https://www.directory-free.com/submit/submit.php",
@@ -171,30 +123,6 @@
       "last_attempt_at": "2026-07-02T05:28:58.495940Z",
       "result_url": "https://www.directory-free.com/submit/add.php",
       "error": "Regular submission form filled but requires verification code before Add URL"
-    },
-    {
-      "id": "dockhunt",
-      "platform_name": "Dockhunt",
-      "url": "https://www.dockhunt.com/add-dock",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=dockhunt.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:32:13.880173Z",
-      "result_url": "https://www.dockhunt.com/add-dock",
-      "error": "Add-dock page uploads the user macOS Dock via desktop app/CLI, not a product listing submission"
-    },
-    {
-      "id": "domaining-in",
-      "platform_name": "Domaining.in",
-      "url": "http://domaining.in/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=domaining.in; needs_discovery",
-      "last_attempt_at": "2026-07-02T05:32:42.843026Z",
-      "result_url": "http://domaining.in/",
-      "error": "Site could not be opened in Chrome: ERR_BLOCKED_BY_CLIENT"
     },
     {
       "id": "dropyourai",
@@ -219,18 +147,6 @@
       "last_attempt_at": "2026-07-02T05:38:36.306619Z",
       "result_url": "https://every-ai.com/submit-tool/",
       "error": "Chrome automation timed out while opening the submit page; needs manual retry"
-    },
-    {
-      "id": "fiddy",
-      "platform_name": "Fiddy",
-      "url": "https://fiddy.co/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=fiddy.co; needs_discovery",
-      "last_attempt_at": "2026-07-02T05:45:58.336253Z",
-      "result_url": null,
-      "error": "Chrome could not open site: net::ERR_CONNECTION_CLOSED."
     },
     {
       "id": "item-120711f",

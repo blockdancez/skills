@@ -21,8 +21,8 @@
     ],
     "source_status": "failed"
   },
-  "exported_at": "2026-07-02T07:16:55Z",
-  "item_count": 12,
+  "exported_at": "2026-07-07T09:56:23Z",
+  "item_count": 15,
   "items": [
     {
       "id": "01webdirectory",
@@ -224,6 +224,72 @@
       "error": "Free submissions are suspended; page points to paid submission plans.",
       "source_batch": "data/backlinks/batches/batch-007.json",
       "paid": true,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "247webdirectory-com",
+      "platform_name": "247WebDirectory.com",
+      "url": "https://www.247webdirectory.com/submit.aspx",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "Free submission option is available, but the form also offers optional paid expedited review.",
+      "last_attempt_at": "2026-07-07T07:33:58Z",
+      "result_url": null,
+      "error": "Optional expedited review costs $39.99 lifetime; free review remains available but requires manual captcha/code entry.",
+      "source_batch": "data/backlinks/batches/batch-001.json",
+      "paid": true,
+      "minimum_price": "$39.99",
+      "minimum_price_amount": 39.99,
+      "minimum_price_currency": "USD",
+      "price_basis": "optional expedited review",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "9sites-net",
+      "platform_name": "9Sites.net",
+      "url": "https://www.9sites.net/addurl.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "Regular Links free option was submitted, and the form also offers optional Premium Links.",
+      "last_attempt_at": "2026-07-07T07:56:21Z",
+      "result_url": "https://www.9sites.net/submit.php",
+      "error": "Optional premium link costs $15.95 one-time fee; free regular submission was submitted.",
+      "source_batch": "data/backlinks/batches/batch-001.json",
+      "paid": true,
+      "minimum_price": "$15.95",
+      "minimum_price_amount": 15.95,
+      "minimum_price_currency": "USD",
+      "price_basis": "optional premium link, one-time fee",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "item-1dup8kh",
+      "platform_name": "Australia Web Directory",
+      "url": "https://www.australiawebdirectory.net/submit.php",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=australiawebdirectory.net; submit_url_extracted",
+      "last_attempt_at": "2026-07-07T09:56:23Z",
+      "result_url": "https://www.australiawebdirectory.net/submit.php",
+      "error": "Featured link costs $12.95 for 1 year; user marked this backlink as paid after captcha retry failed.",
+      "source_batch": "data/backlinks/batches/batch-002.json",
+      "paid": true,
+      "minimum_price": "$12.95",
+      "minimum_price_amount": 12.95,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, 1 year",
+      "free_option_available": true,
       "removal_categories": [
         "paid"
       ]

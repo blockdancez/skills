@@ -89,18 +89,6 @@
       "error": "Cloudflare robot verification blocks the review page in Chrome; user must verify before any submission decision."
     },
     {
-      "id": "gate2ai",
-      "platform_name": "Gate2AI",
-      "url": "https://www.gate2ai.com/zh-cn/submit-tool",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=gate2ai.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T05:58:32.983Z",
-      "result_url": "https://www.gate2ai.com/zh-cn/submit-tool",
-      "error": "Chrome could not open submit page: net::ERR_CONNECTION_CLOSED."
-    },
-    {
       "id": "item-9nyg4c",
       "platform_name": "GMA Web Directory",
       "url": "https://www.gmawebdirectory.com/submit.php",
@@ -111,18 +99,6 @@
       "last_attempt_at": "2026-07-02T05:58:39.089Z",
       "result_url": "https://www.gmawebdirectory.com/submit.php",
       "error": "Free regular-link form is available; manual CAPTCHA and final submit required."
-    },
-    {
-      "id": "item-1lzwlsi",
-      "platform_name": "GPT-3 Demo",
-      "url": "https://gpt3demo.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=gpt3demo.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:01:55.561Z",
-      "result_url": "https://gpt3demo.com/",
-      "error": "No clear public product submission flow found; visible Request app entry is not a listing submission form."
     },
     {
       "id": "gptforge",
@@ -137,18 +113,6 @@
       "error": "Google Form is visible but input controls are not exposed to automation; manually enter PreviewShip and https://previewship.com."
     },
     {
-      "id": "highrankdirectory-com",
-      "platform_name": "Highrankdirectory.com",
-      "url": "https://www.highrankdirectory.com/submit.php",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=highrankdirectory.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:02:26.641Z",
-      "result_url": "https://www.highrankdirectory.com/submit.php",
-      "error": "Submit page navigation timed out and could not be reliably opened."
-    },
-    {
       "id": "item-tohobt",
       "platform_name": "Human or Not",
       "url": "https://www.humanornot.co/submit-tool",
@@ -159,18 +123,6 @@
       "last_attempt_at": "2026-07-02T06:01:07.440Z",
       "result_url": "https://www.humanornot.co/submit-tool",
       "error": "Free email+URL form is visible, but required controls are not exposed to automation; manual submit required."
-    },
-    {
-      "id": "indiecorn",
-      "platform_name": "Indiecorn",
-      "url": "https://www.indiecorn.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=indiecorn.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:03:46.101Z",
-      "result_url": "https://www.indiecorn.com/",
-      "error": "Chrome could not open site: net::ERR_CONNECTION_CLOSED."
     },
     {
       "id": "info-listings",
@@ -209,18 +161,6 @@
       "error": "Free basic listing form requires public first and last name, but public-submission-info.md only has one contact name."
     },
     {
-      "id": "itworldcanada-com",
-      "platform_name": "itworldcanada.com/ai",
-      "url": "https://www.itworldcanada.com/ai/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=itworldcanada.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:06:55.869Z",
-      "result_url": "https://www.itworldcanada.com/ai/",
-      "error": "Cloudflare blocks access to the AI page; no submission path can be reached."
-    },
-    {
       "id": "jayde",
       "platform_name": "Jayde",
       "url": "https://www.jayde.com/submit.html",
@@ -231,30 +171,6 @@
       "last_attempt_at": "2026-07-02T06:06:44.993Z",
       "result_url": "https://www.jayde.com/submit.html",
       "error": "Submit page is blocked by mailing-list modal; controls are not exposed to automation and manual close is required."
-    },
-    {
-      "id": "joinly",
-      "platform_name": "Joinly",
-      "url": "https://www.joinly.xyz/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=joinly.xyz; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:06:55.870Z",
-      "result_url": "https://www.joinly.xyz/",
-      "error": "No public startup submission link or form is visible; only newsletter signup is exposed."
-    },
-    {
-      "id": "killerstartups",
-      "platform_name": "KillerStartups",
-      "url": "https://www.killerstartups.com/submit-startup/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=killerstartups.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:07:37.458Z",
-      "result_url": "https://killerstartups.com/submit-startup/",
-      "error": "Submit page says a form should appear, but no form, input, button, or iframe is loaded after retries."
     }
   ]
 }

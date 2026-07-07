@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "default_login_method": "google",
+  "requires_logged_in_chrome": true,
+  "submit_policy": "auto_submit_free_listings",
+  "items": [
+    {
+      "id": "9sites-net",
+      "platform_name": "9Sites.net",
+      "url": "https://www.9sites.net/addurl.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=batch-001; category=web_directory; root_domain=9sites.net; free regular submission submitted; optional premium link available for $15.95 one-time fee",
+      "last_attempt_at": "2026-07-07T07:56:21Z",
+      "result_url": "https://www.9sites.net/submit.php",
+      "error": null
+    },
+    {
+      "id": "item-1kw20lt",
+      "platform_name": "All States USA Directory",
+      "url": "https://www.allstatesusadirectory.com/submit.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=batch-002; category=web_directory; root_domain=allstatesusadirectory.com; free regular link submitted; review usually takes 8-10 weeks",
+      "last_attempt_at": "2026-07-07T09:03:34Z",
+      "result_url": "https://www.allstatesusadirectory.com/submit.php",
+      "error": null
+    },
+    {
+      "id": "item-x9sn0z",
+      "platform_name": "App Rater",
+      "url": "https://apprater.net/add/",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=batch-002; category=needs_review; root_domain=apprater.net; free product review form submitted",
+      "last_attempt_at": "2026-07-07T09:18:54Z",
+      "result_url": "https://apprater.net/add/",
+      "error": null
+    }
+  ]
+}

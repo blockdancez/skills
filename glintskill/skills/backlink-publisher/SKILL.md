@@ -57,12 +57,13 @@ python3 skills/backlink-publisher/scripts/validate_backlinks_json.py <queue-json
 8. 打开平台 URL，寻找 submit、add、list、post、suggest 或类似入口。
 9. 如果平台出现 Google 账号选择器，默认选择第一个可见的个人 Google 账号继续。如果无法判断是否为个人账号、要求额外敏感权限或没有 Google 登录选项，按失败处理规则更新当前队列项，然后停止本轮任务让用户接手。
 10. 如果表单需要生成文案，按 `references/content-subagent-prompt.md` 启动 fresh subagent。
-11. 使用项目资料、公开提交信息、生成文案、项目 URL、logo 和截图填写表单。
-12. 免费 listing 表单的必填字段填完后直接提交。
-13. 页面出现成功状态、成功提示或可用 listing URL 后，把该项标记为 `submitted`，并把 `result_url` 设为 listing URL 或当前页面 URL。
-14. 如果当前平台不符合项目要求，例如只收 boilerplate、template、deal、特定集成或其他与当前项目事实不匹配的 listing，把该项标记为 `skipped`，写入 `last_attempt_at` 和简短 `error`，然后继续处理当前 batch 的下一个 `pending` 队列项。
-15. 如果当前平台无法继续提交且需要用户接手或属于真正失败，把该项标记为 `needs_user` 或 `failed`，把原因写入 `error`。只有 `needs_user` 或 `failed` 触发停止；如果页面可由用户接手，保留当前 Chrome 标签页。
-16. 只有当前 batch 没有触发停止条件且全部处理完后，才报告本批提交、跳过、失败和需要用户处理的数量；除非用户明确要求继续，不要自动进入下一个 batch。
+11. 使用项目资料、公开提交信息、生成文案、项目 URL、logo 和截图填写表单；能从资料中确定的必填和可选字段都尽可能帮用户填完整，不要只填最低必填字段。
+12. 如果表单出现验证码或机器人验证，先按用户授权尽可能帮用户代填或完成验证。只有验证码不可读、无法自动完成、需要外部设备/账号确认或需要用户人工判断时，才按失败策略设为 `needs_user` 并保留标签页。
+13. 免费 listing 表单的必填字段填完后直接提交。用户明确补充授权：“下次你填写完毕内容就自己提交”；因此不要在字段已填完、且没有新的 CAPTCHA / 付费 / 权限 / 私密信息等停止条件时停下来等用户点击最终提交。
+14. 页面出现成功状态、成功提示或可用 listing URL 后，把该项标记为 `submitted`，并把 `result_url` 设为 listing URL 或当前页面 URL。
+15. 如果当前平台不符合项目要求，例如只收 boilerplate、template、deal、特定集成或其他与当前项目事实不匹配的 listing，把该项标记为 `skipped`，写入 `last_attempt_at` 和简短 `error`，然后继续处理当前 batch 的下一个 `pending` 队列项。
+16. 如果当前平台无法继续提交且需要用户接手或属于真正失败，把该项标记为 `needs_user` 或 `failed`，把原因写入 `error`。只有 `needs_user` 或 `failed` 触发停止；如果页面可由用户接手，保留当前 Chrome 标签页。
+17. 只有当前 batch 没有触发停止条件且全部处理完后，才报告本批提交、跳过、失败和需要用户处理的数量；除非用户明确要求继续，不要自动进入下一个 batch。
 
 ## 状态更新规则
 
@@ -77,10 +78,13 @@ python3 skills/backlink-publisher/scripts/validate_backlinks_json.py <queue-json
 - 提交成功时保持 `error: null`。
 - 如果平台定位、分类或硬性要求与当前项目事实不匹配，设为 `status: "skipped"`，写入 `last_attempt_at` 和简短 `error`，然后继续当前 batch 的下一个 `pending` 项。
 - 运行中把当前项设为 `skipped` 后，不要停止本轮任务；继续处理当前 batch 的下一个 `pending` 项。
+- 只有验证码无法代填或需要用户人工处理时，才把当前项设为 `needs_user`；如果验证码已完成，继续提交当前表单。
 
 ## 停止规则
 
-如果页面要求 CAPTCHA、付费、浏览器权限、私密个人信息、用户未授权的非 Google 登录，或任何超出免费公开项目 listing 提交范围的动作，立即停止本轮任务并报告给用户。通过 Google 登录或继续创建免费 listing 账号是允许的，但只能使用第一个可见的个人 Google 账号，且不能授权敏感权限。
+如果页面要求付费、浏览器权限、私密个人信息、用户未授权的非 Google 登录，或任何超出免费公开项目 listing 提交范围的动作，立即停止本轮任务并报告给用户。通过 Google 登录或继续创建免费 listing 账号是允许的，但只能使用第一个可见的个人 Google 账号，且不能授权敏感权限。
+
+验证码不是默认停止条件。遇到 CAPTCHA、验证码或机器人验证时，先尽可能帮用户代填或完成；只有无法自动完成、不可读、需要外部设备/账号确认或需要用户人工判断时，才停止并设为 `needs_user`。
 
 平台不符合当前项目要求但不需要用户接手时，设为 `skipped`，写入 `last_attempt_at` 和简短 `error`，然后继续当前 batch 的下一个 `pending` 项。
 

@@ -1,72 +1,72 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 30,
-  "total_items": 182,
+  "total_items": 112,
   "total_batches": 8,
   "batches": [
     {
       "batch": 1,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-001.json",
-      "item_count": 17,
+      "item_count": 6,
       "first_id": "10words",
-      "last_id": "aitoolmall",
+      "last_id": "ailib",
       "status": "processed"
     },
     {
       "batch": 2,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-002.json",
-      "item_count": 25,
-      "first_id": "aitoolsdirectory",
-      "last_id": "broadwise-org",
+      "item_count": 6,
+      "first_id": "aitoolslist-io",
+      "last_id": "item-1l80dxe",
       "status": "processed"
     },
     {
       "batch": 3,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-003.json",
-      "item_count": 20,
+      "item_count": 13,
       "first_id": "bufferapps",
       "last_id": "item-120711f",
-      "status": "processed"
+      "status": "pending"
     },
     {
       "batch": 4,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-004.json",
-      "item_count": 21,
+      "item_count": 14,
       "first_id": "foundr-ai",
-      "last_id": "killerstartups",
+      "last_id": "jayde",
       "status": "processed"
     },
     {
       "batch": 5,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-005.json",
-      "item_count": 29,
-      "first_id": "item-pej5yo",
-      "last_id": "read-cv",
+      "item_count": 20,
+      "first_id": "item-1an50mc",
+      "last_id": "item-15i6ejz",
       "status": "processed"
     },
     {
       "batch": 6,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-006.json",
-      "item_count": 23,
+      "item_count": 18,
       "first_id": "item-6egbmr",
-      "last_id": "item-u2n996",
+      "last_id": "item-ys92ii",
       "status": "processed"
     },
     {
       "batch": 7,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-007.json",
-      "item_count": 20,
+      "item_count": 14,
       "first_id": "thetoolbus-ai",
-      "last_id": "webwiki",
+      "last_id": "websitehunt",
       "status": "processed"
     },
     {
       "batch": 8,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-008.json",
-      "item_count": 27,
-      "first_id": "wewaat",
+      "item_count": 21,
+      "first_id": "whatlaunched-today",
       "last_id": "dev-pages",
-      "status": "pending"
+      "status": "processed"
     }
   ],
   "source_files": [

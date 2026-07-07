@@ -29,18 +29,6 @@
       "error": "Cloudflare/security challenge blocks automated submission; manual browser completion required"
     },
     {
-      "id": "item-usx6nt",
-      "platform_name": "Simple Lister",
-      "url": "https://simplelister.com/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=simplelister.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:34:03.943228Z",
-      "result_url": "https://simplelister.com/",
-      "error": "Simple Lister page exposes no submission form or submit path"
-    },
-    {
       "id": "sitelike",
       "platform_name": "Sitelike",
       "url": "https://www.sitelike.org/add-site",
@@ -75,18 +63,6 @@
       "last_attempt_at": "2026-07-02T06:34:03.943228Z",
       "result_url": "https://www.siteswebdirectory.com/submit.php?c=2506&LINK_TYPE=2",
       "error": "Free submission form requires math anti-spam verification; manual completion required"
-    },
-    {
-      "id": "skoobe-biz",
-      "platform_name": "Skoobe.biz",
-      "url": "https://www.skoobe.biz/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=skoobe.biz; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:34:03.943228Z",
-      "result_url": "https://www.skoobe.biz/",
-      "error": "No submit/listing form found; site only exposes search and contact pages"
     },
     {
       "id": "item-142qd07",
@@ -161,18 +137,6 @@
       "error": "Launch flow requires email OTP login before product submission"
     },
     {
-      "id": "item-1nmic6q",
-      "platform_name": "Startup Collections",
-      "url": "https://startupcollections.com/submit-product/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=startupcollections.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:34:03.943228Z",
-      "result_url": "https://startupcollections.com/submit-product/",
-      "error": "Submit Product page exposes no usable product submission form; only newsletter/search forms found"
-    },
-    {
       "id": "startupranking",
       "platform_name": "StartupRanking",
       "url": "https://www.startupranking.com/",
@@ -183,18 +147,6 @@
       "last_attempt_at": "2026-07-02T06:34:03.943228Z",
       "result_url": "https://www.startupranking.com/login",
       "error": "StartupRanking requires login/security-gated account flow before adding startup"
-    },
-    {
-      "id": "item-3pjv0y",
-      "platform_name": "Startup Stash",
-      "url": "https://startupstash.com/add-listing/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=startupstash.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:34:03.943228Z",
-      "result_url": "https://startupstash.com/add-listing/",
-      "error": "Startup Stash add-listing page exposes only newsletter subscription form, not a product listing form"
     },
     {
       "id": "stork",
@@ -267,18 +219,6 @@
       "last_attempt_at": "2026-07-02T06:32:26.398Z",
       "result_url": "https://www.textlinkdirectory.com/index.php?go=success",
       "error": null
-    },
-    {
-      "id": "item-u2n996",
-      "platform_name": "Thales Directory",
-      "url": "https://thalesdirectory.com/submit/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=thalesdirectory.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:34:03.943228Z",
-      "result_url": "https://thalesdirectory.com/submit/",
-      "error": "Submission page timed out during access attempt"
     }
   ]
 }

@@ -5,18 +5,6 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "item-pej5yo",
-      "platform_name": "Launching Today",
-      "url": "https://www.launching.today/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=launching.today; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://www.launching.today/",
-      "error": "Connection closed while opening submission site: net::ERR_CONNECTION_CLOSED"
-    },
-    {
       "id": "item-1an50mc",
       "platform_name": "Launching Next",
       "url": "https://www.launchingnext.com/submit/",
@@ -29,18 +17,6 @@
       "error": "Cloudflare/security challenge blocks automated submission; manual browser completion required"
     },
     {
-      "id": "localsites",
-      "platform_name": "Localsites",
-      "url": "http://www.localsites.ca/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=localsites.ca; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "http://www.localsites.ca/article/add-site-7.asp",
-      "error": "Add Website page exposes listing rules but no active submission form; form is disabled or absent"
-    },
-    {
       "id": "make-rs",
       "platform_name": "Make.rs",
       "url": "https://make.rs/",
@@ -51,18 +27,6 @@
       "last_attempt_at": "2026-07-02T06:23:21.180951Z",
       "result_url": "https://make.rs/",
       "error": "JavaScript app exposes no static submission form; manual inspection is required"
-    },
-    {
-      "id": "makerpeak",
-      "platform_name": "MakerPeak",
-      "url": "https://makerpeak.com/sign-up?redirect=/profile/products/submit",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=makerpeak.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://x.com/lockinmarv",
-      "error": "Submission URL redirects to X profile instead of a MakerPeak submit flow"
     },
     {
       "id": "item-ydq7c8",
@@ -99,54 +63,6 @@
       "last_attempt_at": "2026-07-02T06:23:21.180951Z",
       "result_url": "https://microlaunch.net/",
       "error": "Launch flow requires signup/login and CAPTCHA or premium flow; manual account required"
-    },
-    {
-      "id": "item-btbskf",
-      "platform_name": "Neil Patel AI Tools",
-      "url": "https://aitools.neilpatel.com/submit/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=neilpatel.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://app.neilpatel.com/en/apps-integrations",
-      "error": "Submit URL redirects to Ubersuggest Apps & Integrations; no AI tool submission form found"
-    },
-    {
-      "id": "nextgentools",
-      "platform_name": "NextGenTools",
-      "url": "https://nextgentools.me/submit-your-tool",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=nextgentools.me; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://nextgentools.me/submit-your-tool",
-      "error": "Submit page contains only search/navigation forms; no usable submission form found"
-    },
-    {
-      "id": "item-p8nlzj",
-      "platform_name": "Nextool AI",
-      "url": "https://www.nextool.ai/submit-a-tool",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=nextool.ai; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://nextool.ai/submit-a-tool",
-      "error": "Submit URL resolves to directory page; no submission form found"
-    },
-    {
-      "id": "item-6a1xdk",
-      "platform_name": "No Code Family",
-      "url": "https://nocodefamily.com/submit-tool",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=nocodefamily.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://toolacademy.ai/",
-      "error": "Submit URL redirects to Tool Academy home; no submission form found"
     },
     {
       "id": "oecd-ai",
@@ -245,18 +161,6 @@
       "error": "Not a fit: osalt.com accepts open-source alternatives; PreviewShip is not documented as open source"
     },
     {
-      "id": "paxi",
-      "platform_name": "Paxi",
-      "url": "https://paxi.ai/submit",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=paxi.ai; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://paxi.ai/submit",
-      "error": "Submit URL resolves to PAXI product page; no submission form found"
-    },
-    {
       "id": "payonceapps-com",
       "platform_name": "PayOnceApps.com",
       "url": "https://payonceapps.com/add-your-app/",
@@ -339,18 +243,6 @@
       "last_attempt_at": "2026-07-02T06:23:21.180951Z",
       "result_url": "https://www.qualityinternetdirectory.com/submit.php",
       "error": "Submit page requires login/register flow; manual account required"
-    },
-    {
-      "id": "read-cv",
-      "platform_name": "read.cv",
-      "url": "https://read.cv/",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=read.cv; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:23:21.180951Z",
-      "result_url": "https://read.cv/",
-      "error": "Site returns HTTP 402 DEPLOYMENT_DISABLED"
     }
   ]
 }
