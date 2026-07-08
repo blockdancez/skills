@@ -21,8 +21,8 @@
     ],
     "source_status": "failed"
   },
-  "exported_at": "2026-07-07T10:06:15Z",
-  "item_count": 16,
+  "exported_at": "2026-07-08T02:48:57.413Z",
+  "item_count": 25,
   "items": [
     {
       "id": "01webdirectory",
@@ -314,6 +314,203 @@
       "free_option_available": true,
       "removal_categories": [
         "paid"
+      ]
+    },
+    {
+      "id": "canadiandirectory-org",
+      "platform_name": "CanadianDirectory.org",
+      "url": "https://www.canadiandirectory.org/",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=canadiandirectory.org; needs_discovery; submitted as free regular link; title used: PreviewShip HTML and Markdown Hosting",
+      "last_attempt_at": "2026-07-08T02:37:21.858Z",
+      "result_url": "https://www.canadiandirectory.org/submit.php",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$8.99",
+      "minimum_price_amount": 8.99,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, 2 year listing",
+      "free_option_available": true
+    },
+    {
+      "id": "item-11m2awp",
+      "platform_name": "Free Directory",
+      "url": "https://www.directory-free.com/submit/submit.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=directory-free.com; submit_url_extracted; submitted as regular free listing in Internet/Web Hosting",
+      "last_attempt_at": "2026-07-08T02:44:41.778Z",
+      "result_url": "https://www.directory-free.com/submit/submitted.php",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$4.95",
+      "minimum_price_amount": 4.95,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured listing, one-time fee",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "dropyourai",
+      "platform_name": "DropYourAI",
+      "url": "https://www.dropyourai.com/submit-tool",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=dropyourai.com; submit_url_extracted; submitted as free tool listing with screenshot upload",
+      "last_attempt_at": "2026-07-08T03:28:39Z",
+      "result_url": "https://www.dropyourai.com/submit-tool",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$19.00",
+      "minimum_price_amount": 19,
+      "minimum_price_currency": "USD",
+      "price_basis": "paid listing promotion, 1 month",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "item-g68lpy",
+      "platform_name": "Free Internet Web Directory",
+      "url": "https://www.freeinternetwebdirectory.com/submit.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=freeinternetwebdirectory.com; submit_url_extracted; submitted as free regular link in Computers & Internet/Web Hosting",
+      "last_attempt_at": "2026-07-08T03:55:02Z",
+      "result_url": "https://www.freeinternetwebdirectory.com/submit.php",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$6.97",
+      "minimum_price_amount": 6.97,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, 1 year",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "item-1gywogn",
+      "platform_name": "Free PR Web Directory",
+      "url": "https://www.freeprwebdirectory.com/submit.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=freeprwebdirectory.com; submit_url_extracted; submitted as free regular link in Computers & Internet/Web Hosting",
+      "last_attempt_at": "2026-07-08T03:57:10Z",
+      "result_url": "https://www.freeprwebdirectory.com/submit.php",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$9.99",
+      "minimum_price_amount": 9.99,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, 1 year",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "gainweb-org",
+      "platform_name": "GainWeb.org",
+      "url": "https://gainweb.org/",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=gainweb.org; needs_discovery",
+      "last_attempt_at": "2026-07-08T04:03:36Z",
+      "result_url": "https://gainweb.org/submit.php?LINK_TYPE=2",
+      "error": "Free regular-link form returned server save error; premium listing starts at $15.",
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$15.00",
+      "minimum_price_amount": 15,
+      "minimum_price_currency": "USD",
+      "price_basis": "premium listing, unlimited",
+      "free_option_available": true,
+      "removal_categories": [
+        "server_save_error",
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "item-9nyg4c",
+      "platform_name": "GMA Web Directory",
+      "url": "https://www.gmawebdirectory.com/submit.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=gmawebdirectory.com; submit_url_extracted; submitted as free regular link in Computers & Internet/Web Hosting",
+      "last_attempt_at": "2026-07-08T04:08:22Z",
+      "result_url": "https://www.gmawebdirectory.com/submit.php",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$6.95",
+      "minimum_price_amount": 6.95,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, 1 year",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "info-listings",
+      "platform_name": "Info-Listings",
+      "url": "https://info-listings.com/submit.php",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=info-listings.com; submit_url_extracted; submitted as free regular link in WWW Related/Web Hosting",
+      "last_attempt_at": "2026-07-08T04:14:01Z",
+      "result_url": "https://info-listings.com/submit.php",
+      "error": null,
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$29.99",
+      "minimum_price_amount": 29.99,
+      "minimum_price_currency": "USD",
+      "price_basis": "featured link, lifetime",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "item-120711f",
+      "platform_name": "Fire Directory",
+      "url": "https://www.fire-directory.com/",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=fire-directory.com; needs_discovery",
+      "last_attempt_at": "2026-07-08T02:48:57.413Z",
+      "result_url": "https://www.fire-directory.com/premium-featured-links.php",
+      "error": "Free submit form blocked by site reCAPTCHA over-quota/config issue; premium featured link starts at $1.50/link.",
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$1.50",
+      "minimum_price_amount": 1.5,
+      "minimum_price_currency": "USD",
+      "price_basis": "premium featured link, per link",
+      "free_option_available": true,
+      "removal_categories": [
+        "recaptcha_site_config",
+        "paid_option_available"
       ]
     }
   ]
