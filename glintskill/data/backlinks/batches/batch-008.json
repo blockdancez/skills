@@ -5,39 +5,15 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "whatlaunched-today",
-      "platform_name": "WhatLaunched.Today",
-      "url": "https://www.whatlaunched.today/",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=whatlaunched.today; needs_discovery",
-      "last_attempt_at": "2026-07-03T09:16:28Z",
-      "result_url": "https://whatlaunched.today/dashboard/submit/success?free=1",
-      "error": null
-    },
-    {
-      "id": "item-t6odgz",
-      "platform_name": "World Web Directory",
-      "url": "https://www.worldweb-directory.com/add.php",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=worldweb-directory.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-03T09:36:44Z",
-      "result_url": "https://www.worldweb-directory.com/add.php#google_vignette",
-      "error": null
-    },
-    {
       "id": "futuretools",
       "platform_name": "Future Tools",
       "url": "https://futuretools.io/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho through FutureTools submit form; page confirmed Tool Submitted.",
-      "last_attempt_at": "2026-07-03T09:44:16Z",
-      "result_url": "https://futuretools.io/submit-a-tool",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -45,11 +21,11 @@
       "platform_name": "Promote Business Directory",
       "url": "https://promotebusinessdirectory.com/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho free website listing in Graphics and Designing; page confirmed link submitted and awaiting approval.",
-      "last_attempt_at": "2026-07-03T09:58:45Z",
-      "result_url": "https://promotebusinessdirectory.com/submit.php?c=68&LINK_TYPE=2",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -57,11 +33,11 @@
       "platform_name": "Phygital Plus Library",
       "url": "https://library.phygital.plus/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho AI tool; page confirmed Thank you for your submission.",
-      "last_attempt_at": "2026-07-03T10:00:30Z",
-      "result_url": "https://library.phygital.plus/tool-submission",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -69,11 +45,11 @@
       "platform_name": "SaaSpo",
       "url": "https://saaspo.com/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho website through SaaSpo form; page confirmed submission received.",
-      "last_attempt_at": "2026-07-03T10:03:29Z",
-      "result_url": "https://saaspo.com/submit",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -81,11 +57,11 @@
       "platform_name": "Footer Design",
       "url": "https://footer.design/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho footer gallery entry; site confirmed Thank you for your footer gallery submission.",
-      "last_attempt_at": "2026-07-03T10:06:04Z",
-      "result_url": "https://www.footer.design/submit",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -93,11 +69,11 @@
       "platform_name": "TechPluto",
       "url": "https://techpluto.com/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted TechPluto Google Form for GlyPho; confirmation asked to check email from contact@techpluto.com.",
-      "last_attempt_at": "2026-07-03T10:08:09Z",
-      "result_url": "https://docs.google.com/forms/d/e/1FAIpQLScmzHxA16yQUsr_pCwIjlMd3jvvValvon9zXs2NevoFosQ8Cg/viewform",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -105,11 +81,11 @@
       "platform_name": "Project Hunt",
       "url": "https://projecthunt.me/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho with logo; ProjectHunt returned 'A project with this URL already submitted', indicating an existing pending submission.",
-      "last_attempt_at": "2026-07-03T10:10:07Z",
-      "result_url": "https://projecthunt.me/?ref=mkdollar.com",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -117,11 +93,11 @@
       "platform_name": "Micro SaaS Examples",
       "url": "https://microsaasexamples.com/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho form with logo and screenshot thumbnail; page confirmed submission received for review.",
-      "last_attempt_at": "2026-07-03T10:12:11Z",
-      "result_url": "https://www.microsaasexamples.com/submit",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -129,11 +105,11 @@
       "platform_name": "Startup Tracker",
       "url": "https://startuptracker.io/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted GlyPho to Startup Tracker with project logo; confirmation showed submission recorded (#P6EFA) and manual review queue.",
-      "last_attempt_at": "2026-07-03T10:46:33Z",
-      "result_url": "https://startuptracker.io/crowdsourcing/new/?s=fi",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -141,11 +117,11 @@
       "platform_name": "Startups Gallery",
       "url": "https://startups.gallery/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Filled GlyPho startup fields in the Tally form: name, website, 10-word description, relationship=Other, funding=Other, submitter name, email, and referral source; user confirmed final submission successful on 2026-07-09.",
-      "last_attempt_at": "2026-07-09T02:33:00Z",
-      "result_url": "https://tally.so/r/3ylOB8",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -153,11 +129,11 @@
       "platform_name": "OG Image Gallery",
       "url": "https://ogimage.gallery/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted PreviewShip URL; site confirmed the submission was received.",
-      "last_attempt_at": "2026-07-07T07:20:38Z",
-      "result_url": "https://ogimage.gallery/?ref=mkdollar.com",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -165,11 +141,11 @@
       "platform_name": "La Chief",
       "url": "https://lachief.io/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted PreviewShip to La Chief free listing form; Tally confirmed the form was submitted. Category Coding & Development, topic Work, pricing Freemium.",
-      "last_attempt_at": "2026-07-07T07:26:12Z",
-      "result_url": "https://lachief.io/?ref=mkdollar.com",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -177,11 +153,11 @@
       "platform_name": "Open Graph Examples",
       "url": "https://opengraphexamples.com/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted PreviewShip URL through embedded Google Form; form confirmed the response was recorded.",
-      "last_attempt_at": "2026-07-07T07:27:57Z",
-      "result_url": "https://opengraphexamples.com/?ref=mkdollar.com",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -189,11 +165,11 @@
       "platform_name": "AnyFP",
       "url": "https://anyfp.com/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted PreviewShip to AnyFP with Code category, AI/MCP workflow-focused copy, tags, and compressed featured image; site showed thank-you confirmation.",
-      "last_attempt_at": "2026-07-07T07:27:57Z",
-      "result_url": "https://anyfp.com/?ref=mkdollar.com",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -201,11 +177,11 @@
       "platform_name": "Dev Pages",
       "url": "https://devpages.io/?ref=mkdollar.com",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "Submitted PreviewShip to DevPages with DevOps category and Freemium pricing; page confirmed the tool submission was received for review.",
-      "last_attempt_at": "2026-07-07T07:27:57Z",
-      "result_url": "https://devpages.io/?ref=mkdollar.com",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -264,42 +240,6 @@
       "status": "pending",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=itslaunched.com; website_url=https://itslaunched.com; backlinkdirs_item=https://backlinkdirs.com/item/it-s-launched; page=3; position=85; dr=21; mv=100; tags=Free;Dofollow; submit_url=https://itslaunched.com/add-product",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-news-ycombinator-com",
-      "platform_name": "Hacker News",
-      "url": "https://news.ycombinator.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=news.ycombinator.com; website_url=https://news.ycombinator.com; backlinkdirs_item=https://backlinkdirs.com/item/hacker-news; page=3; position=86; dr=91; mv=13531980; tags=Posts;Developer;Free;Dofollow; submit_url=https://news.ycombinator.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-indiehackers-com",
-      "platform_name": "Indie Hackers",
-      "url": "https://www.indiehackers.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=indiehackers.com; website_url=https://www.indiehackers.com; backlinkdirs_item=https://backlinkdirs.com/item/indie-hackers; page=3; position=87; dr=81; mv=466230; tags=Free;Dofollow;Posts; submit_url=https://www.indiehackers.com/products/new",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-sprout24-com",
-      "platform_name": "Sprout24 SaaS Tools Directory",
-      "url": "https://sprout24.com/hub/directory/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=sprout24.com; website_url=https://sprout24.com/hub/directory/; backlinkdirs_item=https://backlinkdirs.com/item/sprout24-saas-tools-directory; page=3; position=88; dr=61; mv=9013; tags=Free;Nofollow; submit_url=https://sprout24.com/submit/",
       "last_attempt_at": null,
       "result_url": null,
       "error": null

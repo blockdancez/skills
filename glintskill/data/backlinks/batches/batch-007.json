@@ -5,63 +5,15 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "thetoolbus-ai",
-      "platform_name": "TheToolBus.ai",
-      "url": "https://www.thetoolbus.ai/submit-tools",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=thetoolbus.ai; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:42:52Z",
-      "result_url": "https://www.thetoolbus.ai/ai-tools/submit?success=true",
-      "error": null
-    },
-    {
-      "id": "toolbase-io",
-      "platform_name": "Toolbase.io",
-      "url": "https://form.typeform.com/to/LQcTJr",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=toolbase.io; submit_url_extracted; Typeform submitted with Design category",
-      "last_attempt_at": "2026-07-08T09:17:23Z",
-      "result_url": "https://form.typeform.com/to/LQcTJr",
-      "error": null
-    },
-    {
-      "id": "toolhunter-ai",
-      "platform_name": "ToolHunter.ai",
-      "url": "https://www.toolhunter.ai/submit-a-tool",
-      "free": true,
-      "status": "needs_user",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=toolhunter.ai; submit_url_extracted; accepted after Google login, requires badge backlink verification to publish; public result page now shows removed/delisted",
-      "last_attempt_at": "2026-07-09T04:10:40Z",
-      "result_url": "https://toolhunter.ai/ai-tool/glypho",
-      "error": "ToolHunter result page currently shows the tool was removed/delisted; publication still requires adding the ToolHunter badge backlink on glypho.app and re-verifying or resubmitting."
-    },
-    {
-      "id": "tools-ai-online",
-      "platform_name": "tools-ai.online",
-      "url": "https://www.tools-ai.online/tool-submit",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=tools-ai.online; submit_url_extracted; public fields, categories, tags, logo, and screenshot were filled; user confirmed final submission successful on 2026-07-09",
-      "last_attempt_at": "2026-07-09T02:30:48Z",
-      "result_url": "https://www.tools-ai.online/submit-tool",
-      "error": null
-    },
-    {
       "id": "toolscout",
       "platform_name": "ToolScout",
       "url": "https://toolscout.ai/submit",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=toolscout.ai; submit_url_extracted; submitted free listing; placement=Free; status=in_review",
-      "last_attempt_at": "2026-07-08T08:57:24Z",
-      "result_url": "https://toolscout.ai/submissions/6660",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -69,11 +21,11 @@
       "platform_name": "Viesearch",
       "url": "https://viesearch.com/submit",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=viesearch.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:42:52Z",
-      "result_url": "https://viesearch.com/26yy7/plan",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -81,11 +33,11 @@
       "platform_name": "Viewfreeads.com",
       "url": "https://www.viewfreeads.com/",
       "free": true,
-      "status": "submitted",
+      "status": "pending",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=viewfreeads.com; direct free directory form filled in Webdesign > Graphics with public contact info; user confirmed submitted",
-      "last_attempt_at": "2026-07-08T09:41:26Z",
-      "result_url": "https://www.viewfreeads.com/directory/submit",
+      "last_attempt_at": null,
+      "result_url": null,
       "error": null
     },
     {
@@ -264,6 +216,30 @@
       "status": "pending",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=atemplate.com; website_url=https://atemplate.com; backlinkdirs_item=https://backlinkdirs.com/item/a-template; page=3; position=79; dr=48; mv=100; tags=Free;Developer;Freemium; submit_url=https://atemplate.com/submit",
+      "last_attempt_at": null,
+      "result_url": null,
+      "error": null
+    },
+    {
+      "id": "whatlaunched-today",
+      "platform_name": "WhatLaunched.Today",
+      "url": "https://www.whatlaunched.today/",
+      "free": true,
+      "status": "pending",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=startup_launch; root_domain=whatlaunched.today; needs_discovery",
+      "last_attempt_at": null,
+      "result_url": null,
+      "error": null
+    },
+    {
+      "id": "item-t6odgz",
+      "platform_name": "World Web Directory",
+      "url": "https://www.worldweb-directory.com/add.php",
+      "free": true,
+      "status": "pending",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=web_directory; root_domain=worldweb-directory.com; submit_url_extracted",
       "last_attempt_at": null,
       "result_url": null,
       "error": null

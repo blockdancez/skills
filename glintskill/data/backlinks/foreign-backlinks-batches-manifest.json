@@ -1,86 +1,94 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
-  "batch_size": 30,
+  "batch_size": 20,
   "total_items": 208,
-  "total_batches": 10,
+  "total_batches": 11,
   "batches": [
     {
       "batch": 1,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-001.json",
-      "item_count": 5,
+      "item_count": 20,
       "first_id": "9sites-net",
-      "last_id": "dev-to",
-      "status": "processed"
+      "last_id": "magicbox-tools",
+      "status": "pending"
     },
     {
       "batch": 2,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-002.json",
-      "item_count": 18,
-      "first_id": "aitoolslist-io",
-      "last_id": "zzo-ai",
+      "item_count": 20,
+      "first_id": "freeaitool-ai",
+      "last_id": "backlinkdirs-indietools-app",
       "status": "pending"
     },
     {
       "batch": 3,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-003.json",
-      "item_count": 25,
-      "first_id": "canadiandirectory-org",
-      "last_id": "backlinkdirs-aitoolboard-com",
+      "item_count": 20,
+      "first_id": "backlinkdirs-neeed-directory",
+      "last_id": "backlinkdirs-toolhunting-com",
       "status": "pending"
     },
     {
       "batch": 4,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-004.json",
-      "item_count": 25,
-      "first_id": "item-7txn44",
-      "last_id": "backlinkdirs-shinylaunch-com",
+      "item_count": 20,
+      "first_id": "backlinkdirs-biovelt-com",
+      "last_id": "item-xklkrf",
       "status": "pending"
     },
     {
       "batch": 5,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-005.json",
       "item_count": 20,
-      "first_id": "item-1an50mc",
-      "last_id": "backlinkdirs-saasbrowser-com",
+      "first_id": "item-1l1mq6o",
+      "last_id": "startupbase",
       "status": "pending"
     },
     {
       "batch": 6,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-006.json",
-      "item_count": 23,
-      "first_id": "sitelike",
-      "last_id": "backlinkdirs-auraplusplus-com",
+      "item_count": 20,
+      "first_id": "stork",
+      "last_id": "tools-ai-online",
       "status": "pending"
     },
     {
       "batch": 7,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-007.json",
-      "item_count": 22,
-      "first_id": "thetoolbus-ai",
-      "last_id": "backlinkdirs-atemplate-com",
+      "item_count": 20,
+      "first_id": "toolscout",
+      "last_id": "item-t6odgz",
       "status": "pending"
     },
     {
       "batch": 8,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-008.json",
-      "item_count": 25,
-      "first_id": "whatlaunched-today",
-      "last_id": "backlinkdirs-sprout24-com",
+      "item_count": 20,
+      "first_id": "futuretools",
+      "last_id": "backlinkdirs-itslaunched-com",
       "status": "pending"
     },
     {
       "batch": 9,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-009.json",
-      "item_count": 26,
-      "first_id": "backlinkdirs-g2-com",
-      "last_id": "backlinkdirs-peerlist-io",
+      "item_count": 20,
+      "first_id": "backlinkdirs-news-ycombinator-com",
+      "last_id": "backlinkdirs-uneed-best",
       "status": "pending"
     },
     {
       "batch": 10,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-010.json",
-      "item_count": 19,
-      "first_id": "backlinkdirs-alternative-me",
+      "item_count": 20,
+      "first_id": "backlinkdirs-producthunt-com",
+      "last_id": "backlinkdirs-thalesdirectory-com",
+      "status": "pending"
+    },
+    {
+      "batch": 11,
+      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-011.json",
+      "item_count": 8,
+      "first_id": "backlinkdirs-exactseek-com",
       "last_id": "backlinkdirs-early-tools",
       "status": "pending"
     }
