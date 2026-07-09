@@ -1,77 +1,95 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 30,
-  "total_items": 109,
-  "total_batches": 8,
+  "total_items": 208,
+  "total_batches": 10,
   "batches": [
     {
       "batch": 1,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-001.json",
-      "item_count": 6,
-      "first_id": "10words",
-      "last_id": "ailib",
+      "item_count": 5,
+      "first_id": "9sites-net",
+      "last_id": "dev-to",
       "status": "processed"
     },
     {
       "batch": 2,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-002.json",
-      "item_count": 6,
+      "item_count": 18,
       "first_id": "aitoolslist-io",
-      "last_id": "item-1l80dxe",
-      "status": "processed"
+      "last_id": "zzo-ai",
+      "status": "pending"
     },
     {
       "batch": 3,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-003.json",
-      "item_count": 10,
-      "first_id": "item-xfkd3j",
-      "last_id": "item-120711f",
+      "item_count": 25,
+      "first_id": "canadiandirectory-org",
+      "last_id": "backlinkdirs-aitoolboard-com",
       "status": "pending"
     },
     {
       "batch": 4,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-004.json",
-      "item_count": 14,
-      "first_id": "foundr-ai",
-      "last_id": "jayde",
-      "status": "processed"
+      "item_count": 25,
+      "first_id": "item-7txn44",
+      "last_id": "backlinkdirs-shinylaunch-com",
+      "status": "pending"
     },
     {
       "batch": 5,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-005.json",
       "item_count": 20,
       "first_id": "item-1an50mc",
-      "last_id": "item-15i6ejz",
-      "status": "processed"
+      "last_id": "backlinkdirs-saasbrowser-com",
+      "status": "pending"
     },
     {
       "batch": 6,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-006.json",
-      "item_count": 18,
-      "first_id": "item-6egbmr",
-      "last_id": "item-ys92ii",
-      "status": "processed"
+      "item_count": 23,
+      "first_id": "sitelike",
+      "last_id": "backlinkdirs-auraplusplus-com",
+      "status": "pending"
     },
     {
       "batch": 7,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-007.json",
-      "item_count": 14,
+      "item_count": 22,
       "first_id": "thetoolbus-ai",
-      "last_id": "websitehunt",
-      "status": "processed"
+      "last_id": "backlinkdirs-atemplate-com",
+      "status": "pending"
     },
     {
       "batch": 8,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-008.json",
-      "item_count": 21,
+      "item_count": 25,
       "first_id": "whatlaunched-today",
-      "last_id": "dev-pages",
-      "status": "processed"
+      "last_id": "backlinkdirs-sprout24-com",
+      "status": "pending"
+    },
+    {
+      "batch": 9,
+      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-009.json",
+      "item_count": 26,
+      "first_id": "backlinkdirs-g2-com",
+      "last_id": "backlinkdirs-peerlist-io",
+      "status": "pending"
+    },
+    {
+      "batch": 10,
+      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-010.json",
+      "item_count": 19,
+      "first_id": "backlinkdirs-alternative-me",
+      "last_id": "backlinkdirs-early-tools",
+      "status": "pending"
     }
   ],
   "source_files": [
     "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
-    "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/free-backlinks.json"
+    "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/free-backlinks.json",
+    "/Users/test/Downloads/aaaa.csv",
+    "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/backlinkdirs-free-domains-2026-07-08.csv"
   ],
-  "source_note": "Batches 1-8 include the original foreign backlink candidates plus legacy free-backlinks items appended to batch-008."
+  "source_note": "Batches include the original foreign backlink candidates, legacy free-backlinks items, free domains imported from /Users/test/Downloads/aaaa.csv, user-provided free AI navigation domains with DR > 0, and Backlink Dirs free-tag domains imported from data/backlinks/backlinkdirs-free-domains-2026-07-08.csv."
 }

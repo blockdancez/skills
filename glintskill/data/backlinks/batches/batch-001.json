@@ -5,30 +5,6 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "10words",
-      "platform_name": "10words",
-      "url": "https://10words.io/",
-      "free": true,
-      "status": "skipped",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=10words.io; needs_discovery",
-      "last_attempt_at": "2026-07-01T09:55:01Z",
-      "result_url": null,
-      "error": "Skipped at user request after site-specific account requirement."
-    },
-    {
-      "id": "247webdirectory-com",
-      "platform_name": "247WebDirectory.com",
-      "url": "https://www.247webdirectory.com/",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "Submit form opened in Computers & Internet category. Free option is available, but the form requires manual captcha/code entry before final submit.",
-      "last_attempt_at": "2026-07-07T07:33:58Z",
-      "result_url": null,
-      "error": "Free submission form requires manual captcha/code entry."
-    },
-    {
       "id": "9sites-net",
       "platform_name": "9Sites.net",
       "url": "https://www.9sites.net/addurl.php",
@@ -74,6 +50,18 @@
       "notes": "source=README外链.md; category=ai_directory; root_domain=ailib.ru; submit_url_extracted",
       "last_attempt_at": "2026-07-01T11:18:07Z",
       "result_url": "https://ailib.ru/en/add-ai/free/",
+      "error": null
+    },
+    {
+      "id": "dev-to",
+      "platform_name": "dev.to",
+      "url": "https://dev.to",
+      "free": true,
+      "status": "submitted",
+      "login_method": "google",
+      "notes": "source=/Users/test/Downloads/aaaa.csv; category=free_backlink_candidate; root_domain=dev.to; imported_from=aaaa.csv; published dev.to article with PreviewShip backlink",
+      "last_attempt_at": "2026-07-08T07:40:19Z",
+      "result_url": "https://dev.to/yi_shen_liu/how-i-share-ai-generated-html-previews-without-setting-up-a-repo-4lck",
       "error": null
     }
   ]

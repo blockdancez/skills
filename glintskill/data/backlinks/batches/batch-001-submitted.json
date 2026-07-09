@@ -19,7 +19,7 @@
     "free": true
   },
   "exported_at": "2026-07-02T07:16:55Z",
-  "item_count": 10,
+  "item_count": 8,
   "project": {
     "name": "mixed batch exports",
     "url": null,
@@ -92,19 +92,6 @@
       "source_batch": "data/backlinks/batches/batch-002.json"
     },
     {
-      "id": "aitoptools",
-      "platform_name": "AITopTools",
-      "url": "https://aitoptools.com/login?redirect_to=submit",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoptools.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T04:17:20.098698Z",
-      "result_url": "https://aitoptools.com/listed-now/",
-      "error": null,
-      "source_batch": "data/backlinks/batches/batch-002.json"
-    },
-    {
       "id": "item-1l80dxe",
       "platform_name": "Britain business directory",
       "url": "https://www.britainbusinessdirectory.com/",
@@ -116,19 +103,6 @@
       "result_url": "https://www.britainbusinessdirectory.com/submit.php",
       "error": null,
       "source_batch": "data/backlinks/batches/batch-002.json"
-    },
-    {
-      "id": "item-ys92ii",
-      "platform_name": "Text Link Directory",
-      "url": "https://www.textlinkdirectory.com/",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=textlinkdirectory.com; needs_discovery",
-      "last_attempt_at": "2026-07-02T06:32:26.398Z",
-      "result_url": "https://www.textlinkdirectory.com/index.php?go=success",
-      "error": null,
-      "source_batch": "data/backlinks/batches/batch-006.json"
     },
     {
       "id": "thetoolbus-ai",

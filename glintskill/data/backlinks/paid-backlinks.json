@@ -21,8 +21,8 @@
     ],
     "source_status": "failed"
   },
-  "exported_at": "2026-07-08T02:48:57.413Z",
-  "item_count": 25,
+  "exported_at": "2026-07-09T03:33:50Z",
+  "item_count": 27,
   "items": [
     {
       "id": "01webdirectory",
@@ -53,23 +53,6 @@
       "result_url": null,
       "error": "Paid-only listing flow: $49 payment required after Next.",
       "source_batch": "data/backlinks/batches/batch-001.json",
-      "paid": true,
-      "removal_categories": [
-        "paid"
-      ]
-    },
-    {
-      "id": "aitoolnet",
-      "platform_name": "Aitoolnet",
-      "url": "https://www.aitoolnet.com/submit",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolnet.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T03:51:41Z",
-      "result_url": null,
-      "error": "Paid-only submission: form requires Submit Pay $9.9",
-      "source_batch": "data/backlinks/batches/batch-002.json",
       "paid": true,
       "removal_categories": [
         "paid"
@@ -212,45 +195,6 @@
       ]
     },
     {
-      "id": "toolsfine",
-      "platform_name": "ToolsFine",
-      "url": "https://tally.so/r/wvB7Xg",
-      "free": true,
-      "status": "failed",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=toolsfine.com; submit_url_extracted",
-      "last_attempt_at": "2026-07-02T06:42:52Z",
-      "result_url": null,
-      "error": "Free submissions are suspended; page points to paid submission plans.",
-      "source_batch": "data/backlinks/batches/batch-007.json",
-      "paid": true,
-      "removal_categories": [
-        "paid"
-      ]
-    },
-    {
-      "id": "247webdirectory-com",
-      "platform_name": "247WebDirectory.com",
-      "url": "https://www.247webdirectory.com/submit.aspx",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "Free submission option is available, but the form also offers optional paid expedited review.",
-      "last_attempt_at": "2026-07-07T07:33:58Z",
-      "result_url": null,
-      "error": "Optional expedited review costs $39.99 lifetime; free review remains available but requires manual captcha/code entry.",
-      "source_batch": "data/backlinks/batches/batch-001.json",
-      "paid": true,
-      "minimum_price": "$39.99",
-      "minimum_price_amount": 39.99,
-      "minimum_price_currency": "USD",
-      "price_basis": "optional expedited review",
-      "free_option_available": true,
-      "removal_categories": [
-        "paid"
-      ]
-    },
-    {
       "id": "9sites-net",
       "platform_name": "9Sites.net",
       "url": "https://www.9sites.net/addurl.php",
@@ -260,7 +204,7 @@
       "notes": "Regular Links free option was submitted, and the form also offers optional Premium Links.",
       "last_attempt_at": "2026-07-07T07:56:21Z",
       "result_url": "https://www.9sites.net/submit.php",
-      "error": "Optional premium link costs $15.95 one-time fee; free regular submission was submitted.",
+      "error": null,
       "source_batch": "data/backlinks/batches/batch-001.json",
       "paid": true,
       "minimum_price": "$15.95",
@@ -511,6 +455,117 @@
       "removal_categories": [
         "recaptcha_site_config",
         "paid_option_available"
+      ]
+    },
+    {
+      "id": "item-1yeryy6",
+      "platform_name": "Tool Finder",
+      "url": "https://toolfinder.co/submit-your-tool",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=toolfinder.co; submit_url_extracted; current submit page is paid-only",
+      "last_attempt_at": "2026-07-08T08:59:59Z",
+      "result_url": "https://toolfinder.com/submit",
+      "error": "Current Tool Finder submission requires a $29 one-time paid listing; no free submission option found.",
+      "source_batch": "data/backlinks/batches/batch-007.json",
+      "paid": true,
+      "minimum_price": "$29",
+      "minimum_price_amount": 29,
+      "minimum_price_currency": "USD",
+      "price_basis": "one-time Tool Finder listing",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "poweredbyai",
+      "platform_name": "PoweredbyAI",
+      "url": "https://poweredbyai.app/submit-tool",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=poweredbyai.app; submit_url_extracted; tool details saved but listing requires paid plan",
+      "last_attempt_at": "2026-07-08T09:28:04Z",
+      "result_url": "https://poweredbyai.app/submit-tool/plan-selection?toolID=glypho&from=submit-tool",
+      "error": "PoweredbyAI plan selection only offers paid Pro ($14.99) and Elite ($69.99) listings; no free option found.",
+      "source_batch": "data/backlinks/batches/batch-005.json",
+      "paid": true,
+      "minimum_price": "$14.99",
+      "minimum_price_amount": 14.99,
+      "minimum_price_currency": "USD",
+      "price_basis": "Pro Plan listing",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "seofai",
+      "platform_name": "SEOFAI",
+      "url": "https://seofai.com/submit-tool/",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=seofai.com; submit_url_extracted; old submit URL now 404; current submit flow is paid-only",
+      "last_attempt_at": "2026-07-08T11:23:16Z",
+      "result_url": "https://seofai.com/submit-ai-tool/",
+      "error": "Current SEOFAI submit flow only offers paid packages: Basic $29 or Advanced $69; no free submission option found.",
+      "source_batch": "data/backlinks/batches/batch-006.json",
+      "paid": true,
+      "minimum_price": "$29",
+      "minimum_price_amount": 29,
+      "minimum_price_currency": "USD",
+      "price_basis": "Basic one-time SEOFAI listing package",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "stork",
+      "platform_name": "Stork",
+      "url": "https://www.stork.ai/",
+      "free": true,
+      "status": "needs_user",
+      "login_method": "google",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=stork.ai; needs_discovery; free Stork Verified path requires adding a badge/backlink, otherwise the listing is a one-time paid option",
+      "last_attempt_at": "2026-07-08T10:34:58Z",
+      "result_url": "https://www.stork.ai/submit-ai-tool-free",
+      "error": "Free Stork listing requires adding a Stork Verified badge/backlink on glypho.app before verification; otherwise it is a one-time $49 listing.",
+      "source_batch": "data/backlinks/batches/batch-006.json",
+      "paid": true,
+      "minimum_price": "$49",
+      "minimum_price_amount": 49,
+      "minimum_price_currency": "USD",
+      "price_basis": "one-time Stork AI tool listing without badge/backlink verification",
+      "free_option_available": true,
+      "removal_categories": [
+        "exchange_required",
+        "paid_option_available"
+      ]
+    },
+    {
+      "id": "woy-ai",
+      "platform_name": "woy.ai",
+      "url": "https://woy.ai",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=woy.ai; dr_gt_0; rechecked current Chrome submit flow on 2026-07-09 and found paid submit plan; user confirmed paid amount 30.",
+      "last_attempt_at": "2026-07-09T04:18:27Z",
+      "result_url": "https://woy.ai/submit",
+      "error": "Woy submit opens a paid plan modal; user confirmed the paid amount is 30 and no free submission path is available.",
+      "source_batch": "data/backlinks/batches/batch-002.json",
+      "paid": true,
+      "minimum_price": "$30",
+      "minimum_price_amount": 30,
+      "minimum_price_currency": "USD",
+      "price_basis": "Woy AI submit plan",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
       ]
     }
   ]
