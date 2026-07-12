@@ -567,6 +567,28 @@
       "removal_categories": [
         "paid"
       ]
+    },
+    {
+      "id": "backlinkdirs-500-tools",
+      "platform_name": "500.tools",
+      "url": "https://500.tools",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=500.tools; website_url=https://500.tools; backlinkdirs_item=https://backlinkdirs.com/item/500tools; page=2; position=56; dr=40; mv=100; tags=Posts;Dofollow;Free;Developer;seo; submit_url=https://500.tools/submit",
+      "last_attempt_at": "2026-07-09T09:38:23Z",
+      "result_url": "https://500.tools/submit",
+      "error": "Paid Stripe submission only; no free listing path.",
+      "source_batch": "data/backlinks/batches/batch-001.json",
+      "paid": true,
+      "minimum_price": "$1 first month, then $5/month",
+      "minimum_price_amount": 1,
+      "minimum_price_currency": "USD",
+      "price_basis": "Monthly Stripe plan; first month promo, renews at $5/month. Yearly plan shown at $19/year.",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
     }
   ]
 }

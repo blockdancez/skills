@@ -1408,18 +1408,6 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-aitoolboard-com",
-      "platform_name": "AIToolboard",
-      "url": "https://aitoolboard.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitoolboard.com; website_url=https://aitoolboard.com/; backlinkdirs_item=https://backlinkdirs.com/item/aitoolboard; page=1; position=14; dr=17; mv=14440; tags=Free;Freemium;FreeTrial;Developer;AI Autofill; submit_url=https://aitoolboard.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "backlinkdirs-toolspedia-io",
       "platform_name": "ToolsPedia",
       "url": "https://toolspedia.io/",

@@ -1,16 +1,16 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 20,
-  "total_items": 208,
+  "total_items": 195,
   "total_batches": 11,
   "batches": [
     {
       "batch": 1,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-001.json",
-      "item_count": 20,
+      "item_count": 7,
       "first_id": "backlinkdirs-10015-io",
-      "last_id": "backlinkdirs-aitoolguru-com",
-      "status": "pending"
+      "last_id": "backlinkdirs-aitoolex-com",
+      "status": "processed"
     },
     {
       "batch": 2,

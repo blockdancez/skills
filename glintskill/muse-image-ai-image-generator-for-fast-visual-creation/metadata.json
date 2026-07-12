@@ -1,0 +1,197 @@
+{
+  "source_url": "https://www.aimuseimage.com/",
+  "resolved_url": "https://www.aimuseimage.com/",
+  "project_name": "Muse Image - AI Image Generator for Fast Visual Creation",
+  "project_slug": "muse-image-ai-image-generator-for-fast-visual-creation",
+  "captured_at": "2026-07-09T09:23:44.795938+00:00",
+  "summary": "Muse Image is a browser-based tool that enables creators to transform text prompts and reference photos into professionally polished AI-generated images suitable for various applications like product shots, ads, and social media graphics. The platform emphasizes a streamlined workflow involving four main steps: writing a creative brief, adding reference images, generating variations, and downloading the final product. Muse Image aims to provide practical image solutions for users, featuring text-to-image and image-to-image capabilities, and supports controlled and consistent outputs with reference photos. The tool includes subscription plans tailored for different user needs, offering varying levels of credits and features for image generation and refinement.",
+  "metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1",
+      "width=device-width, initial-scale=1.0"
+    ],
+    "description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "ogLocale": "en",
+    "robots": "index, follow",
+    "title": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "ogSiteName": "Muse Image Generator",
+    "og:title": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "ogTitle": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "og:description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "next-size-adjust": "",
+    "ogImage": "https://www.aimuseimage.com/preview.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "ogDescription": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "keywords": "muse image, Muse Image, Muse Image Generator, AI image generator, text to image, image to image, product image generator, social media graphics",
+    "og:locale": "en",
+    "og:url": "https://www.aimuseimage.com/",
+    "language": "en",
+    "twitter:description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "twitter:site": "https://www.aimuseimage.com",
+    "twitter:image": "https://www.aimuseimage.com/preview.png",
+    "og:site_name": "Muse Image Generator",
+    "ogUrl": "https://www.aimuseimage.com/",
+    "og:image": "https://www.aimuseimage.com/preview.png",
+    "og:type": "website",
+    "favicon": "https://www.aimuseimage.com/favicon.ico",
+    "scrapeId": "019f4630-713b-747e-b02c-d757b4c1df81",
+    "sourceURL": "https://www.aimuseimage.com/",
+    "url": "https://www.aimuseimage.com/",
+    "statusCode": 200,
+    "contentType": "text/html; charset=utf-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "basic",
+    "indexId": "fda77ba6-b793-4f23-8083-603c7fc59eeb",
+    "creditsUsed": 1,
+    "concurrencyLimited": false
+  },
+  "branding": {
+    "colorScheme": "light",
+    "fonts": [
+      {
+        "family": "Noto Sans Mono",
+        "role": "monospace"
+      }
+    ],
+    "colors": {
+      "primary": "#7C46F2",
+      "secondary": "#67677B",
+      "accent": "#7C46F2",
+      "background": "#FAFBFF",
+      "textPrimary": "#0A0A0A",
+      "link": "#171628"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Noto Sans Mono",
+        "heading": "Noto Sans Mono"
+      },
+      "fontStacks": {
+        "heading": [
+          "Noto Sans Mono"
+        ],
+        "body": [
+          "Noto Sans Mono"
+        ],
+        "paragraph": [
+          "Noto Sans Mono"
+        ]
+      },
+      "fontSizes": {
+        "h1": "60px",
+        "h2": "16px",
+        "body": "18px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 4,
+      "borderRadius": "6px"
+    },
+    "components": {
+      "input": {
+        "background": "#FAFBFF",
+        "textColor": "#171628",
+        "borderColor": "#D6D6E0",
+        "borderRadius": "6px",
+        "borderRadiusCorners": {
+          "topLeft": "6px",
+          "topRight": "6px",
+          "bottomRight": "6px",
+          "bottomLeft": "6px"
+        },
+        "shadow": "none"
+      },
+      "buttonPrimary": {
+        "background": "#7C46F2",
+        "textColor": "#FFFFFF",
+        "borderRadius": "6px",
+        "borderRadiusCorners": {
+          "topLeft": "6px",
+          "topRight": "6px",
+          "bottomRight": "6px",
+          "bottomLeft": "6px"
+        },
+        "shadow": "none"
+      },
+      "buttonSecondary": {
+        "background": "#FAFBFF",
+        "textColor": "#0A0A0A",
+        "borderColor": "#E3E4E6",
+        "borderRadius": "6px",
+        "borderRadiusCorners": {
+          "topLeft": "6px",
+          "topRight": "6px",
+          "bottomRight": "6px",
+          "bottomLeft": "6px"
+        },
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+      }
+    },
+    "images": {
+      "logo": "https://www.aimuseimage.com/_next/image?url=%2Flogo.png&w=256&q=75",
+      "favicon": "https://www.aimuseimage.com/favicon.ico",
+      "ogImage": "https://www.aimuseimage.com/preview.png",
+      "logoHref": "/"
+    },
+    "__llm_logo_reasoning": {
+      "selectedIndex": 0,
+      "reasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the favicon, indicating it is the main brand logo.",
+      "confidence": 0.9,
+      "source": "llm"
+    },
+    "__llm_button_reasoning": {
+      "primary": {
+        "index": 6,
+        "text": "Open Image Generator",
+        "reasoning": "Button #6 ('Open Image Generator') uses the vibrant brand color #7C46F2, which aligns with the primary brand color and has action-oriented text, making it the primary CTA."
+      },
+      "secondary": {
+        "index": 7,
+        "text": "Explore Features",
+        "reasoning": "Button #7 ('Explore Features') has a different background color (#FAFBFF) and serves as a secondary action, complementing the primary CTA."
+      },
+      "confidence": 0.95
+    },
+    "personality": {
+      "tone": "modern",
+      "energy": "medium",
+      "targetAudience": "creatives and designers"
+    },
+    "designSystem": {
+      "framework": "tailwind",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0.95,
+      "colors": 0.9,
+      "overall": 0.925
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": true,
+        "llmSucceeded": true,
+        "finalSource": "llm",
+        "rawLogoSelection": {
+          "selectedLogoIndex": 0,
+          "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the favicon, indicating it is the main brand logo.",
+          "confidence": 0.9
+        }
+      },
+      "buttonClassification": {
+        "llmCalled": true,
+        "llmSucceeded": true
+      }
+    }
+  },
+  "product": null,
+  "assets": {
+    "logo_url": "https://www.aimuseimage.com/_next/image?url=%2Flogo.png&w=256&q=75",
+    "logo_path": "/Applications/LianXi/blockdancez-skills/glintskill/muse-image-ai-image-generator-for-fast-visual-creation/logo.png",
+    "screenshot_url": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b7206b90-4561-4ef7-ae9c-d5c38af8615a.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1784193814&Signature=q0V9p3BMZV3mHaSvpkBTHC7WikvEEUZd9chiQwfP4FRbyvYWSf4llAzZxtFU014wQuq3sQ7E0z08MutK%2FSNrbNvKGBtzg03WZXna3wO0EBjMVFpMJGUYDrvva%2BM8RezHPJyilmw%2FZCgnjJvVniACBhstszt31ap8AX3b8jzJ2doOKvSjV0wQsBChb8WjJt%2BHjpozEpGJ2V1aFk4hP7hLNxtFwsSO%2BU8iyRg7yzzjRwAn4Rdad01P11rYaXbFHAeSXaBp%2FMJJYbJ4c%2FGlhFbaB9yM%2FXqSQnlfNOZ6XKpCobq2HxJI4fK2lXK5iHRLSiVYzOGppXWb6W2uYSmVjjV22w%3D%3D",
+    "screenshot_path": "/Applications/LianXi/blockdancez-skills/glintskill/muse-image-ai-image-generator-for-fast-visual-creation/screenshot.png"
+  },
+  "warnings": [
+    "Product data was not returned by Firecrawl."
+  ]
+}
