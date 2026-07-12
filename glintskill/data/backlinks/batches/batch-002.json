@@ -5,37 +5,13 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "aitoolly-com",
-      "platform_name": "aitoolly.com",
-      "url": "https://aitoolly.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=aitoolly.com; dr_gt_0",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "backlinkdirs-aitools-inc",
       "platform_name": "AI Tools",
       "url": "https://aitools.inc/",
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitools.inc; website_url=https://aitools.inc/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools; page=3; position=80; dr=69; mv=81833; tags=Free;Dofollow; submit_url=https://aitools.inc/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-aitools-neilpatel-com",
-      "platform_name": "AI Tools | Neilpatel",
-      "url": "https://aitools.neilpatel.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitools.neilpatel.com; website_url=https://aitools.neilpatel.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools-or-neilpatel; page=3; position=108; dr=91; mv=4269; tags=Free;Dofollow; submit_url=https://aitools.neilpatel.com/submit/",
+      "notes": "GlyPho and Muse Image submitted successfully through Typeform using first name luo and last name xiaoyv.",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -47,7 +23,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitoolsdirectory.com; website_url=https://aitoolsdirectory.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools-directory; page=3; position=101; dr=52; mv=160473; tags=Free;Dofollow;One Time Purchase; submit_url=https://aitoolsdirectory.com/submit-tool",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitoolsdirectory.com; website_url=https://aitoolsdirectory.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools-directory; page=3; position=101; dr=52; mv=160473; tags=Free;Dofollow;One Time Purchase; submit_url=https://aitoolsdirectory.com/submit-tool; glypho_evidence=Submission Successful confirmation; muse_image_evidence=Submission Successful confirmation",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -59,19 +35,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolslist.io; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "aitoolsss-com",
-      "platform_name": "aitoolsss.com",
-      "url": "https://aitoolsss.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=aitoolsss.com; dr_gt_0",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolslist.io; submit_url_extracted; glypho_evidence=Tally completion page; muse_image_evidence=Tally completion page",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -83,31 +47,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolsup.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-aitooltips-com",
-      "platform_name": "AI Tools Directory",
-      "url": "https://aitooltips.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitooltips.com; website_url=https://aitooltips.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools-directory-aitooltipscom; page=1; position=13; dr=3.6; mv=100; tags=Posts;Free;Developer; submit_url=https://aitooltips.com/add-tool/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "allinai-tools",
-      "platform_name": "allinai.tools",
-      "url": "https://allinai.tools",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=allinai.tools; dr_gt_0",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=aitoolsup.com; submit_url_extracted; glypho_evidence=Tally completion page after screenshot upload; muse_image_evidence=Tally completion page after screenshot upload",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -131,19 +71,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=alltheaitools.com; website_url=https://alltheaitools.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools-explorer; page=1; position=33; dr=8; mv=100; tags=Free;Dofollow; submit_url=https://alltheaitools.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-alternative-me",
-      "platform_name": "Alternative.me",
-      "url": "https://alternative.me/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=alternative.me; website_url=https://alternative.me/; backlinkdirs_item=https://backlinkdirs.com/item/alternativeme; page=4; position=128; dr=75; mv=676047; tags=Free;Nofollow; submit_url=https://alternative.me/how-to/submit-software/",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=alltheaitools.com; website_url=https://alltheaitools.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-tools-explorer; page=1; position=33; dr=8; mv=100; tags=Free;Dofollow; submit_url=https://alltheaitools.com/submit; glypho_evidence=Tool Submission Request Sent and queued; muse_image_progress=blocked until pending request is processed",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -167,7 +95,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=antdirectory.com; website_url=https://antdirectory.com/; backlinkdirs_item=https://backlinkdirs.com/item/ant-directory; page=3; position=76; dr=34; mv=500; tags=Free;Dofollow;One Time Purchase;AI Autofill; submit_url=https://antdirectory.com/submit",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=antdirectory.com; website_url=https://antdirectory.com/; backlinkdirs_item=https://backlinkdirs.com/item/ant-directory; page=3; position=76; dr=34; mv=500; tags=Free;Dofollow;One Time Purchase;AI Autofill; submit_url=https://antdirectory.com/submit; glypho_evidence=free plan status pending; muse_image_evidence=free plan status pending",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -179,7 +107,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "Submitted PreviewShip to AnyFP with Code category, AI/MCP workflow-focused copy, tags, and compressed featured image; site showed thank-you confirmation.",
+      "notes": "Submitted PreviewShip to AnyFP with Code category, AI/MCP workflow-focused copy, tags, and compressed featured image; site showed thank-you confirmation.; glypho_progress=name, URL, category, short description, and tags filled; muse_image_progress=not started",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -195,54 +123,7 @@
       "last_attempt_at": null,
       "result_url": null,
       "error": null
-    },
-    {
-      "id": "backlinkdirs-appsandwebsites-com",
-      "platform_name": "Apps and Websites",
-      "url": "https://appsandwebsites.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=appsandwebsites.com; website_url=https://appsandwebsites.com; backlinkdirs_item=https://backlinkdirs.com/item/apps-and-websites; page=4; position=121; dr=14; mv=1704; tags=Free;Dofollow; submit_url=https://appsandwebsites.com",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-atemplate-com",
-      "platform_name": "A Template",
-      "url": "https://atemplate.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=atemplate.com; website_url=https://atemplate.com; backlinkdirs_item=https://backlinkdirs.com/item/a-template; page=3; position=79; dr=48; mv=100; tags=Free;Developer;Freemium; submit_url=https://atemplate.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-auraplusplus-com",
-      "platform_name": "Aura++",
-      "url": "https://auraplusplus.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=auraplusplus.com; website_url=https://auraplusplus.com/; backlinkdirs_item=https://backlinkdirs.com/item/aura; page=2; position=63; dr=71; mv=10574; tags=Dofollow;Free;One Time Purchase; submit_url=https://auraplusplus.com",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-awesomeindie-com",
-      "platform_name": "Awesome Indie",
-      "url": "https://awesomeindie.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=awesomeindie.com; website_url=https://awesomeindie.com; backlinkdirs_item=https://backlinkdirs.com/item/awesome-indie; page=4; position=119; dr=28; mv=9732; tags=Free;Dofollow; submit_url=https://awesomeindie.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
     }
   ]
 }
+

@@ -2,8 +2,8 @@
   "version": 1,
   "type": "exchange_backlinks",
   "description": "Sites that require or request reciprocal backlinks before or alongside submission.",
-  "updated_at": "2026-07-09T03:43:51Z",
-  "item_count": 8,
+  "updated_at": "2026-07-12T13:36:05Z",
+  "item_count": 10,
   "items": [
     {
       "id": "item-xfkd3j",
@@ -87,6 +87,27 @@
       "source_batch": null,
       "last_attempt_at": "2026-07-09T03:43:51Z",
       "notes": "User confirmed twelve.tools requires adding a reciprocal backlink on glypho.app."
+    },
+    {
+      "id": "allinai-tools",
+      "platform_name": "allinai.tools",
+      "url": "https://allinai.tools",
+      "submit_url": "https://allinai.tools/pricing",
+      "exchange_required": true,
+      "source_batch": "data/backlinks/batches/batch-002.json",
+      "last_attempt_at": "2026-07-12T13:26:20Z",
+      "notes": "Free submission requires adding an All in AI reciprocal link to each project homepage before submitting."
+    },
+    {
+      "id": "backlinkdirs-auraplusplus-com",
+      "platform_name": "Aura++",
+      "url": "https://auraplusplus.com/",
+      "submit_url": "https://auraplusplus.com/projects/submit",
+      "exchange_required": true,
+      "source_batch": "data/backlinks/batches/batch-002.json",
+      "last_attempt_at": "2026-07-12T13:36:05Z",
+      "result_url": "https://auraplusplus.com/projects/glypho",
+      "notes": "Free launches require a visible reciprocal link or Aura++ badge on each project website. GlyPho already has a public project page; Muse Image is saved as an incomplete submission and is waiting for backlink verification at https://auraplusplus.com/projects/muse-image."
     }
   ]
 }

@@ -22,8 +22,30 @@
     "source_status": "failed"
   },
   "exported_at": "2026-07-09T03:33:50Z",
-  "item_count": 27,
+  "item_count": 29,
   "items": [
+    {
+      "id": "aitoolly-com",
+      "platform_name": "aitoolly.com",
+      "url": "https://aitoolly.com",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=aitoolly.com; dr_gt_0",
+      "last_attempt_at": "2026-07-12T01:48:54Z",
+      "result_url": "https://aitoolly.com/submit",
+      "error": "Submission requires a $19.99 payment; no free listing option is available.",
+      "source_batch": "data/backlinks/batches/batch-002.json",
+      "paid": true,
+      "minimum_price": "$19.99",
+      "minimum_price_amount": 19.99,
+      "minimum_price_currency": "USD",
+      "price_basis": "One-time listing review payment",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
     {
       "id": "01webdirectory",
       "platform_name": "01webdirectory",
