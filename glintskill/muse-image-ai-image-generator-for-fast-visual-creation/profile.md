@@ -4,15 +4,15 @@
 
 - Source URL: https://www.aimuseimage.com/
 - Resolved URL: https://www.aimuseimage.com/
-- Captured at: 2026-07-09T09:23:44.795938+00:00
+- Captured at: 2026-07-12T01:46:35.897670+00:00
 - Logo URL: https://www.aimuseimage.com/_next/image?url=%2Flogo.png&w=256&q=75
 - Local logo: /Applications/LianXi/blockdancez-skills/glintskill/muse-image-ai-image-generator-for-fast-visual-creation/logo.png
-- Screenshot URL: https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b7206b90-4561-4ef7-ae9c-d5c38af8615a.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1784193814&Signature=q0V9p3BMZV3mHaSvpkBTHC7WikvEEUZd9chiQwfP4FRbyvYWSf4llAzZxtFU014wQuq3sQ7E0z08MutK%2FSNrbNvKGBtzg03WZXna3wO0EBjMVFpMJGUYDrvva%2BM8RezHPJyilmw%2FZCgnjJvVniACBhstszt31ap8AX3b8jzJ2doOKvSjV0wQsBChb8WjJt%2BHjpozEpGJ2V1aFk4hP7hLNxtFwsSO%2BU8iyRg7yzzjRwAn4Rdad01P11rYaXbFHAeSXaBp%2FMJJYbJ4c%2FGlhFbaB9yM%2FXqSQnlfNOZ6XKpCobq2HxJI4fK2lXK5iHRLSiVYzOGppXWb6W2uYSmVjjV22w%3D%3D
+- Screenshot URL: https://storage.googleapis.com/firecrawl-scrape-media/screenshot-121c6a41-b855-42c8-aa66-6c733ab718d5.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1784425586&Signature=tNPT2s2U2emCY2IRvIsay%2FE1hlXEpeFh%2B8h5j6j51cDjW3wASrwL7CGTBS%2Fwji2890RS%2FLkWWwwFS901EQMOK3%2FvQ6cRaaI2rq4D6OcDij99uLJd7nQ%2FY%2BCWqNli0QBJUGtJVKcQ9wIcQAOZ%2FYYPg9sJO22XQFzZlWKNlwoHdsuAsBhj%2FQwjd0mbmYhM4HP9ABOGCOcDVutk9l8qXBZqfXW0ksgXnaKaDfJl9gdfhAk4PMLGRtd%2B9rx1GrKY1c%2F8vP7Nu8kTeFuYVAkBd4ARFfdTuxKSiG5maU6XjaDof16agCKvN%2B3lnRky0AOs6qvSdjRBA9GDVwxWx0IwDKRDQQ%3D%3D
 - Local screenshot: /Applications/LianXi/blockdancez-skills/glintskill/muse-image-ai-image-generator-for-fast-visual-creation/screenshot.png
 
 ## Summary
 
-Muse Image is a browser-based tool that enables creators to transform text prompts and reference photos into professionally polished AI-generated images suitable for various applications like product shots, ads, and social media graphics. The platform emphasizes a streamlined workflow involving four main steps: writing a creative brief, adding reference images, generating variations, and downloading the final product. Muse Image aims to provide practical image solutions for users, featuring text-to-image and image-to-image capabilities, and supports controlled and consistent outputs with reference photos. The tool includes subscription plans tailored for different user needs, offering varying levels of credits and features for image generation and refinement.
+Muse Image is an AI image creation tool that enables users to transform prompts and reference photos into various visual assets such as product shots, social graphics, and ads, all within a single browser workspace. The platform emphasizes a streamlined workflow, allowing users to write prompts, add authorized reference images, generate variations, and download final images while keeping their creative context intact. It is designed for creators, marketers, and designers to produce high-quality visuals efficiently. Muse Image offers different subscription plans catering to diverse usage needs, with options for testing concepts or running larger campaigns, ensuring brand safety through controlled reference image use and clear guidelines on acceptable content.
 
 ## Page Metadata
 
@@ -28,21 +28,21 @@ _No product data returned._
 
 ## Markdown Excerpt
 
-[Text-to-image and image-to-image workflows](https://www.aimuseimage.com/#features)
+[CreateAI image creation in one focused workspace](https://www.aimuseimage.com/#image-generator)
 
 # Muse Image turns prompts and photos into publish-ready AI images
 
 Muse Image helps creators turn prompts and reference photos into product shots, social graphics, ads, thumbnails, and concept art from one focused browser workspace.
 
-[Open Image Generator](https://www.aimuseimage.com/ai-image-generator) [Explore Features](https://www.aimuseimage.com/#features)
+[Open AI Image Generator](https://www.aimuseimage.com/ai-image-generator) [Explore Features](https://www.aimuseimage.com/#features)
 
-Start with a prompt, add a reference image when needed, and download publish-ready visuals.
+Start with a prompt, add an authorized product or composition reference when useful, and download a finished image.
 
-![Muse Image AI image generator background](https://picsum.photos/seed/muse-image-generator-en-background/1600/900.webp)
+![Studio portrait paired with a matching illustrated character created in Muse Image](https://www.aimuseimage.com/_next/image?url=%2Fimgs%2Fload%2Fb.jpg&w=3840&q=75)![AI-generated sports crowd scene used as a Muse Image prompt example](https://www.aimuseimage.com/_next/image?url=%2Fimgs%2Fload%2Fc.jpg&w=3840&q=75)![Paper robot illustration generated from a descriptive text prompt](https://www.aimuseimage.com/_next/image?url=%2Fimgs%2Fload%2Fmuse-image-paper-robot.webp&w=3840&q=75)![Cinematic product image created for an advertising concept](https://www.aimuseimage.com/_next/image?url=%2Fimgs%2Fload%2Fmuse-image-cinematic-product.webp&w=3840&q=75)![Collection of original AI images created with Muse Image](https://www.aimuseimage.com/_next/image?url=%2Fimgs%2Fload%2Fmuse-image-hero.webp&w=3840&q=75)
 
 ## A cleaner way to make visual ideas real with Muse Image
 
-Image Generator
+Mode
 
 Text to ImageImage to Image
 
@@ -50,55 +50,29 @@ Prompt
 
 0 / 2000
 
-Sign In to Generate Image
+Settings
 
-Cost 20 creditsRemaining 0 credits
+3:2QualityBasicHigh
 
-[Buy Credits](https://www.aimuseimage.com/pricing)
+Sign in to Generate
 
-Image Preview
+Remaining 0 credits [Need more credits?](https://www.aimuseimage.com/pricing)
 
-![Muse Image preview showing a World Cup broadcast-style crowd reaction image](https://www.aimuseimage.com/imgs/load/c.jpg)
+![Playful cinematic Berlin city chase placeholder preview](https://www.aimuseimage.com/imgs/load/a.jpg)
+
+Model: Muse v1.0
+
+3:2 · Basic
 
 ### Create with Muse Image prompts
 
-Open an example to inspect the full prompt, then send it straight into the Muse Image generator as a starting point for your own AI image variation.
+Open an example to inspect the full prompt, then send it straight into the image generator as a starting point for your own variation.
 
-![Sticker-style runner composited into a Berlin street photo](https://www.aimuseimage.com/imgs/load/a.jpg)Image![Studio portrait with a matching chibi illustration](https://www.aimuseimage.com/imgs/load/b.jpg)Image![World Cup broadcast-style crowd reaction screenshot](https://www.aimuseimage.com/imgs/load/c.jpg)Image![Oil-painting style cookie splashing into milk](https://www.aimuseimage.com/imgs/load/d.jpg)Image
-
-## How Muse Image works in four steps
-
-A quick Muse Image workflow for moving from a rough idea to a usable AI image without making the first screen carry every product detail.
-
-1
-
-### Write the creative intent
-
-Describe the subject, setting, style, format, and final use case before generating.
-
-2
-
-### Add reference material
-
-Upload a photo when Muse Image should follow a product, person, composition, or style.
-
-3
-
-### Generate, compare, and refine
-
-Create variations, choose the strongest direction, then revise the prompt or reference.
-
-4
-
-### Download and reuse
-
-Save the finished image for a page, ad, social post, mockup, or review deck.
-
-Product Guide
-
-## Understand Muse Image before you start creating
-
-Muse Image is more than a prompt box.
+![Oil-painting style cookie splashing into milk](https://www.aimuseimage.com/imgs/load/muse-image-cookie-art.webp)
+Oil-painting style cookie splashing into milk
+![Bold coral product poster with graphic architectural forms](https://www.aimuseimage.com/imgs/load/muse-image-product-poster.webp)
+Bold coral product poster with graphic architectural forms
+![Muse Image paper robot racing through an original miniature city](https://www.aimuseimage.com/imgs/lo
 
 ...
 

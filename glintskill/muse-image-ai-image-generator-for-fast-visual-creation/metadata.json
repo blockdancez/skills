@@ -3,46 +3,44 @@
   "resolved_url": "https://www.aimuseimage.com/",
   "project_name": "Muse Image - AI Image Generator for Fast Visual Creation",
   "project_slug": "muse-image-ai-image-generator-for-fast-visual-creation",
-  "captured_at": "2026-07-09T09:23:44.795938+00:00",
-  "summary": "Muse Image is a browser-based tool that enables creators to transform text prompts and reference photos into professionally polished AI-generated images suitable for various applications like product shots, ads, and social media graphics. The platform emphasizes a streamlined workflow involving four main steps: writing a creative brief, adding reference images, generating variations, and downloading the final product. Muse Image aims to provide practical image solutions for users, featuring text-to-image and image-to-image capabilities, and supports controlled and consistent outputs with reference photos. The tool includes subscription plans tailored for different user needs, offering varying levels of credits and features for image generation and refinement.",
+  "captured_at": "2026-07-12T01:46:35.897670+00:00",
+  "summary": "Muse Image is an AI image creation tool that enables users to transform prompts and reference photos into various visual assets such as product shots, social graphics, and ads, all within a single browser workspace. The platform emphasizes a streamlined workflow, allowing users to write prompts, add authorized reference images, generate variations, and download final images while keeping their creative context intact. It is designed for creators, marketers, and designers to produce high-quality visuals efficiently. Muse Image offers different subscription plans catering to diverse usage needs, with options for testing concepts or running larger campaigns, ensuring brand safety through controlled reference image use and clear guidelines on acceptable content.",
   "metadata": {
-    "viewport": [
-      "width=device-width, initial-scale=1",
-      "width=device-width, initial-scale=1.0"
-    ],
-    "description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
-    "ogLocale": "en",
-    "robots": "index, follow",
-    "title": "Muse Image - AI Image Generator for Fast Visual Creation",
-    "ogSiteName": "Muse Image Generator",
-    "og:title": "Muse Image - AI Image Generator for Fast Visual Creation",
-    "ogTitle": "Muse Image - AI Image Generator for Fast Visual Creation",
-    "og:description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
-    "next-size-adjust": "",
-    "ogImage": "https://www.aimuseimage.com/preview.png",
-    "twitter:card": "summary_large_image",
     "twitter:title": "Muse Image - AI Image Generator for Fast Visual Creation",
-    "ogDescription": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
-    "keywords": "muse image, Muse Image, Muse Image Generator, AI image generator, text to image, image to image, product image generator, social media graphics",
-    "og:locale": "en",
-    "og:url": "https://www.aimuseimage.com/",
-    "language": "en",
-    "twitter:description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
-    "twitter:site": "https://www.aimuseimage.com",
+    "ogImage": "https://www.aimuseimage.com/preview.png",
+    "next-size-adjust": "",
     "twitter:image": "https://www.aimuseimage.com/preview.png",
-    "og:site_name": "Muse Image Generator",
+    "twitter:image:alt": "Muse Image Generator preview",
+    "keywords": "AI image generator, visual creation, prompt writing, reference photos, image generation workflow, publish-ready visuals, social graphics, creative assets",
     "ogUrl": "https://www.aimuseimage.com/",
+    "robots": "index, follow",
+    "og:locale": "en",
     "og:image": "https://www.aimuseimage.com/preview.png",
+    "ogSiteName": "Muse Image Generator",
+    "title": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "og:title": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "og:site_name": "Muse Image Generator",
+    "ogLocale": "en",
     "og:type": "website",
+    "ogDescription": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "viewport": "width=device-width, initial-scale=1",
+    "description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "language": "en",
+    "og:description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "og:url": "https://www.aimuseimage.com/",
+    "ogTitle": "Muse Image - AI Image Generator for Fast Visual Creation",
+    "og:image:alt": "Muse Image Generator preview",
+    "twitter:description": "Muse Image is an AI image generator for turning prompts and reference photos into publish-ready product shots, social graphics, ads, and concept art.",
+    "twitter:card": "summary_large_image",
     "favicon": "https://www.aimuseimage.com/favicon.ico",
-    "scrapeId": "019f4630-713b-747e-b02c-d757b4c1df81",
+    "scrapeId": "019f5400-fa6f-704d-a533-8d26d269cddc",
     "sourceURL": "https://www.aimuseimage.com/",
     "url": "https://www.aimuseimage.com/",
     "statusCode": 200,
     "contentType": "text/html; charset=utf-8",
     "timezone": "America/New_York",
     "proxyUsed": "basic",
-    "indexId": "fda77ba6-b793-4f23-8083-603c7fc59eeb",
+    "indexId": "45cf1842-99f1-4112-84d7-53ea84151555",
     "creditsUsed": 1,
     "concurrencyLimited": false
   },
@@ -52,34 +50,46 @@
       {
         "family": "Noto Sans Mono",
         "role": "monospace"
+      },
+      {
+        "family": "Arial",
+        "role": "body"
+      },
+      {
+        "family": "Helvetica",
+        "role": "body"
       }
     ],
     "colors": {
       "primary": "#7C46F2",
-      "secondary": "#67677B",
+      "secondary": "#171628",
       "accent": "#7C46F2",
       "background": "#FAFBFF",
       "textPrimary": "#0A0A0A",
-      "link": "#171628"
+      "link": "#67677B"
     },
     "typography": {
       "fontFamilies": {
-        "primary": "Noto Sans Mono",
-        "heading": "Noto Sans Mono"
+        "primary": "Arial",
+        "heading": "Arial"
       },
       "fontStacks": {
         "heading": [
-          "Noto Sans Mono"
+          "Arial",
+          "Helvetica",
+          "sans-serif"
         ],
         "body": [
           "Noto Sans Mono"
         ],
         "paragraph": [
-          "Noto Sans Mono"
+          "Arial",
+          "Helvetica",
+          "sans-serif"
         ]
       },
       "fontSizes": {
-        "h1": "60px",
+        "h1": "76px",
         "h2": "16px",
         "body": "18px"
       }
@@ -91,26 +101,26 @@
     "components": {
       "input": {
         "background": "#FAFBFF",
-        "textColor": "#171628",
-        "borderColor": "#D6D6E0",
-        "borderRadius": "6px",
+        "textColor": "#0A0A0A",
+        "borderColor": null,
+        "borderRadius": "0px",
         "borderRadiusCorners": {
-          "topLeft": "6px",
-          "topRight": "6px",
-          "bottomRight": "6px",
-          "bottomLeft": "6px"
+          "topLeft": "0px",
+          "topRight": "0px",
+          "bottomRight": "0px",
+          "bottomLeft": "0px"
         },
-        "shadow": "none"
+        "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
       },
       "buttonPrimary": {
         "background": "#7C46F2",
         "textColor": "#FFFFFF",
-        "borderRadius": "6px",
+        "borderRadius": "33554400px",
         "borderRadiusCorners": {
-          "topLeft": "6px",
-          "topRight": "6px",
-          "bottomRight": "6px",
-          "bottomLeft": "6px"
+          "topLeft": "33554400px",
+          "topRight": "33554400px",
+          "bottomRight": "33554400px",
+          "bottomLeft": "33554400px"
         },
         "shadow": "none"
       },
@@ -118,12 +128,12 @@
         "background": "#FAFBFF",
         "textColor": "#0A0A0A",
         "borderColor": "#E3E4E6",
-        "borderRadius": "6px",
+        "borderRadius": "33554400px",
         "borderRadiusCorners": {
-          "topLeft": "6px",
-          "topRight": "6px",
-          "bottomRight": "6px",
-          "bottomLeft": "6px"
+          "topLeft": "33554400px",
+          "topRight": "33554400px",
+          "bottomRight": "33554400px",
+          "bottomLeft": "33554400px"
         },
         "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
       }
@@ -142,21 +152,21 @@
     },
     "__llm_button_reasoning": {
       "primary": {
-        "index": 6,
-        "text": "Open Image Generator",
-        "reasoning": "Button #6 ('Open Image Generator') uses the vibrant brand color #7C46F2, which aligns with the primary brand color and has action-oriented text, making it the primary CTA."
+        "index": 7,
+        "text": "Open AI Image Generator",
+        "reasoning": "Button #6 'Open AI Image Generator' uses the vibrant brand color #7C46F2, which aligns with the site's primary color scheme and is action-oriented, making it the primary CTA."
       },
       "secondary": {
-        "index": 7,
+        "index": 8,
         "text": "Explore Features",
-        "reasoning": "Button #7 ('Explore Features') has a different background color (#FAFBFF) and serves as a secondary action, complementing the primary CTA."
+        "reasoning": "Button #2 'Explore Features' has a different background color #FAFBFF, making it suitable as a secondary CTA. It complements the primary button by offering additional exploration options."
       },
       "confidence": 0.95
     },
     "personality": {
       "tone": "modern",
-      "energy": "medium",
-      "targetAudience": "creatives and designers"
+      "energy": "high",
+      "targetAudience": "creative professionals and designers"
     },
     "designSystem": {
       "framework": "tailwind",
@@ -188,7 +198,7 @@
   "assets": {
     "logo_url": "https://www.aimuseimage.com/_next/image?url=%2Flogo.png&w=256&q=75",
     "logo_path": "/Applications/LianXi/blockdancez-skills/glintskill/muse-image-ai-image-generator-for-fast-visual-creation/logo.png",
-    "screenshot_url": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b7206b90-4561-4ef7-ae9c-d5c38af8615a.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1784193814&Signature=q0V9p3BMZV3mHaSvpkBTHC7WikvEEUZd9chiQwfP4FRbyvYWSf4llAzZxtFU014wQuq3sQ7E0z08MutK%2FSNrbNvKGBtzg03WZXna3wO0EBjMVFpMJGUYDrvva%2BM8RezHPJyilmw%2FZCgnjJvVniACBhstszt31ap8AX3b8jzJ2doOKvSjV0wQsBChb8WjJt%2BHjpozEpGJ2V1aFk4hP7hLNxtFwsSO%2BU8iyRg7yzzjRwAn4Rdad01P11rYaXbFHAeSXaBp%2FMJJYbJ4c%2FGlhFbaB9yM%2FXqSQnlfNOZ6XKpCobq2HxJI4fK2lXK5iHRLSiVYzOGppXWb6W2uYSmVjjV22w%3D%3D",
+    "screenshot_url": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-121c6a41-b855-42c8-aa66-6c733ab718d5.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1784425586&Signature=tNPT2s2U2emCY2IRvIsay%2FE1hlXEpeFh%2B8h5j6j51cDjW3wASrwL7CGTBS%2Fwji2890RS%2FLkWWwwFS901EQMOK3%2FvQ6cRaaI2rq4D6OcDij99uLJd7nQ%2FY%2BCWqNli0QBJUGtJVKcQ9wIcQAOZ%2FYYPg9sJO22XQFzZlWKNlwoHdsuAsBhj%2FQwjd0mbmYhM4HP9ABOGCOcDVutk9l8qXBZqfXW0ksgXnaKaDfJl9gdfhAk4PMLGRtd%2B9rx1GrKY1c%2F8vP7Nu8kTeFuYVAkBd4ARFfdTuxKSiG5maU6XjaDof16agCKvN%2B3lnRky0AOs6qvSdjRBA9GDVwxWx0IwDKRDQQ%3D%3D",
     "screenshot_path": "/Applications/LianXi/blockdancez-skills/glintskill/muse-image-ai-image-generator-for-fast-visual-creation/screenshot.png"
   },
   "warnings": [
