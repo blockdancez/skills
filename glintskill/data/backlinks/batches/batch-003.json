@@ -11,7 +11,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=bai.tools; dr_gt_0",
+      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=bai.tools; dr_gt_0; submitted Muse Image and Glypho free listings; both confirmed successful and pending review",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -29,25 +29,13 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-betalist-com",
-      "platform_name": "BetaList",
-      "url": "https://betalist.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=betalist.com; website_url=https://betalist.com/; backlinkdirs_item=https://backlinkdirs.com/item/betalist; page=4; position=133; dr=76; mv=277840; tags=Free;Nofollow;One Time Purchase; submit_url=https://betalist.com/submissions/new/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "backlinkdirs-biosites-com",
       "platform_name": "Bio Sites",
       "url": "https://biosites.com/",
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=biosites.com; website_url=https://biosites.com/; backlinkdirs_item=https://backlinkdirs.com/item/bio-sites; page=4; position=130; dr=64; mv=519707; tags=Free;Dofollow; submit_url=https://biosites.com/",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=biosites.com; website_url=https://biosites.com/; backlinkdirs_item=https://backlinkdirs.com/item/bio-sites; page=4; position=130; dr=64; mv=519707; tags=Free;Dofollow; submit_url=https://biosites.com/; created live Bio Sites for Muse Image and Glypho",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -71,19 +59,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=britainbusinessdirectory.com; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-brouseai-com",
-      "platform_name": "BroUseAI",
-      "url": "https://www.brouseai.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=brouseai.com; website_url=https://www.brouseai.com/; backlinkdirs_item=https://backlinkdirs.com/item/brouseai; page=2; position=55; dr=10; mv=23915; tags=Free;Dofollow;One Time Purchase; submit_url=https://www.brouseai.com/submission/ai",
+      "notes": "source=README外链.md; category=web_directory; root_domain=britainbusinessdirectory.com; needs_discovery; submitted Muse Image and Glypho as free regular links in Computers & Internet > Software; both awaiting approval",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -113,18 +89,6 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-buildway-cc",
-      "platform_name": "BuildWay",
-      "url": "https://buildway.cc/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=buildway.cc; website_url=https://buildway.cc/; backlinkdirs_item=https://backlinkdirs.com/item/buildway; page=1; position=22; dr=36; mv=100; tags=Dofollow;Free;Freemium; submit_url=https://buildway.cc/tools/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "canadiandirectory-org",
       "platform_name": "CanadianDirectory.org",
       "url": "https://www.canadiandirectory.org/",
@@ -143,7 +107,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=cipinet.com; submit_url_extracted; submitted as free listing in Computers",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=cipinet.com; submit_url_extracted; submitted as free listing in Computers; Muse Image and Glypho free forms filled in separate tabs",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -215,7 +179,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=/Users/test/Downloads/aaaa.csv; category=free_backlink_candidate; root_domain=dev.to; imported_from=aaaa.csv; published dev.to article with PreviewShip backlink",
+      "notes": "source=/Users/test/Downloads/aaaa.csv; category=free_backlink_candidate; root_domain=dev.to; imported_from=aaaa.csv; published dev.to article with PreviewShip backlink; published separate Muse Image and Glypho articles with live backlinks",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -227,7 +191,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "Submitted PreviewShip to DevPages with DevOps category and Freemium pricing; page confirmed the tool submission was received for review.",
+      "notes": "Submitted PreviewShip to DevPages with DevOps category and Freemium pricing; page confirmed the tool submission was received for review.; submitted Muse Image and Glypho as Generative AI/Freemium; both received for review",
       "last_attempt_at": null,
       "result_url": null,
       "error": null

@@ -21,9 +21,53 @@
     ],
     "source_status": "failed"
   },
-  "exported_at": "2026-07-09T03:33:50Z",
-  "item_count": 29,
+  "exported_at": "2026-07-13T01:15:00Z",
+  "item_count": 30,
   "items": [
+    {
+      "id": "backlinkdirs-betalist-com",
+      "platform_name": "BetaList",
+      "url": "https://betalist.com/",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=betalist.com; final submission only offers paid plans",
+      "last_attempt_at": "2026-07-13T01:12:00Z",
+      "result_url": "https://betalist.com/submissions/171419/wizard/submit",
+      "error": "Final submission only offers paid plans; no free listing option is available.",
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$39",
+      "minimum_price_amount": 39,
+      "minimum_price_currency": "USD",
+      "price_basis": "Lite startup listing",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "backlinkdirs-brouseai-com",
+      "platform_name": "BroUseAI",
+      "url": "https://www.brouseai.com/",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=brouseai.com; premium submission requires a paid license key",
+      "last_attempt_at": "2026-07-13T00:39:00Z",
+      "result_url": "https://www.brouseai.com/submission/ai",
+      "error": "Submission form only offers a paid premium plan and requires a license key.",
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "paid": true,
+      "minimum_price": "$29",
+      "minimum_price_amount": 29,
+      "minimum_price_currency": "USD",
+      "price_basis": "One-time premium listing license key",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
     {
       "id": "aitoolly-com",
       "platform_name": "aitoolly.com",
@@ -281,25 +325,6 @@
       "removal_categories": [
         "paid"
       ]
-    },
-    {
-      "id": "canadiandirectory-org",
-      "platform_name": "CanadianDirectory.org",
-      "url": "https://www.canadiandirectory.org/",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=canadiandirectory.org; needs_discovery; submitted as free regular link; title used: PreviewShip HTML and Markdown Hosting",
-      "last_attempt_at": "2026-07-08T02:37:21.858Z",
-      "result_url": "https://www.canadiandirectory.org/submit.php",
-      "error": null,
-      "source_batch": "data/backlinks/batches/batch-003.json",
-      "paid": true,
-      "minimum_price": "$8.99",
-      "minimum_price_amount": 8.99,
-      "minimum_price_currency": "USD",
-      "price_basis": "featured link, 2 year listing",
-      "free_option_available": true
     },
     {
       "id": "item-11m2awp",

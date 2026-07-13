@@ -2,9 +2,19 @@
   "version": 1,
   "type": "exchange_backlinks",
   "description": "Sites that require or request reciprocal backlinks before or alongside submission.",
-  "updated_at": "2026-07-12T13:36:05Z",
-  "item_count": 10,
+  "updated_at": "2026-07-13T01:15:00Z",
+  "item_count": 11,
   "items": [
+    {
+      "id": "backlinkdirs-buildway-cc",
+      "platform_name": "BuildWay",
+      "url": "https://buildway.cc/",
+      "submit_url": "https://buildway.cc/tools/submit",
+      "exchange_required": true,
+      "source_batch": "data/backlinks/batches/batch-003.json",
+      "last_attempt_at": "2026-07-13T00:47:00Z",
+      "notes": "The free listing requires adding a visible BuildWay reciprocal backlink on each project website before submission."
+    },
     {
       "id": "item-xfkd3j",
       "platform_name": "Canada Web Dir",

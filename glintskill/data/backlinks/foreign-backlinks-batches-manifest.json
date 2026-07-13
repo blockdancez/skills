@@ -1,7 +1,7 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 20,
-  "total_items": 185,
+  "total_items": 182,
   "total_batches": 11,
   "batches": [
     {
@@ -23,7 +23,7 @@
     {
       "batch": 3,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-003.json",
-      "item_count": 20,
+      "item_count": 17,
       "first_id": "bai-tools",
       "last_id": "backlinkdirs-devpost-com",
       "status": "pending"

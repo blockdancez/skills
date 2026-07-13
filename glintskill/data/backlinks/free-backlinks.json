@@ -1418,18 +1418,6 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-buildway-cc",
-      "platform_name": "BuildWay",
-      "url": "https://buildway.cc/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=buildway.cc; website_url=https://buildway.cc/; backlinkdirs_item=https://backlinkdirs.com/item/buildway; page=1; position=22; dr=36; mv=100; tags=Dofollow;Free;Freemium; submit_url=https://buildway.cc/tools/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "backlinkdirs-portbacklinks-com",
       "platform_name": "PortBackLinks",
       "url": "https://portbacklinks.com/",
@@ -1689,18 +1677,6 @@
       "status": "pending",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=openaiwebs.com; website_url=https://openaiwebs.com; backlinkdirs_item=https://backlinkdirs.com/item/openai-webs; page=2; position=54; dr=0.6; mv=1727; tags=Posts;Free;Developer; submit_url=https://openaiwebs.com/submit-your-ai-tool/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-brouseai-com",
-      "platform_name": "BroUseAI",
-      "url": "https://www.brouseai.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=brouseai.com; website_url=https://www.brouseai.com/; backlinkdirs_item=https://backlinkdirs.com/item/brouseai; page=2; position=55; dr=10; mv=23915; tags=Free;Dofollow;One Time Purchase; submit_url=https://www.brouseai.com/submission/ai",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -2401,18 +2377,6 @@
       "status": "pending",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=f6s.com; website_url=https://f6s.com; backlinkdirs_item=https://backlinkdirs.com/item/f6s-interstitial-bot-check; page=4; position=131; dr=83; mv=1676366; tags=Free; submit_url=https://www.f6s.com/add-software",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-betalist-com",
-      "platform_name": "BetaList",
-      "url": "https://betalist.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=betalist.com; website_url=https://betalist.com/; backlinkdirs_item=https://backlinkdirs.com/item/betalist; page=4; position=133; dr=76; mv=277840; tags=Free;Nofollow;One Time Purchase; submit_url=https://betalist.com/submissions/new/",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
