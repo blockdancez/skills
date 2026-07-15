@@ -21,8 +21,8 @@
     ],
     "source_status": "failed"
   },
-  "exported_at": "2026-07-13T01:15:00Z",
-  "item_count": 30,
+  "exported_at": "2026-07-14T03:30:17Z",
+  "item_count": 32,
   "items": [
     {
       "id": "backlinkdirs-betalist-com",
@@ -356,10 +356,10 @@
       "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=dropyourai.com; submit_url_extracted; submitted as free tool listing with screenshot upload",
-      "last_attempt_at": "2026-07-08T03:28:39Z",
+      "last_attempt_at": "2026-07-14T11:07:03+08:00",
       "result_url": "https://www.dropyourai.com/submit-tool",
       "error": null,
-      "source_batch": "data/backlinks/batches/batch-003.json",
+      "source_batch": "data/backlinks/batches/batch-004.json",
       "paid": true,
       "minimum_price": "$19.00",
       "minimum_price_amount": 19,
@@ -635,6 +635,50 @@
       "free_option_available": false,
       "removal_categories": [
         "paid"
+      ]
+    },
+    {
+      "id": "dir2ai-com",
+      "platform_name": "dir2ai.com",
+      "url": "https://dir2ai.com",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=dir2ai.com; dr_gt_0; current submit flow requires credits",
+      "last_attempt_at": "2026-07-14T10:46:34+08:00",
+      "result_url": "https://dir2ai.com/submit",
+      "error": "No free listing; each submission requires 100 credits ($10).",
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$10 for 100 credits",
+      "minimum_price_amount": 10,
+      "minimum_price_currency": "USD",
+      "price_basis": "100 submission credits",
+      "free_option_available": false,
+      "removal_categories": [
+        "paid"
+      ]
+    },
+    {
+      "id": "backlinkdirs-early-tools",
+      "platform_name": "Early.Tools",
+      "url": "https://www.early.tools/",
+      "free": true,
+      "status": "failed",
+      "login_method": "google",
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=early.tools; website_url=https://www.early.tools/; backlinkdirs_item=https://backlinkdirs.com/item/earlytools; page=5; position=155; dr=24; mv=2160; tags=Dofollow;Free;One Time Purchase; submit_url=https://www.early.tools/submit",
+      "last_attempt_at": "2026-07-14T11:30:17+08:00",
+      "result_url": "https://www.early.tools/account/listings/mgpsw7lxyy1iqpgtkxc1yzal",
+      "error": "Guaranteed listing requires a $29 payment; the unpaid submission remains pending editorial curation.",
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "paid": true,
+      "minimum_price": "$29",
+      "minimum_price_amount": 29,
+      "minimum_price_currency": "USD",
+      "price_basis": "one-time instant listing",
+      "free_option_available": true,
+      "removal_categories": [
+        "paid_option_available"
       ]
     }
   ]

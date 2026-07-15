@@ -2,8 +2,8 @@
   "version": 1,
   "type": "exchange_backlinks",
   "description": "Sites that require or request reciprocal backlinks before or alongside submission.",
-  "updated_at": "2026-07-13T01:15:00Z",
-  "item_count": 11,
+  "updated_at": "2026-07-14T03:32:53Z",
+  "item_count": 12,
   "items": [
     {
       "id": "backlinkdirs-buildway-cc",
@@ -118,6 +118,17 @@
       "last_attempt_at": "2026-07-12T13:36:05Z",
       "result_url": "https://auraplusplus.com/projects/glypho",
       "notes": "Free launches require a visible reciprocal link or Aura++ badge on each project website. GlyPho already has a public project page; Muse Image is saved as an incomplete submission and is waiting for backlink verification at https://auraplusplus.com/projects/muse-image."
+    },
+    {
+      "id": "backlinkdirs-ecomtoolai-com",
+      "platform_name": "ecomtoolai.com",
+      "url": "https://ecomtoolai.com/",
+      "submit_url": "https://ecomtoolai.com/submit",
+      "result_url": "https://www.ecomtoolai.com/payment/Byf08X9cW4pXPD2D10252t",
+      "exchange_required": true,
+      "source_batch": "data/backlinks/batches/batch-004.json",
+      "last_attempt_at": "2026-07-14T11:32:53+08:00",
+      "notes": "Muse Image draft was created. The $0 review plan requires adding an ecomtoolai backlink to the project website; the no-backlink Pro plan costs $9.90."
     }
   ]
 }

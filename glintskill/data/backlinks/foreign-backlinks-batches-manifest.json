@@ -1,7 +1,7 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 20,
-  "total_items": 182,
+  "total_items": 173,
   "total_batches": 11,
   "batches": [
     {
@@ -31,9 +31,9 @@
     {
       "batch": 4,
       "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-004.json",
-      "item_count": 20,
-      "first_id": "dir2ai-com",
-      "last_id": "futuretools-top",
+      "item_count": 11,
+      "first_id": "item-11m2awp",
+      "last_id": "futuretools",
       "status": "pending"
     },
     {

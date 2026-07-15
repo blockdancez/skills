@@ -5,25 +5,13 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "dir2ai-com",
-      "platform_name": "dir2ai.com",
-      "url": "https://dir2ai.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=dir2ai.com; dr_gt_0",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "item-11m2awp",
       "platform_name": "Free Directory",
       "url": "https://www.directory-free.com/submit/submit.php",
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=directory-free.com; submit_url_extracted; submitted as regular free listing in Internet/Web Hosting",
+      "notes": "source=README外链.md; category=web_directory; root_domain=directory-free.com; submit_url_extracted",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -41,42 +29,6 @@
       "error": null
     },
     {
-      "id": "dropyourai",
-      "platform_name": "DropYourAI",
-      "url": "https://www.dropyourai.com/submit-tool",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=dropyourai.com; submit_url_extracted; submitted as free tool listing with screenshot upload",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-early-tools",
-      "platform_name": "Early.Tools",
-      "url": "https://www.early.tools/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=early.tools; website_url=https://www.early.tools/; backlinkdirs_item=https://backlinkdirs.com/item/earlytools; page=5; position=155; dr=24; mv=2160; tags=Dofollow;Free;One Time Purchase; submit_url=https://www.early.tools/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-ecomtoolai-com",
-      "platform_name": "ecomtoolai.com",
-      "url": "https://ecomtoolai.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=ecomtoolai.com; website_url=https://ecomtoolai.com/; backlinkdirs_item=https://backlinkdirs.com/item/ecomtoolaicom; page=1; position=20; dr=21; mv=100; tags=Free;AI Autofill;One Time Purchase;Dofollow; submit_url=https://ecomtoolai.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "backlinkdirs-exactseek-com",
       "platform_name": "ExactSeek",
       "url": "https://www.exactseek.com/",
@@ -89,18 +41,6 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-f6s-com",
-      "platform_name": "F6S Interstitial Bot Check",
-      "url": "https://f6s.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=f6s.com; website_url=https://f6s.com; backlinkdirs_item=https://backlinkdirs.com/item/f6s-interstitial-bot-check; page=4; position=131; dr=83; mv=1676366; tags=Free; submit_url=https://www.f6s.com/add-software",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "backlinkdirs-fastlaunch-io",
       "platform_name": "FastLaunch",
       "url": "https://fastlaunch.io",
@@ -108,18 +48,6 @@
       "status": "pending",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=fastlaunch.io; website_url=https://fastlaunch.io; backlinkdirs_item=https://backlinkdirs.com/item/fastlaunch; page=2; position=68; dr=31; mv=450; tags=Dofollow;Free;One Time Purchase; submit_url=https://fastlaunch.io/projects/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-finddev-tools",
-      "platform_name": "Find Dev Tools",
-      "url": "https://finddev.tools/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=finddev.tools; website_url=https://finddev.tools/; backlinkdirs_item=https://backlinkdirs.com/item/find-dev-tools; page=4; position=137; dr=19; mv=3674; tags=Free;Dofollow;Developer; submit_url=https://finddev.tools/submit",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -143,7 +71,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "Submitted GlyPho footer gallery entry; site confirmed Thank you for your footer gallery submission.",
+      "notes": "category=footer_gallery; root_domain=footer.design; submit_url=https://footer.design/submit",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -155,19 +83,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=free-ai-tools-directory.com; submit_url_extracted; submitted PreviewShip free tool form",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "freeaitool-ai",
-      "platform_name": "freeaitool.ai",
-      "url": "https://freeaitool.ai",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=freeaitool.ai; dr_gt_0",
+      "notes": "source=README外链.md; category=ai_directory; root_domain=free-ai-tools-directory.com; submit_url_extracted",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -179,7 +95,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=freeinternetwebdirectory.com; submit_url_extracted; submitted as free regular link in Computers & Internet/Web Hosting",
+      "notes": "source=README外链.md; category=web_directory; root_domain=freeinternetwebdirectory.com; submit_url_extracted",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -191,19 +107,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=freeprwebdirectory.com; submit_url_extracted; submitted as free regular link in Computers & Internet/Web Hosting",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "funai-online",
-      "platform_name": "funai.online",
-      "url": "https://funai.online",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=funai.online; dr_gt_0",
+      "notes": "source=README外链.md; category=web_directory; root_domain=freeprwebdirectory.com; submit_url_extracted",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -215,7 +119,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=fuse.kiwi; needs_discovery; submitted URL through Paste Link form",
+      "notes": "source=README外链.md; category=needs_review; root_domain=fuse.kiwi; needs_discovery",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -227,19 +131,7 @@
       "free": true,
       "status": "pending",
       "login_method": "google",
-      "notes": "Submitted GlyPho through FutureTools submit form; page confirmed Tool Submitted.",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "futuretools-top",
-      "platform_name": "futuretools.top",
-      "url": "https://futuretools.top",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=futuretools.top; dr_gt_0",
+      "notes": "category=ai_directory; root_domain=futuretools.io; submit_url=https://futuretools.io/submit-a-tool",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
