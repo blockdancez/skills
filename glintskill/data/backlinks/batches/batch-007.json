@@ -53,66 +53,6 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-mssg-me",
-      "platform_name": "mssg.me",
-      "url": "https://mssg.me",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=mssg.me; website_url=https://mssg.me; backlinkdirs_item=https://backlinkdirs.com/item/mssgme; page=5; position=146; dr=80; mv=646392; tags=Free;Dofollow; submit_url=https://mssg.me",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "navai-me",
-      "platform_name": "navai.me",
-      "url": "https://navai.me",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=navai.me; dr_gt_0",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-neeed-directory",
-      "platform_name": "Neeed Directory",
-      "url": "https://neeed.directory",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=neeed.directory; website_url=https://neeed.directory; backlinkdirs_item=https://backlinkdirs.com/item/neeed-directory; page=1; position=7; dr=72; mv=100; tags=Developer;Free; submit_url=https://neeed.directory/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-news-ycombinator-com",
-      "platform_name": "Hacker News",
-      "url": "https://news.ycombinator.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=news.ycombinator.com; website_url=https://news.ycombinator.com; backlinkdirs_item=https://backlinkdirs.com/item/hacker-news; page=3; position=86; dr=91; mv=13531980; tags=Posts;Developer;Free;Dofollow; submit_url=https://news.ycombinator.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-nuxtdir-com",
-      "platform_name": "NuxtDir",
-      "url": "https://nuxtdir.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=nuxtdir.com; website_url=https://nuxtdir.com; backlinkdirs_item=https://backlinkdirs.com/item/nuxtdir; page=2; position=52; dr=12; mv=100; tags=Free;Dofollow;One Time Purchase; submit_url=https://nuxtdir.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "offpagesavvy",
       "platform_name": "Offpagesavvy",
       "url": "https://www.offpagesavvy.com/submit-your-site/",
@@ -132,42 +72,6 @@
       "status": "pending",
       "login_method": "google",
       "notes": "Submitted PreviewShip URL; site confirmed the submission was received.",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-onee-page",
-      "platform_name": "Onee Page",
-      "url": "https://onee.page/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=onee.page; website_url=https://onee.page/; backlinkdirs_item=https://backlinkdirs.com/item/onee-page; page=4; position=140; dr=44; mv=112000; tags=Free;Dofollow; submit_url=https://onee.page",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "ontoplist-com",
-      "platform_name": "OnToplist.com",
-      "url": "https://www.ontoplist.com/join/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=ontoplist.com; submit_url_extracted; form filled with public fields; type=Website; category=Web Design; language=English; free review requires badge/backlink; user confirmed free request-review submission successful",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-openaiwebs-com",
-      "platform_name": "OpenAI Webs",
-      "url": "https://openaiwebs.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=openaiwebs.com; website_url=https://openaiwebs.com; backlinkdirs_item=https://backlinkdirs.com/item/openai-webs; page=2; position=54; dr=0.6; mv=1727; tags=Posts;Free;Developer; submit_url=https://openaiwebs.com/submit-your-ai-tool/",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
@@ -216,18 +120,6 @@
       "status": "pending",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=peerlist.io; website_url=https://peerlist.io; backlinkdirs_item=https://backlinkdirs.com/item/peerlist; page=4; position=124; dr=77; mv=437319; tags=Free;Dofollow;One Time Purchase;AI Autofill; submit_url=https://peerlist.io/user/projects/add-project",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "perchance-ai-net",
-      "platform_name": "perchance-ai.net",
-      "url": "https://perchance-ai.net",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=perchance-ai.net; dr_gt_0",
       "last_attempt_at": null,
       "result_url": null,
       "error": null
