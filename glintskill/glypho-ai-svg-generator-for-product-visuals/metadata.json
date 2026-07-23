@@ -1,0 +1,217 @@
+{
+  "source_url": "https://glypho.app",
+  "resolved_url": "https://glypho.app",
+  "project_name": "GlyPho: AI SVG Generator for Product Visuals",
+  "project_slug": "glypho-ai-svg-generator-for-product-visuals",
+  "captured_at": "2026-07-20T09:44:50.239173+00:00",
+  "summary": "GlyPho is a platform that generates editable SVG assets tailored to specific needs, transforming brief prompts into reusable vector families with consistent presets. It emphasizes quality and community involvement, allowing users to create and share SVGs while earning credits. Key features include a visual workflow that enhances prompt consistency, editable exports for various applications, and a reward system for sharing original assets. GlyPho offers multiple style presets such as Minimal Outline, Notion Style, and Duotone, suitable for logos, icons, and illustrations, setting itself apart from conventional stock SVG libraries. Pricing includes a free tier and subscription options for increased access and features.",
+  "metadata": {
+    "og:title": "GlyPho: AI SVG Generator for Product Visuals",
+    "description": "Generate production-ready SVG logos, icons, illustrations, and patterns from prompts. Pick a style, keep visuals consistent, and export clean SVG assets.",
+    "ogLocale": "en",
+    "ogUrl": "https://www.glypho.app/",
+    "ogTitle": "GlyPho: AI SVG Generator for Product Visuals",
+    "title": "GlyPho: AI SVG Generator for Product Visuals",
+    "ogImage": "https://www.glypho.app/preview.png",
+    "og:url": "https://www.glypho.app/",
+    "robots": "index, follow",
+    "viewport": [
+      "width=device-width, initial-scale=1",
+      "width=device-width, initial-scale=1.0"
+    ],
+    "og:locale": "en",
+    "ogDescription": "Generate production-ready SVG logos, icons, illustrations, and patterns from prompts. Pick a style, keep visuals consistent, and export clean SVG assets.",
+    "og:description": "Generate production-ready SVG logos, icons, illustrations, and patterns from prompts. Pick a style, keep visuals consistent, and export clean SVG assets.",
+    "og:image": "https://www.glypho.app/preview.png",
+    "og:site_name": "GlyPho",
+    "twitter:site": "https://www.glypho.app",
+    "twitter:image": "https://www.glypho.app/preview.png",
+    "keywords": "GlyPho, AI SVG generator, SVG generator, product visuals, SVG logos, SVG icons, SVG illustrations, SVG patterns",
+    "next-size-adjust": "",
+    "twitter:card": "summary_large_image",
+    "twitter:description": "Generate production-ready SVG logos, icons, illustrations, and patterns from prompts. Pick a style, keep visuals consistent, and export clean SVG assets.",
+    "language": "en",
+    "ogSiteName": "GlyPho",
+    "og:type": "website",
+    "twitter:title": "GlyPho: AI SVG Generator for Product Visuals",
+    "favicon": "https://www.glypho.app/logo.png",
+    "scrapeId": "019f7ee9-af9e-7071-a392-93e4143b9ef6",
+    "sourceURL": "https://glypho.app",
+    "url": "https://www.glypho.app/",
+    "statusCode": 200,
+    "contentType": "text/html; charset=utf-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "basic",
+    "indexId": "94b372c2-1a3b-4c96-b455-8455d7bd879d",
+    "creditsUsed": 1,
+    "concurrencyLimited": false
+  },
+  "branding": {
+    "colorScheme": "light",
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "SF Pro Text",
+        "role": "body"
+      },
+      {
+        "family": "Segoe UI Variable Text",
+        "role": "body"
+      },
+      {
+        "family": "Aptos",
+        "role": "body"
+      },
+      {
+        "family": "Playfair Display",
+        "role": "heading"
+      }
+    ],
+    "colors": {
+      "primary": "#C9B8A0",
+      "secondary": "#D1D9E0",
+      "accent": "#59636E",
+      "background": "#0A0A0A",
+      "textPrimary": "#0A0A0A",
+      "link": "#59636E"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Inter",
+        "heading": "Playfair Display"
+      },
+      "fontStacks": {
+        "heading": [
+          "Playfair Display",
+          "Georgia",
+          "Times New Roman",
+          "serif"
+        ],
+        "body": [
+          "Inter",
+          "SF Pro Text",
+          "Segoe UI Variable Text",
+          "Aptos",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "sans-serif"
+        ],
+        "paragraph": [
+          "Inter",
+          "SF Pro Text",
+          "Segoe UI Variable Text",
+          "Aptos",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "sans-serif"
+        ]
+      },
+      "fontSizes": {
+        "h1": "96px",
+        "h2": "49.6px",
+        "body": "18px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 4,
+      "borderRadius": "0px"
+    },
+    "components": {
+      "buttonPrimary": {
+        "background": "#141414",
+        "textColor": "#FFFFFF",
+        "borderColor": "#E0E0E0",
+        "borderRadius": "33554400px",
+        "borderRadiusCorners": {
+          "topLeft": "33554400px",
+          "topRight": "33554400px",
+          "bottomRight": "33554400px",
+          "bottomLeft": "33554400px"
+        },
+        "shadow": "none"
+      },
+      "buttonSecondary": {
+        "background": "#FFFFFF",
+        "textColor": "#000000",
+        "borderRadius": "33554400px",
+        "borderRadiusCorners": {
+          "topLeft": "33554400px",
+          "topRight": "33554400px",
+          "bottomRight": "33554400px",
+          "bottomLeft": "33554400px"
+        },
+        "shadow": "none"
+      }
+    },
+    "images": {
+      "logo": "https://www.glypho.app/_next/image?url=%2Flogo.png&w=2048&q=75",
+      "favicon": "https://www.glypho.app/logo.png",
+      "ogImage": "https://www.glypho.app/preview.png",
+      "logoHref": "/"
+    },
+    "__llm_logo_reasoning": {
+      "selectedIndex": 0,
+      "reasoning": "Selected #0 because it is visible, located in the header, and links to the homepage, matching the favicon and brand name 'GlyPho'.",
+      "confidence": 0.9,
+      "source": "llm"
+    },
+    "__llm_button_reasoning": {
+      "primary": {
+        "index": 0,
+        "text": "Start creating",
+        "reasoning": "Button #0 ('Start creating') has a dark background with white text, making it stand out as a primary call-to-action. The text is action-oriented, encouraging users to begin using the service."
+      },
+      "secondary": {
+        "index": 5,
+        "text": "Generate SVGs",
+        "reasoning": "Button #5 ('Generate SVGs') has a light background with black text, providing a contrast to the primary button. It serves as a secondary action related to the site's core functionality."
+      },
+      "confidence": 0.95
+    },
+    "personality": {
+      "tone": "modern",
+      "energy": "medium",
+      "targetAudience": "designers and developers"
+    },
+    "designSystem": {
+      "framework": "tailwind",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0.95,
+      "colors": 0.9,
+      "overall": 0.925
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": true,
+        "llmSucceeded": true,
+        "finalSource": "llm",
+        "rawLogoSelection": {
+          "selectedLogoIndex": 0,
+          "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and links to the homepage, matching the favicon and brand name 'GlyPho'.",
+          "confidence": 0.9
+        }
+      },
+      "buttonClassification": {
+        "llmCalled": true,
+        "llmSucceeded": true
+      }
+    }
+  },
+  "product": null,
+  "assets": {
+    "logo_url": "https://www.glypho.app/_next/image?url=%2Flogo.png&w=2048&q=75",
+    "logo_path": "/Applications/LianXi/blockdancez-skills/glintskill/glypho-ai-svg-generator-for-product-visuals/logo.png",
+    "screenshot_url": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-a830ae19-d686-46d9-ac0f-890bc1d4c503.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1785145479&Signature=h38Yb%2FojnylPY%2FH4AJtFh0%2FaH8xAzqYxnvErQHptNFqXOMRnrC8q7soeaeSrveT7oazzm4hytWi3%2FQQTxK4NGYdkliFr4EIgTnnyMVIjYjSlB%2FO6620M%2B%2BP7XE8W2cdt80pZgPeAB9EcjKmi3YqymoP8E5AlVDnPIotCNwt7wkk%2F1NEHQaZYMvBc7%2F6XVGwDbtj2LYdAHTAP6RYxRtsFL3cw3E2pVx00cPvsitnzD44ERm4E2mRY9xl3A5h1i53x8YfyNxCPE0vNyMLe6nXI5GuhtvJp%2FvZyLwCJLrgWRVd8xfbWfoPdzQ1VqIhDRvh2OR2BL6ozyAWBcoW73xRA%2FQ%3D%3D",
+    "screenshot_path": "/Applications/LianXi/blockdancez-skills/glintskill/glypho-ai-svg-generator-for-product-visuals/screenshot.png"
+  },
+  "warnings": [
+    "Product data was not returned by Firecrawl."
+  ]
+}
