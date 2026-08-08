@@ -9,11 +9,11 @@
       "platform_name": "Insidr.ai",
       "url": "https://www.insidr.ai/submit-tools/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=insidr.ai; submit_url_extracted; submitted Elementor form with message, link, and tag",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T12:00:32Z",
+      "result_url": "https://www.insidr.ai/submit-tools/",
       "error": null
     },
     {
@@ -21,191 +21,155 @@
       "platform_name": "InstantLaunch",
       "url": "https://instantlaun.ch/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=instantlaun.ch; website_url=https://instantlaun.ch/; backlinkdirs_item=https://backlinkdirs.com/item/instantlaunch; page=2; position=42; dr=20; mv=3420; tags=Dofollow;Free; submit_url=https://instantlaun.ch/submit-new-product/",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:12:35Z",
       "result_url": null,
-      "error": null
+      "error": "InstantLaunch's product form requires an account. Its available login uses a username/email and password, with no Google option, so a user-created account is required before submission."
     },
     {
       "id": "backlinkdirs-internetisbeautiful-com",
       "platform_name": "Internet Is Beautiful",
       "url": "https://internetisbeautiful.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=internetisbeautiful.com; website_url=https://internetisbeautiful.com/; backlinkdirs_item=https://backlinkdirs.com/item/internet-is-beautiful; page=4; position=118; dr=21; mv=2617; tags=Free;Dofollow;One Time Purchase; submit_url=https://tally.so/r/nGrXLj",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:13:13Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-itslaunched-com",
-      "platform_name": "It's Launched!",
-      "url": "https://itslaunched.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=itslaunched.com; website_url=https://itslaunched.com; backlinkdirs_item=https://backlinkdirs.com/item/it-s-launched; page=3; position=85; dr=21; mv=100; tags=Free;Dofollow; submit_url=https://itslaunched.com/add-product",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "The free recommendation form is filled through its final step. The optional queue-skip payment is $199.99 and was not selected; final submission requires a user-solved reCAPTCHA, and all card fields remain empty."
     },
     {
       "id": "iuu-ai",
       "platform_name": "iuu.ai",
       "url": "https://iuu.ai",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=iuu.ai; dr_gt_0",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:13:45Z",
       "result_url": null,
-      "error": null
+      "error": "iuu.ai's website name, URL, and public email fields are prefilled. Continuing requires one of its email-based Login actions; no Google option is exposed, so user account verification is required."
     },
     {
       "id": "jayde",
       "platform_name": "Jayde",
       "url": "https://www.jayde.com/submit.html",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=jayde.com; submit_url_extracted; submitted after user confirmed email verification",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:14:15Z",
       "result_url": null,
-      "error": null
+      "error": "Jayde requests a company email to keep and verify the listing. The provided Gmail address does not meet the stated requirement, so a user-selected company mailbox is needed."
     },
     {
       "id": "la-chief",
       "platform_name": "La Chief",
       "url": "https://lachief.io/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "Submitted PreviewShip to La Chief free listing form; Tally confirmed the form was submitted. Category Coding & Development, topic Work, pricing Freemium.",
-      "last_attempt_at": null,
+      "notes": "Free Listing only selected. Public fields, logo, Art & Animation/Web Design/Research categories, Image Generator topic, and Freemium pricing were prefilled for GlyPho; no paid promotion option was selected.",
+      "last_attempt_at": "2026-08-03T14:14:33Z",
       "result_url": null,
-      "error": null
+      "error": "La Chief requires a last name before submission. The user provided only the public contact name shenyi, so a user-confirmed last name is needed."
     },
     {
       "id": "backlinkdirs-launchbegin-com",
       "platform_name": "Launch Begin",
       "url": "https://launchbegin.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchbegin.com; website_url=https://launchbegin.com/; backlinkdirs_item=https://backlinkdirs.com/item/launch-begin; page=1; position=3; dr=20; mv=100; tags=Free;Dofollow;One Time Purchase; submit_url=https://launchbegin.com/projects/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:14:45Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-launchdirectories-com",
-      "platform_name": "LaunchDirectories",
-      "url": "https://launchdirectories.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchdirectories.com; website_url=https://launchdirectories.com; backlinkdirs_item=https://backlinkdirs.com/item/launchdirectories; page=1; position=10; dr=44; mv=100; tags=Developer;Free;Dofollow; submit_url=https://launchdirectories.com/pricing",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Launch Begin shows a Google sign-in flow and states that continuing accepts its Terms of Service. User authentication and terms acceptance are required before its submission form can be opened."
     },
     {
       "id": "item-1an50mc",
       "platform_name": "Launching Next",
       "url": "https://www.launchingnext.com/submit/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "source=README外链.md; category=startup_launch; root_domain=launchingnext.com; submit_url_extracted; free form filled with public project/contact fields; user confirmed free submission successful",
-      "last_attempt_at": null,
+      "notes": "Free submission route prefilled for GlyPho: name, URL, six-word headline, description, seven tags, public contact name/email. The default newsletter opt-in was cleared; the optional $99 one-business-day upgrade was not selected.",
+      "last_attempt_at": "2026-08-03T14:15:15Z",
       "result_url": null,
-      "error": null
+      "error": "Launching Next requires a funding classification, the user's 90-day marketing budget, and an anti-spam arithmetic response before submission. These require user-provided answers."
     },
     {
       "id": "backlinkdirs-launchit-site",
       "platform_name": "Launchit",
       "url": "https://launchit.site/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchit.site; website_url=https://launchit.site/; backlinkdirs_item=https://backlinkdirs.com/item/launchit; page=2; position=38; dr=40; mv=100; tags=Free;Dofollow; submit_url=https://launchit.site/",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:15:42Z",
       "result_url": null,
-      "error": null
+      "error": "Launchit opens an account-creation dialog requiring Email or Google authentication and agreement to its Terms and Privacy Policy before the product form is available."
     },
     {
       "id": "backlinkdirs-launchitx-com",
       "platform_name": "LaunchitX",
       "url": "https://launchitx.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchitx.com; website_url=https://launchitx.com/; backlinkdirs_item=https://backlinkdirs.com/item/launchitx; page=2; position=65; dr=49; mv=4394; tags=Free;One Time Purchase;Dofollow; submit_url=https://launchitx.com/projects/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:15:56Z",
       "result_url": null,
-      "error": null
+      "error": "LaunchitX redirects the submission route to an email/password, Google, or GitHub sign-in page that requires user authentication and terms acceptance."
     },
     {
       "id": "backlinkdirs-launchsoar-com",
       "platform_name": "LaunchSoar",
       "url": "https://launchsoar.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchsoar.com; website_url=https://launchsoar.com/; backlinkdirs_item=https://backlinkdirs.com/item/launchsoar; page=1; position=1; dr=37; mv=100; tags=Free;Dofollow; submit_url=https://launchsoar.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:16:18Z",
       "result_url": null,
-      "error": null
+      "error": "LaunchSoar redirects its submission route to email/password, Google, or GitHub authentication. Its Google control did not initiate an OAuth flow in the current session, so user account access is required before a project form can be opened."
     },
     {
       "id": "backlinkdirs-launchtory-com",
       "platform_name": "Launchtory",
       "url": "https://launchtory.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchtory.com; website_url=https://launchtory.com/; backlinkdirs_item=https://backlinkdirs.com/item/launchtory; page=4; position=120; dr=57; mv=3000; tags=Free;Dofollow; submit_url=https://launchtory.com/projects/new",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:16:38Z",
       "result_url": null,
-      "error": null
+      "error": "Launchtory explicitly requires login before submission. Its login screen exposes only email and password, with no Google option, so a user-created account is required."
     },
     {
       "id": "backlinkdirs-launchvault-dev",
       "platform_name": "Launch Vault",
       "url": "https://www.launchvault.dev",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=launchvault.dev; website_url=https://www.launchvault.dev; backlinkdirs_item=https://backlinkdirs.com/item/launch-vault; page=2; position=69; dr=47; mv=21225; tags=Dofollow;Free; submit_url=https://www.launchvault.dev/projects/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:16:52Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "phygital-plus-library",
-      "platform_name": "Phygital Plus Library",
-      "url": "https://library.phygital.plus/?ref=mkdollar.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "Submitted GlyPho AI tool; page confirmed Thank you for your submission.",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Launch Vault redirects the free project submission route to account login. It offers Google, GitHub, or email/password authentication and terms acceptance, which require user action."
     },
     {
       "id": "backlinkdirs-listedai-co",
       "platform_name": "ListedAI",
       "url": "https://listedai.co/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=listedai.co; website_url=https://listedai.co/; backlinkdirs_item=https://backlinkdirs.com/item/listedai; page=1; position=29; dr=12; mv=32009.999999999996; tags=Dofollow;Free; submit_url=https://www.listedai.co/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "Submitted the free ListedAI tool form with source-faithful short/full descriptions, public company email, and only Freemium/Subscription price segments. No unsupported market or feature claims were selected.",
+      "last_attempt_at": "2026-08-02T12:50:59Z",
+      "result_url": "https://www.listedai.co/submit",
       "error": null
     },
     {
@@ -213,36 +177,24 @@
       "platform_name": "Magdir",
       "url": "https://magdir.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=magdir.com; website_url=https://magdir.com/; backlinkdirs_item=https://backlinkdirs.com/item/magdir; page=2; position=67; dr=32; mv=10; tags=Dofollow;Free;One Time Purchase; submit_url=https://magdir.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:17:11Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "magicbox-tools",
-      "platform_name": "magicbox.tools",
-      "url": "https://magicbox.tools",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=magicbox.tools; dr_gt_0",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Magdir redirects submission to email/password, Google, or GitHub login. Its Google control did not initiate OAuth in the current session, so user account access is required before the free listing form can open."
     },
     {
       "id": "make-rs",
       "platform_name": "Make.rs",
       "url": "https://make.rs/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=make.rs; needs_discovery; rechecked sign-in page on 2026-07-09 and found only email magic-link login.",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:17:38Z",
       "result_url": null,
-      "error": null
+      "error": "Make.rs is a maker-profile platform. Creating a maker page requires the user to choose a handle and authenticate through its Sign in/email magic-link flow before a project can be added."
     }
   ]
 }

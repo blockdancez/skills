@@ -9,35 +9,23 @@
       "platform_name": "UIUXDECK",
       "url": "https://uiuxdeck.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=uiuxdeck.com; website_url=https://uiuxdeck.com/; backlinkdirs_item=https://backlinkdirs.com/item/uiuxdeck; page=3; position=82; dr=31; mv=4958; tags=Free;Dofollow;One Time Purchase; submit_url=https://uiuxdeck.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:48:39Z",
       "result_url": null,
-      "error": null
+      "error": "UIUXDECK's submission route requires email/password, Google, or GitHub login; account authentication is reserved for the user."
     },
     {
       "id": "backlinkdirs-uneed-best",
       "platform_name": "Uneed",
       "url": "https://uneed.best",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=uneed.best; website_url=https://uneed.best; backlinkdirs_item=https://backlinkdirs.com/item/uneed; page=4; position=114; dr=75; mv=115027; tags=One Time Purchase;Free;Dofollow; submit_url=https://uneed.best",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-velog-io",
-      "platform_name": "Velog",
-      "url": "https://velog.io/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=velog.io; website_url=https://velog.io/; backlinkdirs_item=https://backlinkdirs.com/item/velog; page=2; position=71; dr=76; mv=3189728; tags=Posts;Dofollow;Free; submit_url=https://velog.io/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=uneed.best; website_url=https://uneed.best; backlinkdirs_item=https://backlinkdirs.com/item/uneed; page=4; position=114; dr=75; mv=115027; tags=One Time Purchase;Free;Dofollow; submit_url=https://uneed.best; verified existing free GlyPho launch in the account waiting line, scheduled for Jan. 8, 2027",
+      "last_attempt_at": "2026-08-02T13:49:16Z",
+      "result_url": "https://www.uneed.best/edit/waiting-line/44628",
       "error": null
     },
     {
@@ -45,23 +33,23 @@
       "platform_name": "Viesearch",
       "url": "https://viesearch.com/submit",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=viesearch.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "notes": "source=README外链.md; category=web_directory; root_domain=viesearch.com; submit_url_extracted; free Basic plan selected after form submission and free queue confirmation; Viesearch confirmed the plan selection and asked for email confirmation",
+      "last_attempt_at": "2026-08-02T13:50:12Z",
+      "result_url": "https://viesearch.com/279gv/plan",
+      "error": "Viesearch confirms the free-plan submission was selected; complete the confirmation link it sent to shenyi.2445@gmail.com before the manual review queue can proceed."
     },
     {
       "id": "viewfreeads-com",
       "platform_name": "Viewfreeads.com",
       "url": "https://www.viewfreeads.com/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=viewfreeads.com; direct free directory form filled in Webdesign > Graphics with public contact info; user confirmed submitted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T13:50:38Z",
+      "result_url": "https://www.viewfreeads.com/directory",
       "error": null
     },
     {
@@ -69,36 +57,12 @@
       "platform_name": "WhatLaunched.Today",
       "url": "https://www.whatlaunched.today/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=startup_launch; root_domain=whatlaunched.today; needs_discovery",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:50:52Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "item-t6odgz",
-      "platform_name": "World Web Directory",
-      "url": "https://www.worldweb-directory.com/add.php",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=worldweb-directory.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "zzo-ai",
-      "platform_name": "zzo.ai",
-      "url": "https://zzo.ai",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=zzo.ai; dr_gt_0",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "WhatLaunched.Today offers a free launch but routes 'Launch your startup' to account sign-up; account creation and the associated terms acceptance are reserved for the user."
     }
   ]
 }

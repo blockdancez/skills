@@ -9,59 +9,59 @@
       "platform_name": "PortBackLinks",
       "url": "https://portbacklinks.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=portbacklinks.com; website_url=https://portbacklinks.com/; backlinkdirs_item=https://backlinkdirs.com/item/portbacklinks; page=1; position=23; dr=25; mv=100; tags=Dofollow;Free;One Time Purchase; submit_url=https://portbacklinks.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "The free directory form is disabled until the user signs in or creates an account."
     },
     {
       "id": "backlinkdirs-post-easy-org",
       "platform_name": "PostEasy",
       "url": "https://post-easy.org/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=post-easy.org; website_url=https://post-easy.org/; backlinkdirs_item=https://backlinkdirs.com/item/posteasy; page=1; position=25; dr=6; mv=100; tags=Free;Dofollow;Posts;One Time Purchase; submit_url=https://post-easy.org",
-      "last_attempt_at": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=post-easy.org; website_url=https://post-easy.org/; backlinkdirs_item=https://backlinkdirs.com/item/posteasy; page=1; position=25; dr=6; mv=100; tags=Free;Dofollow;Posts;One Time Purchase; submit_url=https://post-easy.org; the anonymous Project post is fully prepared with title, factual copy, glypho.app link, and public author name",
+      "last_attempt_at": "2026-08-05T01:19:06Z",
       "result_url": null,
-      "error": null
+      "error": "PostEasy is reachable, but Publish Now explicitly agrees to its Terms of Service and Privacy Policy; that legal acceptance requires the user."
     },
     {
       "id": "backlinkdirs-productburst-com",
       "platform_name": "Product Burst",
       "url": "https://productburst.com/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=productburst.com; website_url=https://productburst.com/; backlinkdirs_item=https://backlinkdirs.com/item/product-burst; page=1; position=35; dr=39; mv=640; tags=Dofollow;Free; submit_url=https://productburst.com/pre-launch",
-      "last_attempt_at": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=productburst.com; website_url=https://productburst.com/; backlinkdirs_item=https://backlinkdirs.com/item/product-burst; page=1; position=35; dr=39; mv=640; tags=Dofollow;Free; submit_url=https://productburst.com/pre-launch; free launch form is reachable",
+      "last_attempt_at": "2026-08-05T01:22:04Z",
       "result_url": null,
-      "error": null
+      "error": "Product Burst's free launch form now opens, but it reports that the canonical product name GlyPho already exists. The account dashboard has no matching launch, so an ambiguous duplicate was not created."
     },
     {
       "id": "backlinkdirs-producthubx-com",
       "platform_name": "ProductHubX",
       "url": "https://producthubx.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=producthubx.com; website_url=https://producthubx.com/; backlinkdirs_item=https://backlinkdirs.com/item/producthubx; page=1; position=36; dr=26; mv=2690; tags=Free;Dofollow; submit_url=https://producthubx.com/submit",
-      "last_attempt_at": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=producthubx.com; website_url=https://producthubx.com/; backlinkdirs_item=https://backlinkdirs.com/item/producthubx; page=1; position=36; dr=26; mv=2690; tags=Free;Dofollow; submit_url=https://producthubx.com/submit; current free submit route is reachable",
+      "last_attempt_at": "2026-08-05T01:22:27Z",
       "result_url": null,
-      "error": null
+      "error": "ProductHubX's current submit page requires sign-in before the free listing form is available."
     },
     {
       "id": "backlinkdirs-producthunt-com",
       "platform_name": "Product Hunt",
       "url": "https://producthunt.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=producthunt.com; website_url=https://producthunt.com; backlinkdirs_item=https://backlinkdirs.com/item/product-hunt; page=4; position=115; dr=91; mv=4837263; tags=Dofollow;Free; submit_url=https://producthunt.com",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T13:16:42Z",
+      "result_url": "https://www.producthunt.com/products/glypho",
       "error": null
     },
     {
@@ -69,10 +69,10 @@
       "platform_name": "Project Hunt",
       "url": "https://projecthunt.me/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "Submitted GlyPho with logo; ProjectHunt returned 'A project with this URL already submitted', indicating an existing pending submission.",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:18:19Z",
       "result_url": null,
       "error": null
     },
@@ -81,107 +81,107 @@
       "platform_name": "ProLinkDirectory",
       "url": "https://www.prolinkdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=prolinkdirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "The ProLinkDirectory endpoint could not be opened in Chrome: net::ERR_CONNECTION_CLOSED."
     },
     {
       "id": "promote-business-directory",
       "platform_name": "Promote Business Directory",
       "url": "https://promotebusinessdirectory.com/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "Submitted GlyPho free website listing in Graphics and Designing; page confirmed link submitted and awaiting approval.",
-      "last_attempt_at": null,
+      "notes": "Free regular listing is selected in Graphics and Designing. GlyPho title, URL, factual description, public owner name/email are filled, newsletter opt-in is disabled, and the form is ready for the final rules agreement.",
+      "last_attempt_at": "2026-08-05T01:24:52Z",
       "result_url": null,
-      "error": null
+      "error": "The current free form requires explicitly accepting the directory's submission rules before it can continue."
     },
     {
       "id": "backlinkdirs-prompt2tool-com",
       "platform_name": "Prompt2Tool",
       "url": "https://prompt2tool.com/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=prompt2tool.com; website_url=https://prompt2tool.com/; backlinkdirs_item=https://backlinkdirs.com/item/prompt2tool; page=2; position=60; dr=32; mv=1449; tags=Free;Dofollow; submit_url=https://prompt2tool.com/requests",
-      "last_attempt_at": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=prompt2tool.com; website_url=https://prompt2tool.com/; backlinkdirs_item=https://backlinkdirs.com/item/prompt2tool; page=2; position=60; dr=32; mv=1449; tags=Free;Dofollow; submit_url=https://prompt2tool.com/requests; current homepage is reachable",
+      "last_attempt_at": "2026-08-05T01:22:55Z",
       "result_url": null,
-      "error": null
+      "error": "Prompt2Tool is reachable, but its current public navigation exposes tools and account login only; no product-listing submission route is available."
     },
     {
       "id": "item-15i6ejz",
       "platform_name": "Quality Internet Directory",
       "url": "https://www.qualityinternetdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=qualityinternetdirectory.com; submit_url_extracted; submitted free regular link in Computers & Internet / Design and Development; page showed 'Link submitted.'",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "The Quality Internet Directory endpoint could not be opened in Chrome: net::ERR_CONNECTION_CLOSED."
     },
     {
       "id": "backlinkdirs-rankanything-online",
       "platform_name": "Rank Anything",
       "url": "https://rankanything.online/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=rankanything.online; website_url=https://rankanything.online/; backlinkdirs_item=https://backlinkdirs.com/item/rank-anything; page=2; position=43; dr=16; mv=6880; tags=Free;Dofollow; submit_url=https://rankanything.online/create",
-      "last_attempt_at": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=rankanything.online; website_url=https://rankanything.online/; backlinkdirs_item=https://backlinkdirs.com/item/rank-anything; page=2; position=43; dr=16; mv=6880; tags=Free;Dofollow; submit_url=https://rankanything.online/create; current public directory is reachable",
+      "last_attempt_at": "2026-08-05T01:25:51Z",
       "result_url": null,
-      "error": null
+      "error": "Rank Anything's public catalog is reachable, but creating or adding an item requires sign-in."
     },
     {
       "id": "backlinkdirs-resource-fyi",
       "platform_name": "Resource.fyi",
       "url": "https://resource.fyi/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=resource.fyi; website_url=https://resource.fyi/; backlinkdirs_item=https://backlinkdirs.com/item/resourcefyi; page=4; position=129; dr=31; mv=3700; tags=Free;One Time Purchase;Developer;Designer; submit_url=https://resource.fyi/account/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "The Resource.fyi endpoint could not be opened in Chrome: net::ERR_CONNECTION_CLOSED."
     },
     {
       "id": "backlinkdirs-saasbrowser-com",
       "platform_name": "saasbrowser.com",
       "url": "https://saasbrowser.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=saasbrowser.com; website_url=https://saasbrowser.com/; backlinkdirs_item=https://backlinkdirs.com/item/saasbrowsercom; page=2; position=49; dr=71; mv=950; tags=Dofollow;Free; submit_url=https://saasbrowser.com/en/add-your-saas",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "Adding a SaaS requires creating or selecting an email, Google, X, or GitHub account; account creation and OAuth selection are reserved for the user."
     },
     {
       "id": "backlinkdirs-saashub-com",
       "platform_name": "SaaSHub",
       "url": "https://www.saashub.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=saashub.com; website_url=https://www.saashub.com/; backlinkdirs_item=https://backlinkdirs.com/item/saashub; page=4; position=116; dr=79; mv=367700; tags=Dofollow;Free;One Time Purchase; submit_url=https://www.saashub.com/services/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "The SaaSHub product URL is prefilled, but Continue explicitly accepts the site's terms of service and privacy policy."
     },
     {
       "id": "saaspo",
       "platform_name": "SaaSpo",
       "url": "https://saaspo.com/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "Submitted GlyPho website through SaaSpo form; page confirmed submission received.",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T13:32:31Z",
+      "result_url": "https://saaspo.com/submit",
       "error": null
     },
     {
@@ -189,60 +189,36 @@
       "platform_name": "SaaSworthy",
       "url": "https://www.saasworthy.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=saasworthy.com; website_url=https://www.saasworthy.com/; backlinkdirs_item=https://backlinkdirs.com/item/saasworthy; page=3; position=96; dr=75; mv=263297; tags=Free;Nofollow; submit_url=https://www.saasworthy.com/offerings",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
+      "error": "Cloudflare security verification blocks access; CAPTCHA and anti-bot challenges must be completed by the user."
     },
     {
       "id": "seekais-com",
       "platform_name": "seekais.com",
       "url": "https://seekais.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=seekais.com; dr_gt_0",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-seohub-tools",
-      "platform_name": "SEOHub.Tools",
-      "url": "https://seohub.tools",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=seohub.tools; website_url=https://seohub.tools; backlinkdirs_item=https://backlinkdirs.com/item/seohubtools; page=3; position=83; dr=13; mv=100; tags=Free;Developer;seo; submit_url=https://seohub.tools/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Free tool submission requires Google login; OAuth account selection is reserved for the user."
     },
     {
       "id": "backlinkdirs-shinylaunch-com",
       "platform_name": "ShinyLaunch",
       "url": "https://shinylaunch.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=shinylaunch.com; website_url=https://shinylaunch.com/; backlinkdirs_item=https://backlinkdirs.com/item/shinylaunch; page=2; position=37; dr=53; mv=100; tags=Free;Dofollow; submit_url=https://shinylaunch.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:27:46Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-shipsquad-space",
-      "platform_name": "ShipSquad",
-      "url": "https://shipsquad.space",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=shipsquad.space; website_url=https://shipsquad.space; backlinkdirs_item=https://backlinkdirs.com/item/shipsquad; page=1; position=9; dr=36; mv=100; tags=Developer;Free;Freemium; submit_url=https://shipsquad.space/add-product",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Free AI tool submission requires Google login; OAuth account selection is reserved for the user."
     }
   ]
 }

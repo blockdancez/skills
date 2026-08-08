@@ -1,96 +1,96 @@
 {
   "source_file": "/Applications/LianXi/blockdancez-skills/glintskill/outputs/foreign-backlinks/2026-07-01/foreign-backlinks-candidates.json",
   "batch_size": 20,
-  "total_items": 164,
+  "total_items": 128,
   "total_batches": 11,
   "batches": [
     {
       "batch": 1,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-001.json",
-      "item_count": 7,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-001.json",
+      "item_count": 5,
       "first_id": "backlinkdirs-10015-io",
       "last_id": "backlinkdirs-aitoolex-com",
       "status": "processed"
     },
     {
       "batch": 2,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-002.json",
-      "item_count": 10,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-002.json",
+      "item_count": 6,
       "first_id": "backlinkdirs-aitools-inc",
       "last_id": "item-x9sn0z",
-      "status": "pending"
+      "status": "processed"
     },
-    {
-      "batch": 3,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-003.json",
-      "item_count": 17,
+  {
+    "batch": 3,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-003.json",
+      "item_count": 12,
       "first_id": "bai-tools",
-      "last_id": "backlinkdirs-devpost-com",
-      "status": "pending"
+      "last_id": "dev-to",
+    "status": "processed"
     },
     {
       "batch": 4,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-004.json",
-      "item_count": 11,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-004.json",
+      "item_count": 10,
       "first_id": "item-11m2awp",
       "last_id": "futuretools",
-      "status": "pending"
+      "status": "processed"
     },
     {
       "batch": 5,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-005.json",
-      "item_count": 20,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-005.json",
+      "item_count": 15,
       "first_id": "backlinkdirs-g2-com",
       "last_id": "info-listings",
-      "status": "pending"
+      "status": "processed"
     },
     {
       "batch": 6,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-006.json",
-      "item_count": 20,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-006.json",
+      "item_count": 16,
       "first_id": "insidr-ai",
       "last_id": "make-rs",
-      "status": "pending"
+      "status": "processed"
     },
     {
       "batch": 7,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-007.json",
-      "item_count": 11,
-      "first_id": "backlinkdirs-manytools-ai",
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-007.json",
+      "item_count": 9,
+      "first_id": "item-ydq7c8",
       "last_id": "pitchwall",
-      "status": "pending"
+      "status": "processed"
     },
     {
       "batch": 8,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-008.json",
-      "item_count": 20,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-008.json",
+      "item_count": 18,
       "first_id": "backlinkdirs-portbacklinks-com",
-      "last_id": "backlinkdirs-shipsquad-space",
-      "status": "pending"
+      "last_id": "backlinkdirs-shinylaunch-com",
+      "status": "processed"
     },
     {
       "batch": 9,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-009.json",
-      "item_count": 20,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-009.json",
+      "item_count": 18,
       "first_id": "backlinkdirs-shipstry-com",
       "last_id": "submit-biz",
-      "status": "pending"
+      "status": "processed"
     },
     {
       "batch": 10,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-010.json",
-      "item_count": 20,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-010.json",
+      "item_count": 14,
       "first_id": "backlinkdirs-submithunt-com",
       "last_id": "backlinkdirs-trustpilot-com",
-      "status": "pending"
+      "status": "processed"
     },
     {
       "batch": 11,
-      "file": "/Applications/LianXi/blockdancez-skills/glintskill/data/backlinks/batches/batch-011.json",
-      "item_count": 8,
+      "file": "/Applications/LianXin/skills/glintskill/data/backlinks/batches/batch-011.json",
+      "item_count": 5,
       "first_id": "backlinkdirs-uiuxdeck-com",
-      "last_id": "zzo-ai",
-      "status": "pending"
+      "last_id": "whatlaunched-today",
+      "status": "processed"
     }
   ],
   "source_files": [

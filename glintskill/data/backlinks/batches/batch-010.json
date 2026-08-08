@@ -9,35 +9,23 @@
       "platform_name": "Submit Hunt",
       "url": "https://submithunt.com/",
       "free": true,
-      "status": "pending",
+      "status": "failed",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=submithunt.com; website_url=https://submithunt.com/; backlinkdirs_item=https://backlinkdirs.com/item/submit-hunt; page=2; position=39; dr=36; mv=100; tags=Dofollow;Exchange Backlink;One Time Purchase;Free; submit_url=https://submithunt.com/",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:27:23Z",
       "result_url": null,
-      "error": null
+      "error": "Submit Hunt's current submit route is an unauthenticated loading page and its candidate metadata requires an exchange backlink, so it is outside the free no-site-modification scope."
     },
     {
       "id": "item-pbjbag",
       "platform_name": "Super AI Tools",
       "url": "https://www.superaitools.io/submit-a-tool",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=superaitools.io; submit_url_extracted; submitted free form with public project/contact fields; page showed review/approval thank-you message",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "tap4-ai",
-      "platform_name": "tap4.ai",
-      "url": "https://tap4.ai",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=tap4.ai; dr_gt_0",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-03T15:27:57Z",
+      "result_url": "https://www.superaitools.io/submit-a-tool",
       "error": null
     },
     {
@@ -45,107 +33,83 @@
       "platform_name": "techdirectory.io",
       "url": "https://www.techdirectory.io/get-listed",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=techdirectory.io; submit_url_extracted; account contact, listing details, and About content completed; public listing verified",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:35:47Z",
       "result_url": null,
-      "error": null
+      "error": "The Basic plan is free, but starting it requires creating an account, setting a password, and agreeing to terms and conditions; those account and terms steps require the user."
     },
     {
       "id": "techpluto",
       "platform_name": "TechPluto",
       "url": "https://techpluto.com/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "Submitted TechPluto Google Form for GlyPho; confirmation asked to check email from contact@techpluto.com.",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-05T01:12:40Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-thalesdirectory-com",
-      "platform_name": "Thales Directory",
-      "url": "https://thalesdirectory.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=thalesdirectory.com; website_url=https://thalesdirectory.com/; backlinkdirs_item=https://backlinkdirs.com/item/thales-directory; page=4; position=142; dr=53; mv=716; tags=Free;Dofollow; submit_url=https://thalesdirectory.com/submit/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "TechPluto's startup submission currently renders as an embedded Google Form that stays in a loading state in this session; the prior live form also required a founder-name assertion that was not supplied."
     },
     {
       "id": "backlinkdirs-thehackstack-com",
       "platform_name": "The Hack Stack",
       "url": "https://thehackstack.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=thehackstack.com; website_url=https://thehackstack.com/; backlinkdirs_item=https://backlinkdirs.com/item/the-hack-stack; page=2; position=45; dr=20; mv=4180; tags=Free;Dofollow; submit_url=https://thehackstack.com/add-product",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:29:23Z",
       "result_url": null,
-      "error": null
+      "error": "The Hack Stack Add Product route redirects to an email-and-password login with registration; it offers no Google sign-in in the current flow."
     },
     {
       "id": "backlinkdirs-theonestartup-com",
       "platform_name": "The One Startup",
       "url": "https://theonestartup.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=theonestartup.com; website_url=https://theonestartup.com; backlinkdirs_item=https://backlinkdirs.com/item/the-one-startup; page=2; position=64; dr=55; mv=100; tags=Free; submit_url=https://theonestartup.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:38:08Z",
       "result_url": null,
-      "error": null
+      "error": "The One Startup routes submission to login and offers email, Google, or GitHub authentication; account login is reserved for the user."
     },
     {
       "id": "thetoolbus-ai",
       "platform_name": "TheToolBus.ai",
       "url": "https://www.thetoolbus.ai/submit-tools",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=thetoolbus.ai; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-05T01:12:40Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "toolbase-io",
-      "platform_name": "Toolbase.io",
-      "url": "https://form.typeform.com/to/LQcTJr",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=toolbase.io; submit_url_extracted; Typeform submitted with Design category",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "The free Directory listing is prefilled in AI Tools with the Freemium model, but FormSubmit requires the user to complete reCAPTCHA before it sends the submission."
     },
     {
       "id": "toolhunter-ai",
       "platform_name": "ToolHunter.ai",
       "url": "https://www.toolhunter.ai/submit-a-tool",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=toolhunter.ai; submit_url_extracted; accepted after Google login, requires badge backlink verification to publish; public result page now shows removed/delisted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:38:08Z",
       "result_url": null,
-      "error": null
+      "error": "ToolHunter offers free listing but requires an account via Google or email/password; account authentication is reserved for the user."
     },
     {
       "id": "backlinkdirs-toolhunting-com",
       "platform_name": "Toolhunting",
       "url": "https://toolhunting.com/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=toolhunting.com; website_url=https://toolhunting.com/; backlinkdirs_item=https://backlinkdirs.com/item/toolhunting; page=1; position=18; dr=0.9; mv=100; tags=Freemium;Free;Developer;Posts;seo; submit_url=https://www.toolhunting.com/submit-a-tools",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T13:41:33Z",
+      "result_url": "https://airtable.com/embed/appAQCwLfiGrE6zw8/shrgEQyZaU6rbTnQe?backgroundColor=purple",
       "error": null
     },
     {
@@ -153,23 +117,11 @@
       "platform_name": "tools-ai.online",
       "url": "https://www.tools-ai.online/tool-submit",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=tools-ai.online; submit_url_extracted; public fields, categories, tags, logo, and screenshot were filled; user confirmed final submission successful on 2026-07-09",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-toolsaiapp-com",
-      "platform_name": "Directory Tools AI",
-      "url": "https://toolsaiapp.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=toolsaiapp.com; website_url=https://toolsaiapp.com/; backlinkdirs_item=https://backlinkdirs.com/item/directory-tools-ai; page=2; position=41; dr=46; mv=340; tags=Free;Nofollow;AI Autofill;Exchange Backlink; submit_url=https://toolsaiapp.com/submit-your-ai-tool/",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T13:43:12Z",
+      "result_url": "https://www.tools-ai.online/submit-tool",
       "error": null
     },
     {
@@ -177,72 +129,48 @@
       "platform_name": "ToolScout",
       "url": "https://toolscout.ai/submit",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=toolscout.ai; submit_url_extracted; submitted free listing; placement=Free; status=in_review",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:43:12Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-toolspedia-io",
-      "platform_name": "ToolsPedia",
-      "url": "https://toolspedia.io/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=toolspedia.io; website_url=https://toolspedia.io/; backlinkdirs_item=https://backlinkdirs.com/item/toolspedia; page=1; position=16; dr=13; mv=32092; tags=Posts;Developer;Freemium;Free;FreeTrial;seo; submit_url=https://toolspedia.io/submit-tool/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "ToolScout confirms its standard listing is free, but requires signing in to continue; account authentication is reserved for the user."
     },
     {
       "id": "backlinkdirs-topaitools-net",
       "platform_name": "Top AI Tools",
       "url": "https://topaitools.net/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=topaitools.net; website_url=https://topaitools.net/; backlinkdirs_item=https://backlinkdirs.com/item/top-ai-tools; page=2; position=59; dr=26; mv=151; tags=Free;FreeTrial;Freemium;Developer;Dofollow;Nofollow;seo; submit_url=https://topaitools.net/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:46:10Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-tophub-ai",
-      "platform_name": "TopHub.ai",
-      "url": "https://tophub.ai/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=tophub.ai; website_url=https://tophub.ai/; backlinkdirs_item=https://backlinkdirs.com/item/tophubai; page=3; position=74; dr=34; mv=173; tags=Free;Developer;Dofollow; submit_url=https://tophub.ai/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Top AI Tools accepted the filled listing details and uploaded public assets, then routed the flow to Google or GitHub sign-in; account authentication is reserved for the user."
     },
     {
       "id": "totool-cc",
       "platform_name": "totool.cc",
       "url": "https://totool.cc",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=totool.cc; dr_gt_0",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:47:22Z",
       "result_url": null,
-      "error": null
+      "error": "Totool's free-listing flow has GlyPho's basic details filled and the Free option selected, but advancing to the remaining fields opens Google sign-in with an explicit terms and privacy-policy acceptance; authentication is reserved for the user."
     },
     {
       "id": "backlinkdirs-trustpilot-com",
       "platform_name": "Trustpilot",
       "url": "http://trustpilot.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=trustpilot.com; website_url=http://trustpilot.com/; backlinkdirs_item=https://backlinkdirs.com/item/trustpilot; page=3; position=104; dr=94; mv=79663009; tags=Free;Nofollow; submit_url=https://www.trustpilot.com/writeareview",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-02T13:47:49Z",
       "result_url": null,
-      "error": null
+      "error": "Trustpilot's available route is for a consumer to add a company and publish the first review, not a business-directory listing submission; creating a personal review or relationship claim is reserved for the user."
     }
   ]
 }

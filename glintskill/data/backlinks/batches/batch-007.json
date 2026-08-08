@@ -5,39 +5,27 @@
   "submit_policy": "auto_submit_free_listings",
   "items": [
     {
-      "id": "backlinkdirs-manytools-ai",
-      "platform_name": "ManyTools.ai",
-      "url": "https://manytools.ai/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=manytools.ai; website_url=https://manytools.ai/; backlinkdirs_item=https://backlinkdirs.com/item/manytoolsai; page=1; position=27; dr=25; mv=1612; tags=Free;Nofollow; submit_url=https://manytools.ai/submit-tool/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
       "id": "item-ydq7c8",
       "platform_name": "Marketing Internet Directory",
       "url": "https://www.marketinginternetdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=marketinginternetdirectory.com; submit_url_extracted; free regular form filled in Computers & Internet > Artificial Intelligence",
-      "last_attempt_at": null,
+      "notes": "The free Regular link option was selected and public GlyPho title, URL, description, meta keywords/description, owner name/email, and Computers & Internet > Artificial Intelligence category were prefilled. Paid Featured link was not selected.",
+      "last_attempt_at": "2026-08-03T14:18:15Z",
       "result_url": null,
-      "error": null
+      "error": "The free form requires a visual anti-spam security code and explicit agreement to submission rules before it can be submitted."
     },
     {
       "id": "item-x0nz75",
       "platform_name": "MarsX AI startups",
       "url": "https://www.marsx.dev/ai-startups",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=marsx.dev; needs_discovery; submitted free AI startup listing in Design category",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "Public email, GlyPho URL, Design category, and source-faithful message were filled. No demo or social details were invented.",
+      "last_attempt_at": "2026-08-03T14:18:56Z",
+      "result_url": "https://marsx.dev/ai-startups/",
       "error": null
     },
     {
@@ -45,11 +33,11 @@
       "platform_name": "Micro SaaS Examples",
       "url": "https://microsaasexamples.com/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "Submitted GlyPho form with logo and screenshot thumbnail; page confirmed submission received for review.",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "Public GlyPho name, URL, short/context descriptions, Design category, contact email, logo, and screenshot thumbnail were prepared in the free review form.",
+      "last_attempt_at": "2026-08-03T15:30:22Z",
+      "result_url": "https://www.microsaasexamples.com/submit",
       "error": null
     },
     {
@@ -57,35 +45,23 @@
       "platform_name": "Offpagesavvy",
       "url": "https://www.offpagesavvy.com/submit-your-site/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=offpagesavvy.com; submit_url_extracted; free type selected; form filled with public project/contact fields except phone; user confirmed free submission successful",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:20:32Z",
       "result_url": null,
-      "error": null
+      "error": "Offpagesavvy requires a phone number before Send is available. A phone number was not provided and was not fabricated."
     },
     {
       "id": "og-image-gallery",
       "platform_name": "OG Image Gallery",
       "url": "https://ogimage.gallery/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "Submitted PreviewShip URL; site confirmed the submission was received.",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "item-xklkrf",
-      "platform_name": "OpenFuture AI",
-      "url": "https://openfuture.ai/zh/submit-tool",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=openfuture.ai; submit_url_extracted; Google OAuth completed after reload; free submit-tool form accepted GlyPho fields and reset without error",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T12:58:12Z",
+      "result_url": "https://ogimage.gallery/submit",
       "error": null
     },
     {
@@ -93,11 +69,11 @@
       "platform_name": "Open Graph Examples",
       "url": "https://opengraphexamples.com/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "Submitted PreviewShip URL through embedded Google Form; form confirmed the response was recorded.",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T12:59:41Z",
+      "result_url": "https://opengraphexamples.com/submit/",
       "error": null
     },
     {
@@ -105,35 +81,35 @@
       "platform_name": "Digital Stuff We Love",
       "url": "https://digitalstuffwelove.org.nz/submit-tool",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=org.nz; submit_url_extracted; form filled with public project/contact fields; category=Marketing and design; user confirmed free submission successful",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:21:07Z",
       "result_url": null,
-      "error": null
+      "error": "Digital Stuff We Love form is fully prefilled but requires the reCAPTCHA checkbox before review submission."
     },
     {
       "id": "backlinkdirs-peerlist-io",
       "platform_name": "Peerlist",
       "url": "https://peerlist.io",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=peerlist.io; website_url=https://peerlist.io; backlinkdirs_item=https://backlinkdirs.com/item/peerlist; page=4; position=124; dr=77; mv=437319; tags=Free;Dofollow;One Time Purchase;AI Autofill; submit_url=https://peerlist.io/user/projects/add-project",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:22:12Z",
       "result_url": null,
-      "error": null
+      "error": "Peerlist's add-project route redirects unauthenticated visitors home. Google account selection is complete, but Peerlist is waiting at its OAuth re-login/terms screen; user authorization is required before its profile and project form can open."
     },
     {
       "id": "pitchwall",
       "platform_name": "PitchWall",
       "url": "https://pitchwall.co/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=startup_launch; root_domain=pitchwall.co; needs_discovery; public username set to glypho; free plan selected; product submitted for free review; status page shows product is under review; user confirmed submission successful",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T13:08:55Z",
+      "result_url": "https://pitchwall.co/product/glypho",
       "error": null
     }
   ]

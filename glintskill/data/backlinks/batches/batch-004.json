@@ -9,23 +9,23 @@
       "platform_name": "Free Directory",
       "url": "https://www.directory-free.com/submit/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=directory-free.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-06T16:07:17Z",
       "result_url": null,
-      "error": null
+      "error": "The free regular-listing form is filled in Computers/General with GlyPho title, URL, description, and public email. Enter the visible CAPTCHA and click Add URL to submit."
     },
     {
       "id": "backlinkdirs-dirs-cc",
       "platform_name": "Dirs.cc",
       "url": "https://dirs.cc/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=dirs.cc; website_url=https://dirs.cc/; backlinkdirs_item=https://backlinkdirs.com/item/dirscc; page=3; position=77; dr=42; mv=875; tags=Free;Dofollow; submit_url=https://dirs.cc/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=dirs.cc; website_url=https://dirs.cc/; backlinkdirs_item=https://backlinkdirs.com/item/dirscc; page=3; position=77; dr=42; mv=875; tags=Free;Dofollow; submit_url=https://dirs.cc/submit; user confirmed the GlyPho submission completed",
+      "last_attempt_at": "2026-08-08T10:57:02Z",
+      "result_url": "https://dirs.cc/payment/RIAUXqIgxubREigPxT9hPj",
       "error": null
     },
     {
@@ -33,11 +33,11 @@
       "platform_name": "ExactSeek",
       "url": "https://www.exactseek.com/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=exactseek.com; website_url=https://www.exactseek.com/; backlinkdirs_item=https://backlinkdirs.com/item/exactseek; page=4; position=143; dr=68; mv=25542; tags=Nofollow;Free; submit_url=https://www.exactseek.com/add.html",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=exactseek.com; website_url=https://www.exactseek.com/; backlinkdirs_item=https://backlinkdirs.com/item/exactseek; page=4; position=143; dr=68; mv=25542; tags=Nofollow;Free; submit_url=https://www.exactseek.com/add.html; user confirmed the GlyPho submission completed",
+      "last_attempt_at": "2026-08-08T10:57:02Z",
+      "result_url": "https://www.exactseek.com/add.html",
       "error": null
     },
     {
@@ -45,11 +45,11 @@
       "platform_name": "FastLaunch",
       "url": "https://fastlaunch.io",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=fastlaunch.io; website_url=https://fastlaunch.io; backlinkdirs_item=https://backlinkdirs.com/item/fastlaunch; page=2; position=68; dr=31; mv=450; tags=Dofollow;Free;One Time Purchase; submit_url=https://fastlaunch.io/projects/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=fastlaunch.io; website_url=https://fastlaunch.io; backlinkdirs_item=https://backlinkdirs.com/item/fastlaunch; page=2; position=68; dr=31; mv=450; tags=Dofollow;Free;One Time Purchase; submit_url=https://fastlaunch.io/projects/submit; submitted on the Free Launch plan and scheduled for 2027-01-31 08:00 UTC",
+      "last_attempt_at": "2026-08-05T01:16:59Z",
+      "result_url": "https://fastlaunch.io/projects/glypho",
       "error": null
     },
     {
@@ -57,23 +57,11 @@
       "platform_name": "FiveTaco",
       "url": "https://fivetaco.com/",
       "free": true,
-      "status": "pending",
+      "status": "pending_review",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=fivetaco.com; website_url=https://fivetaco.com/; backlinkdirs_item=https://backlinkdirs.com/item/fivetaco; page=5; position=147; dr=34; mv=30242; tags=Developer;Free; submit_url=https://fivetaco.com/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "footer-design",
-      "platform_name": "Footer Design",
-      "url": "https://footer.design/?ref=mkdollar.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "category=footer_gallery; root_domain=footer.design; submit_url=https://footer.design/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-03T13:59:04Z",
+      "result_url": "https://fivetaco.com/submit",
       "error": null
     },
     {
@@ -81,11 +69,11 @@
       "platform_name": "Free AI Tools Directory",
       "url": "https://free-ai-tools-directory.com/submit-request/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=README外链.md; category=ai_directory; root_domain=free-ai-tools-directory.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=README外链.md; category=ai_directory; root_domain=free-ai-tools-directory.com; submit_url_extracted; user confirmed the GlyPho submission completed",
+      "last_attempt_at": "2026-08-08T10:57:02Z",
+      "result_url": "https://free-ai-tools-directory.com/submit-request/?",
       "error": null
     },
     {
@@ -93,11 +81,11 @@
       "platform_name": "Free Internet Web Directory",
       "url": "https://www.freeinternetwebdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=freeinternetwebdirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=README外链.md; category=web_directory; root_domain=freeinternetwebdirectory.com; submit_url_extracted; user confirmed the GlyPho submission completed",
+      "last_attempt_at": "2026-08-08T10:57:02Z",
+      "result_url": "https://www.freeinternetwebdirectory.com/submit.php",
       "error": null
     },
     {
@@ -105,11 +93,11 @@
       "platform_name": "Free PR Web Directory",
       "url": "https://www.freeprwebdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=README外链.md; category=web_directory; root_domain=freeprwebdirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=README外链.md; category=web_directory; root_domain=freeprwebdirectory.com; submit_url_extracted; user confirmed the GlyPho submission completed",
+      "last_attempt_at": "2026-08-08T10:57:02Z",
+      "result_url": "https://www.freeprwebdirectory.com/submit.php",
       "error": null
     },
     {
@@ -117,11 +105,11 @@
       "platform_name": "Fuse.kiwi",
       "url": "https://www.fuse.kiwi/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=needs_review; root_domain=fuse.kiwi; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T11:46:56Z",
+      "result_url": "https://www.fuse.kiwi/",
       "error": null
     },
     {
@@ -129,11 +117,11 @@
       "platform_name": "Future Tools",
       "url": "https://futuretools.io/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "category=ai_directory; root_domain=futuretools.io; submit_url=https://futuretools.io/submit-a-tool",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T11:48:27Z",
+      "result_url": "https://futuretools.io/submit-a-tool",
       "error": null
     }
   ]

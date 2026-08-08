@@ -9,23 +9,23 @@
       "platform_name": "Shipstry",
       "url": "https://shipstry.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=shipstry.com; website_url=https://shipstry.com; backlinkdirs_item=https://backlinkdirs.com/item/shipstry; page=1; position=12; dr=43; mv=1000; tags=Dofollow;Free;One Time Purchase;AI Autofill; submit_url=https://shipstry.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:14:15Z",
       "result_url": null,
-      "error": null
+      "error": "Google account shenyi.2445@gmail.com is selected; Shipstry is awaiting OAuth consent to share profile name and email."
     },
     {
       "id": "sitelike",
       "platform_name": "Sitelike",
       "url": "https://www.sitelike.org/add-site",
       "free": true,
-      "status": "pending",
+      "status": "published",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=sitelike.org; submit_url_extracted; add-site flow reached the new-site form for glypho.app; user confirmed free submission successful",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-03T15:14:36Z",
+      "result_url": "https://www.sitelike.org/similar/glypho.app/",
       "error": null
     },
     {
@@ -33,216 +33,192 @@
       "platform_name": "Site Promotion Directory",
       "url": "https://www.sitepromotiondirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=sitepromotiondirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:15:40Z",
       "result_url": null,
-      "error": null
+      "error": "Free Regular listing is selected in Software with all factual fields prefilled; final submission requires the visual CAPTCHA and accepting the directory submission rules."
     },
     {
       "id": "siteswebdirectory",
       "platform_name": "SitesWebdirectory",
       "url": "https://www.siteswebdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=siteswebdirectory.com; submit_url_extracted; free form filled with public project/contact fields; newsletter unchecked; agreement checked; user confirmed free submission successful",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:16:51Z",
       "result_url": null,
-      "error": null
+      "error": "Free Regular listing is selected in Artificial Intelligence with the factual fields filled and newsletter opt-in disabled; completion requires solving the math anti-spam challenge and accepting submission rules."
     },
     {
       "id": "backlinkdirs-solo-xin",
       "platform_name": "Solo 独立开发者社区",
       "url": "https://solo.xin/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=solo.xin; website_url=https://solo.xin/; backlinkdirs_item=https://backlinkdirs.com/item/solo-du-li-kai-fa-zhe-she-qu; page=3; position=84; dr=24; mv=8350; tags=Posts;Developer;Free;Nofollow; submit_url=https://solo.xin/article/create",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:17:27Z",
       "result_url": null,
-      "error": null
+      "error": "Google account shenyi.2445@gmail.com is selected; Solo is awaiting OAuth consent to share profile name and email before community posting can continue."
     },
     {
       "id": "backlinkdirs-somuch-com",
       "platform_name": "SoMuch.com",
       "url": "https://somuch.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=somuch.com; website_url=https://somuch.com/; backlinkdirs_item=https://backlinkdirs.com/item/somuchcom; page=5; position=153; dr=60; mv=13700; tags=Dofollow;Free;One Time Purchase; submit_url=https://somuch.com/submit-links/submit-link",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:17:45Z",
       "result_url": null,
-      "error": null
+      "error": "The basic submission is free, but reaching its form requires accepting SoMuch.com's Submission Guidelines."
     },
     {
       "id": "item-142qd07",
       "platform_name": "Sonic Run",
       "url": "https://www.sonicrun.com/freelisting.html",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=sonicrun.com; needs_discovery",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:18:01Z",
       "result_url": null,
-      "error": null
+      "error": "The free listing URL, public contact email, and contact name are prefilled; final submission requires agreeing to terms and would automatically create a FreeWebMonitoring account."
     },
     {
       "id": "spotsaas",
       "platform_name": "SpotSaaS",
       "url": "https://www.spotsaas.com/get-listed",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=startup_launch; root_domain=spotsaas.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:18:30Z",
       "result_url": null,
-      "error": null
+      "error": "The free listing application requires creating a vendor account, accepting terms, and providing a company-domain email and phone number; those identity and account-creation steps require the user."
     },
     {
       "id": "backlinkdirs-sprout24-com",
       "platform_name": "Sprout24 SaaS Tools Directory",
       "url": "https://sprout24.com/hub/directory/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=sprout24.com; website_url=https://sprout24.com/hub/directory/; backlinkdirs_item=https://backlinkdirs.com/item/sprout24-saas-tools-directory; page=3; position=88; dr=61; mv=9013; tags=Free;Nofollow; submit_url=https://sprout24.com/submit/",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:19:02Z",
       "result_url": null,
-      "error": null
+      "error": "Sprout24's review intake requires a real last name, business phone, active-user count, and sandbox credentials, demo video, or guided walkthrough for analyst testing; those access and identity facts require the user."
     },
     {
       "id": "backlinkdirs-stacker-news",
       "platform_name": "Stacker News",
       "url": "https://stacker.news",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=stacker.news; website_url=https://stacker.news; backlinkdirs_item=https://backlinkdirs.com/item/stacker-news; page=1; position=8; dr=63; mv=100; tags=Posts;Free;Developer; submit_url=https://stacker.news/post",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:19:35Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "stackshare",
-      "platform_name": "StackShare",
-      "url": "https://www.stackshare.io/sign_in",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=README外链.md; category=needs_review; root_domain=stackshare.io; needs_discovery",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "The Stacker News post form requires an account and charges 10 sats to publish, so it is outside the free-listing scope."
     },
     {
       "id": "startupbase",
       "platform_name": "StartupBase",
       "url": "https://startupbase.io/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=startup_launch; root_domain=startupbase.io; needs_discovery; onboarding page requires saving a public personal profile before product submission",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:20:28Z",
       "result_url": null,
-      "error": null
+      "error": "The GlyPho draft is 100% complete. The free launch path is blocked until the account completes 3 upvotes and 1 comment/review; the priority route also requires confirming an on-site badge and ownership conditions."
     },
     {
       "id": "backlinkdirs-startupranked-com",
       "platform_name": "StartupRanked",
       "url": "https://startupranked.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=startupranked.com; website_url=https://startupranked.com; backlinkdirs_item=https://backlinkdirs.com/item/startupranked; page=1; position=4; dr=12; mv=100; tags=Free;Developer; submit_url=https://startupranked.com/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:21:01Z",
       "result_url": null,
-      "error": null
+      "error": "The Add Product route redirects to an unauthenticated account page with email/password and two unlabelled provider buttons; completing account authentication is required before any free listing flow can be opened."
     },
     {
       "id": "startups-gallery",
       "platform_name": "Startups Gallery",
       "url": "https://startups.gallery/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "Filled GlyPho startup fields in the Tally form: name, website, 10-word description, relationship=Other, funding=Other, submitter name, email, and referral source; user confirmed final submission successful on 2026-07-09.",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:21:57Z",
       "result_url": null,
-      "error": null
+      "error": "The current homepage exposes only a non-functional 'Join for free' affordance in this Chrome session; it does not reveal the former Tally submission form. The prior form also required relationship/funding assertions and reCAPTCHA."
     },
     {
       "id": "backlinkdirs-startupstash-com",
       "platform_name": "Startup Stash",
       "url": "https://startupstash.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=startupstash.com; website_url=https://startupstash.com/; backlinkdirs_item=https://backlinkdirs.com/item/startup-stash; page=3; position=94; dr=64; mv=106920; tags=Free;Dofollow; submit_url=https://startupstash.com/add-listing/",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:23:24Z",
       "result_url": null,
-      "error": null
+      "error": "Startup Stash's free Typeform listing intake is open and has the supplied first name prefilled, but requires a last name that was not supplied; the form remains open for the user."
     },
     {
       "id": "startuptracker",
       "platform_name": "Startup Tracker",
       "url": "https://startuptracker.io/?ref=mkdollar.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "Submitted GlyPho to Startup Tracker with project logo; confirmation showed submission recorded (#P6EFA) and manual review queue.",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:24:04Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-startus-cc",
-      "platform_name": "StartUs",
-      "url": "https://www.startus.cc/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=startus.cc; website_url=https://www.startus.cc/; backlinkdirs_item=https://backlinkdirs.com/item/startus; page=5; position=149; dr=73; mv=27142; tags=Free;Dofollow; submit_url=https://www.startus.cc/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "The free crowdsourcing intake accepts GlyPho and its URL, but this session does not advance after those two fields. The prior recorded update flow requires the current team-size assertion before completion."
     },
     {
       "id": "stork",
       "platform_name": "Stork",
       "url": "https://www.stork.ai/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=stork.ai; needs_discovery",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:24:32Z",
       "result_url": null,
-      "error": null
+      "error": "Stork offers a $0 listing only if the owner adds its Stork Verified badge to the product site; otherwise the listing costs $49. Site-modification authorization for the reciprocal badge is required."
     },
     {
       "id": "item-1j0kxil",
       "platform_name": "Submission Web Directory",
       "url": "https://www.submissionwebdirectory.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=submissionwebdirectory.com; submit_url_extracted",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:25:30Z",
       "result_url": null,
-      "error": null
+      "error": "Free Regular listing is selected in Graphics with all factual fields prefilled; final submission requires the visual CAPTCHA and accepting submission rules."
     },
     {
       "id": "submit-biz",
       "platform_name": "Submit.biz",
       "url": "https://www.submit.biz/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=submit.biz; submit_url_extracted; free listing submitted in Web Design; user confirmed success page",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T15:26:44Z",
       "result_url": null,
-      "error": null
+      "error": "The Free Listing option is selected in Web Design with all factual fields prefilled; final submission requires the visual security code."
     }
   ]
 }

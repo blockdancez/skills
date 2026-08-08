@@ -9,59 +9,23 @@
       "platform_name": "G2 Software Reviews",
       "url": "https://www.g2.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=g2.com; website_url=https://www.g2.com/; backlinkdirs_item=https://backlinkdirs.com/item/g2-software-reviews; page=3; position=89; dr=91; mv=2426969; tags=Free;Dofollow; submit_url=https://www.g2.com/",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-06T16:07:17Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-ganfanmao-com",
-      "platform_name": "ganfanmao",
-      "url": "https://ganfanmao.com",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=ganfanmao.com; website_url=https://ganfanmao.com; backlinkdirs_item=https://backlinkdirs.com/item/ganfanmao; page=2; position=72; dr=10; mv=10; tags=Free;Dofollow; submit_url=https://ganfanmao.com",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-geekwire-com",
-      "platform_name": "GeekWire Startup List",
-      "url": "https://www.geekwire.com/startup-list/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=geekwire.com; website_url=https://www.geekwire.com/startup-list/; backlinkdirs_item=https://backlinkdirs.com/item/geekwire-startup-list; page=3; position=100; dr=86; mv=972876; tags=Free;Nofollow; submit_url=https://www.geekwire.com/submit-startup/",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "G2's Add Product/Service route requires validation through LinkedIn or a business email and agreement to G2 terms before the vendor-profile workflow can continue."
     },
     {
       "id": "backlinkdirs-genify-dev",
       "platform_name": "Genify",
       "url": "https://genify.dev/",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=genify.dev; website_url=https://genify.dev/; backlinkdirs_item=https://backlinkdirs.com/item/genify; page=2; position=66; dr=34; mv=10; tags=Free;Dofollow;One Time Purchase; submit_url=https://genify.dev/submit",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-geoly-net",
-      "platform_name": "GEOly.net",
-      "url": "https://geoly.net/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=geoly.net; website_url=https://geoly.net/; backlinkdirs_item=https://backlinkdirs.com/item/geolynet; page=2; position=62; dr=40; mv=3319; tags=Free;Dofollow; submit_url=https://geoly.net/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=genify.dev; website_url=https://genify.dev/; backlinkdirs_item=https://backlinkdirs.com/item/genify; page=2; position=66; dr=34; mv=10; tags=Free;Dofollow;One Time Purchase; submit_url=https://genify.dev/submit; user confirmed the GlyPho submission completed",
+      "last_attempt_at": "2026-08-08T13:27:07Z",
+      "result_url": "https://genify.dev/submit",
       "error": null
     },
     {
@@ -69,47 +33,35 @@
       "platform_name": "GetLatka",
       "url": "https://getlatka.com/saas-companies",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=getlatka.com; website_url=https://getlatka.com/saas-companies; backlinkdirs_item=https://backlinkdirs.com/item/getlatka; page=3; position=106; dr=72; mv=285992; tags=Dofollow;Free; submit_url=https://getlatka.com/add",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:03:53Z",
       "result_url": null,
-      "error": null
+      "error": "GetLatka requires a work email on the same domain as the submitted company, last name, a user-confirmed role, and a data-policy confirmation; the provided public Gmail address does not meet its verification requirement."
     },
     {
       "id": "item-9nyg4c",
       "platform_name": "GMA Web Directory",
       "url": "https://www.gmawebdirectory.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=gmawebdirectory.com; submit_url_extracted; submitted as free regular link in Computers & Internet/Web Hosting",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:03:03Z",
       "result_url": null,
-      "error": null
+      "error": "Regular links are free, but final submission requires the visual CAPTCHA and acceptance of the submission rules; reciprocal listing would additionally require adding GMA's link to GlyPho's home page."
     },
     {
       "id": "gptforge",
       "platform_name": "GPTForge",
       "url": "https://forms.gle/8h1SokDHfcPwkbaZ8",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=gptforge.net; submit_url_extracted; submitted Google Form with PreviewShip name and URL",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-growdr-io",
-      "platform_name": "GrowDR",
-      "url": "https://growdr.io",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=growdr.io; website_url=https://growdr.io; backlinkdirs_item=https://backlinkdirs.com/item/growdr; page=2; position=61; dr=21; mv=2000; tags=Free;Developer; submit_url=https://growdr.io/submit",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T11:52:44Z",
+      "result_url": "https://forms.gle/8h1SokDHfcPwkbaZ8",
       "error": null
     },
     {
@@ -117,83 +69,71 @@
       "platform_name": "Hacker Noon",
       "url": "https://hackernoon.com/startups",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=hackernoon.com; website_url=https://hackernoon.com/startups; backlinkdirs_item=https://backlinkdirs.com/item/hacker-noon; page=4; position=123; dr=88; mv=2949671; tags=Dofollow;Free; submit_url=https://hackernoon.com/startups",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:06:41Z",
       "result_url": null,
-      "error": null
+      "error": "Hacker Noon Startups currently shows only a completed 2024 awards directory plus LogIn/SignUp controls and a separate Startup Special Package; no current free project-submission form is exposed. Account access is required to determine any future eligible listing route."
     },
     {
       "id": "backlinkdirs-hashnode-com",
       "platform_name": "Hashnode",
       "url": "https://hashnode.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=hashnode.com; website_url=https://hashnode.com/; backlinkdirs_item=https://backlinkdirs.com/item/hashnode; page=4; position=111; dr=83; mv=1358307; tags=Free;Nofollow; submit_url=https://account.goodfirms.co/manage/organisation/listing",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:07:02Z",
       "result_url": null,
-      "error": null
+      "error": "Hashnode is a developer blogging platform rather than a product directory. Its sign-in route is currently stopped by a Vercel browser-verification challenge; user completion is required before account access or any article-publication scope can be evaluated."
     },
     {
       "id": "backlinkdirs-highrankdirectory-com",
       "platform_name": "High Rank Directory",
       "url": "https://highrankdirectory.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=highrankdirectory.com; website_url=https://highrankdirectory.com/; backlinkdirs_item=https://backlinkdirs.com/item/high-rank-directory; page=4; position=134; dr=52; mv=33837; tags=Free;Dofollow; submit_url=https://highrankdirectory.com/submit.php",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:08:07Z",
       "result_url": null,
-      "error": null
+      "error": "The Regular free listing is prefilled with GlyPho's verified project details in Computers & Internet. Completing it requires entering the visible CAPTCHA and explicitly agreeing to the submission rules."
     },
     {
       "id": "backlinkdirs-hot100-ai",
       "platform_name": "Hot100.ai",
       "url": "https://hot100.ai/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=hot100.ai; website_url=https://hot100.ai/; backlinkdirs_item=https://backlinkdirs.com/item/hot100ai; page=2; position=40; dr=52; mv=1320; tags=Dofollow;Free; submit_url=https://hot100.ai/submit",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:09:21Z",
       "result_url": null,
-      "error": null
-    },
-    {
-      "id": "backlinkdirs-hotvsnot-com",
-      "platform_name": "HotVsNot Web Directory",
-      "url": "http://hotvsnot.com/",
-      "free": true,
-      "status": "pending",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=hotvsnot.com; website_url=http://hotvsnot.com/; backlinkdirs_item=https://backlinkdirs.com/item/hotvsnot-web-directory; page=3; position=95; dr=61; mv=4559; tags=Dofollow;Free; submit_url=http://hotvsnot.com/Add-Site/Add-Site.aspx",
-      "last_attempt_at": null,
-      "result_url": null,
-      "error": null
+      "error": "Hot100.ai's Submit route requires Google sign-in. The selected Google account is at Hot100.ai's OAuth consent screen requesting profile name/photo and email; user review of that authorization is required before the project form can open."
     },
     {
       "id": "hrefgo-com",
       "platform_name": "hrefgo.com",
       "url": "https://hrefgo.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=user-provided navigation domains; category=free_ai_navigation_directory; root_domain=hrefgo.com; dr_gt_0",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:09:53Z",
       "result_url": null,
-      "error": null
+      "error": "Hrefgo's submission page requires sign-in. Its Google sign-in screen explicitly requires accepting Hrefgo's Terms of Service and Privacy Policy; user review is required before account creation/authorization."
     },
     {
       "id": "item-tohobt",
       "platform_name": "Human or Not",
       "url": "https://www.humanornot.co/submit-tool",
       "free": true,
-      "status": "pending",
+      "status": "submitted",
       "login_method": "google",
       "notes": "source=README外链.md; category=ai_directory; root_domain=humanornot.co; submit_url_extracted; submitted free email and URL form",
-      "last_attempt_at": null,
-      "result_url": null,
+      "last_attempt_at": "2026-08-02T11:56:48Z",
+      "result_url": "https://www.humanornot.co/submit-tool",
       "error": null
     },
     {
@@ -201,48 +141,48 @@
       "platform_name": "Indie Hackers",
       "url": "https://www.indiehackers.com",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=indiehackers.com; website_url=https://www.indiehackers.com; backlinkdirs_item=https://backlinkdirs.com/item/indie-hackers; page=3; position=87; dr=81; mv=466230; tags=Free;Dofollow;Posts; submit_url=https://www.indiehackers.com/products/new",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:10:27Z",
       "result_url": null,
-      "error": null
+      "error": "Indie Hackers exposes its Products DB and a member-only product-launch flow. The products and sign-up routes currently render only placeholder content in this session, so account/onboarding completion is required before any project form can be assessed."
     },
     {
       "id": "backlinkdirs-indielogs-com",
       "platform_name": "IndieLogs",
       "url": "https://indielogs.com/",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=indielogs.com; website_url=https://indielogs.com/; backlinkdirs_item=https://backlinkdirs.com/item/indielogs; page=4; position=141; dr=24; mv=2300; tags=Free;Freemium;Dofollow; submit_url=https://www.indielogs.com/app",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:10:50Z",
       "result_url": null,
-      "error": null
+      "error": "IndieLogs has a free one-startup tier, but its Google sign-in creates a founder account and explicitly requires acceptance of its terms and privacy policy; user review is required before account creation."
     },
     {
       "id": "backlinkdirs-indietools-app",
       "platform_name": "IndieTools",
       "url": "https://indietools.app",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=backlinkdirs-free-2026-07-08; root_domain=indietools.app; website_url=https://indietools.app; backlinkdirs_item=https://backlinkdirs.com/item/indietools; page=1; position=5; dr=26; mv=100; tags=Free;Developer;AI Autofill; submit_url=https://www.indietools.app/signin?callbackUrl=/dashboard/products/new",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:11:18Z",
       "result_url": null,
-      "error": null
+      "error": "IndieTools confirms its products are manually reviewed and routes the free Submit product flow through Google sign-in. Completing that publisher-account authorization requires user review before the product form can open."
     },
     {
       "id": "info-listings",
       "platform_name": "Info-Listings",
       "url": "https://info-listings.com/submit.php",
       "free": true,
-      "status": "pending",
+      "status": "needs_user",
       "login_method": "google",
       "notes": "source=README外链.md; category=web_directory; root_domain=info-listings.com; submit_url_extracted; submitted as free regular link in WWW Related/Web Hosting",
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-08-03T14:12:00Z",
       "result_url": null,
-      "error": null
+      "error": "The Regular free listing is prefilled with GlyPho's verified project details in WWW Related. Completing it requires entering the visible CAPTCHA and explicitly agreeing to the submission rules."
     }
   ]
 }

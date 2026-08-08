@@ -17,18 +17,6 @@
       "error": null
     },
     {
-      "id": "backlinkdirs-600-tools",
-      "platform_name": "600.tools",
-      "url": "https://600.tools/",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=600.tools; website_url=https://600.tools/; backlinkdirs_item=https://backlinkdirs.com/item/600tools; page=3; position=73; dr=36; mv=300; tags=Free;One Time Purchase;AI Autofill; submit_url=https://600.tools/submit",
-      "last_attempt_at": "2026-07-09T09:45:46Z",
-      "result_url": "https://600.tools/payment/x9FCWzb8bUob5YcAWZlEXy",
-      "error": null
-    },
-    {
       "id": "9sites-net",
       "platform_name": "9Sites.net",
       "url": "https://www.9sites.net/addurl.php",
@@ -63,19 +51,6 @@
       "last_attempt_at": "2026-07-09T10:16:13Z",
       "result_url": "https://aifindy.com/contacto/publica-tu-ia-en-aifindy",
       "error": null
-    },
-    {
-      "id": "backlinkdirs-aitach-com",
-      "platform_name": "AI Helper Tools",
-      "url": "https://aitach.com/",
-      "free": true,
-      "status": "submitted",
-      "login_method": "google",
-      "notes": "source=backlinkdirs-free-2026-07-08; root_domain=aitach.com; website_url=https://aitach.com/; backlinkdirs_item=https://backlinkdirs.com/item/ai-helper-tools; page=2; position=46; dr=9; mv=3426; tags=Dofollow;Free; submit_url=https://aitach.com/submit-a-tool; submit_evidence=site reports tool submitted and under review after image upload retry",
-      "last_attempt_at": "2026-07-09T10:37:55Z",
-      "result_url": "https://aitach.com/account/submit-a-tool",
-      "error": null,
-      "submitted_at": "2026-07-09T10:37:55Z"
     },
     {
       "id": "backlinkdirs-aitoolex-com",
